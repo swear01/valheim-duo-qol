@@ -2,6 +2,11 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v26 — 2026-10-11
+
+內附 AAA Crafting Max Fix 1.0.0。42 個線上套件，35 份設定。
+- 內附檔案變更：`BepInEx/plugins/swear-AAACraftingMaxFix/AAACraftingMaxFix.dll`, `BepInEx/plugins/swear-AAACraftingMaxFix/LICENSE.txt`, `BepInEx/plugins/swear-AAACraftingMaxFix/SOURCE.txt`。
+
 ## v25 — 2026-10-11
 
 箱子取料範圍設為 40 公尺。42 個線上套件，35 份設定。
