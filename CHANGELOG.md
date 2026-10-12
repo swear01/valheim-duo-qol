@@ -2,6 +2,11 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v30 — 2026-10-12
+
+移出執行包內的來源文字。44 個線上套件，36 份設定。
+- 內附檔案變更：`BepInEx/plugins/aedenthorn-TorchMod/SOURCE.txt`, `BepInEx/plugins/swear-AAACraftingMaxFix/SOURCE.txt`。
+
 ## v29 — 2026-10-12
 
 BetterFog 改用作者原生預設。44 個線上套件，36 份設定。

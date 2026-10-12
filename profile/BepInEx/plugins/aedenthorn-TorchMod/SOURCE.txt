@@ -1,5 +1,0 @@
-Torch Light Mod 1.0.1 by aedenthorn
-Public author source, locally compiled without source changes. Not the Nexus precompiled binary.
-Source: https://github.com/aedenthorn/ValheimMods/blob/83690e8ef9a37c4694604416667d252b4ff5f645/TorchMod/TorchMod.cs
-DLL SHA256: c79b8106e7aff0d646b9be75a0e731ffd856a35f47a73471078bd5c419f9e77a
-Do not copy compile-only game/Unity references into the game.

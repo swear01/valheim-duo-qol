@@ -1,6 +1,6 @@
 {
   "created": "2026-10-12",
-  "profile": "Valheim-Duo-QoL-20261012-v29",
+  "profile": "Valheim-Duo-QoL-20261012-v30",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1540,7 +1540,7 @@
     }
   },
   "verification": {
-    "scope": "V29 rebuilt directly from V27; BetterFog defaults replace V28 overrides",
+    "scope": "V30 removes duplicate provenance text only; executable content unchanged",
     "betterfog_latest_active_metadata_zip_manifest_crc_sha256": "passed_1.0.3",
     "betterfog_1_0_2_to_1_0_3_decompiled_code": "identical_except_version_and_commit_metadata",
     "betterfog_original_implementation": "Smoke.GetAlpha postfix multiplies alpha; no smoke physics patch",
@@ -1553,18 +1553,23 @@
     "formal_profile": "untouched",
     "current_session": "untouched_no_restart",
     "betterfog_native_defaults_vs_actual_dll": "passed_all_three_Config_Bind_defaults",
-    "complete_v29_and_native_defaults_game_launch": "not_run"
+    "complete_v29_and_native_defaults_game_launch": "not_run",
+    "runtime_plugin_and_config_bytes": "identical_to_v29",
+    "licenses": "preserved",
+    "original_provenance_text": "preserved_in_separate_file",
+    "complete_v30_game_launch": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v29.r2z": "10dbbede4f9bf096a8aed01c31d56c37a2580398c506572590bb9f378cabe312",
-    "Valheim-Duo-QoL-config-v29.zip": "401e3350829f78146b52138606032894102783e6ea7ee1b5c86306b9f2ff3cb8",
-    "Valheim-光照與BetterFog原生設定增補-v29.zip": "e69f7469849931d53bb7de728233d6806f4be828c182c772fbcf3b9f6088f6b8",
-    "Valheim-雙人模組包-安裝指南-v29.html": "aeb7eeca44d8a89219b781cc84a0f54ba18ba443c44bfc6a10fa61a4813b33ac",
+    "Valheim-Duo-QoL-v30.r2z": "c6e53252d24a36184e96c6e968980943ed394ac055ad1ea821fd2ed47030a9e6",
+    "Valheim-Duo-QoL-config-v30.zip": "83b238d2f407045b1f5bb76e67247e897b8f27334595b58540613a097049d792",
+    "Valheim-雙人模組包-安裝指南-v30.html": "ef94df5c2510b7bd86f1bcd10b3d133bd7391daa02bc5dd7631a83390c12d33c",
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
     "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
     "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
     "Valheim-AAA合成數量修補原始碼-v26.zip": "bb47bce62827954570d6f03a93fe12f6aee828afb42c7254e1df5341e8058730",
     "Valheim-AAA合成數量修補增補-v26.zip": "a49c7445b202f94e5d103b13e2548f84ace37ee7f496673180285cdb6a9c76c8",
+    "Valheim-Duo-QoL-來源說明-v30.txt": "422ebf3b7396e073c87539824f545edcdf5eebe90349efa9e658cd3929dbf8a9",
+    "Valheim-光照與BetterFog原生設定增補-v29.zip": "e69f7469849931d53bb7de728233d6806f4be828c182c772fbcf3b9f6088f6b8",
     "Valheim-原版鋤頭設定增補-v16.zip": "ae904892bd1768cf664bed54065fddbb4a6b488d00c58b62b4cafb220cc0ada4",
     "Valheim-堆疊設定增補-v22.zip": "dcf5ea938f5e93478bd016cfa6dff4bffbcc285a82c1c7ba5ce034c4a8c5b251",
     "Valheim-堆疊設定增補-v24.zip": "1532cba326a64fa6ae5f1f2e5881d0c700d14e0b1e16e69674a6c5c5bf8ee9d6",
@@ -2639,6 +2644,20 @@
       "v27_private_tokens_and_probe_plugins": "absent",
       "v27_gale_import": "not_run",
       "v27_game_launch_and_multiplayer": "not_run"
+    }
+  },
+  "base_v29": {
+    "archive": "Valheim-Duo-QoL-v29.r2z",
+    "archive_sha256": "10dbbede4f9bf096a8aed01c31d56c37a2580398c506572590bb9f378cabe312"
+  },
+  "removed_from_runtime_archive": {
+    "BepInEx/plugins/aedenthorn-TorchMod/SOURCE.txt": {
+      "sha256": "f0e8228f953f6381dce3373227c9e5f01fdcfcbfcdac18804e1c40083dec46b5",
+      "preserved_in": "Valheim-Duo-QoL-來源說明-v30.txt"
+    },
+    "BepInEx/plugins/swear-AAACraftingMaxFix/SOURCE.txt": {
+      "sha256": "7de305de280f3376da8c0619a0e10fc20af844809cefaa5fbe3a522622a0200f",
+      "preserved_in": "Valheim-Duo-QoL-來源說明-v30.txt"
     }
   }
 }
