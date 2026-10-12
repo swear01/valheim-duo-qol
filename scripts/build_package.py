@@ -6,6 +6,8 @@ from verify_history import ROOT, digest, read_package
 
 
 def main():
+    if not __debug__:
+        raise RuntimeError("Package verification requires Python without -O or PYTHONOPTIMIZE")
     row = json.loads((ROOT / "history/versions.json").read_text(encoding="utf-8"))[-1]
     preserved = ROOT / row["archive"]
     files = {
