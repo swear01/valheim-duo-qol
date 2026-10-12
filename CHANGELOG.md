@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v16 — 2026-10-09
+
+加入 ValheimTerrainTools。36 個線上套件，31 份設定。
+
+- 新增套件：`QoLTeam-ValheimTerrainTools`。
+
 ## v15 — 2026-10-09
 
 更新 FirstPersonMode 與 QuickTeleport。35 個線上套件，30 份設定。

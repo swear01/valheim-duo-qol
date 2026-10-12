@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261009-v15",
+  "profileName": "Valheim-Duo-QoL-20261009-v16",
   "community": "valheim",
   "mods": [
     {
@@ -348,6 +348,16 @@
         "major": 1,
         "minor": 0,
         "patch": 19
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "QoLTeam-ValheimTerrainTools",
+      "version": {
+        "major": 0,
+        "minor": 6,
+        "patch": 4
       },
       "enabled": true,
       "source": "Thunderstore"
