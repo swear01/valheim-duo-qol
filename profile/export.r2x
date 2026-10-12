@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261009-v12",
+  "profileName": "Valheim-Duo-QoL-20261009-v13",
   "community": "valheim",
   "mods": [
     {
@@ -341,6 +341,16 @@
       },
       "enabled": true,
       "source": "Hexium"
+    },
+    {
+      "name": "Zenox-AutoDoors",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 19
+      },
+      "enabled": true,
+      "source": "Thunderstore"
     }
   ],
   "ignoredUpdates": [],

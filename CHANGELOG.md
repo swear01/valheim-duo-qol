@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v13 — 2026-10-09
+
+加入 AutoDoors。35 個線上套件，29 份設定。
+
+- 新增套件：`Zenox-AutoDoors`。
+
 ## v12 — 2026-10-09
 
 調整 ExtraSlots 撿墓碑後自動裝備。34 個線上套件，28 份設定。

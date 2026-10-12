@@ -1,6 +1,6 @@
 {
   "created": "2026-10-09",
-  "profile": "Valheim-Duo-QoL-20261009-v12",
+  "profile": "Valheim-Duo-QoL-20261009-v13",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -550,6 +550,22 @@
       "sha256": "fe56cbeba2687b0d6117b7ad7e3dc40e2f92b5612b7846cffac17c64541d8115",
       "bytes": 434662,
       "archive_url": "https://cdn.hexium.gg/upload/226/1.4.5.zip"
+    },
+    {
+      "name": "Zenox-AutoDoors",
+      "source": "Thunderstore",
+      "version": "1.0.19",
+      "download": "https://thunderstore.io/package/download/Zenox/AutoDoors/1.0.19/",
+      "website": "https://discord.gg/YTpsF9YtdU",
+      "page": "https://thunderstore.io/c/valheim/p/Zenox/AutoDoors/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350"
+      ],
+      "direct": true,
+      "released": "2026-10-07T11:32:47.696820Z",
+      "sha256": "3bac6b897451bd0817804249f90634917ca9a34dfeb7429980888c433993f036",
+      "bytes": 898278,
+      "archive_url": "https://thunderstore.io/package/download/Zenox/AutoDoors/1.0.19/"
     }
   ],
   "configs": {
@@ -1231,6 +1247,21 @@
           "IgnoreItemsOnHotbar": "On"
         }
       }
+    },
+    "Zenox-AutoDoors": {
+      "filename": "zenox.autodoors.cfg",
+      "sections": {
+        "General": {
+          "Enabled": "true",
+          "RangeMultiplier": "1",
+          "UpdateInterval": "0.1",
+          "IgnoreLockedDoors": "true",
+          "CloseDelaySeconds": "0.5",
+          "MuteAutoDoorSound": "false",
+          "PairDoubleDoors": "true",
+          "MaxPairDistance": "2.5"
+        }
+      }
     }
   },
   "verification": {
@@ -1256,7 +1287,12 @@
     "teleport_elapsed_time_measurement": "not_run",
     "v11_packages_and_unrelated_configs_preserved": "passed",
     "tombstone_auto_equip_config_and_dll_static": "passed",
-    "tombstone_auto_equip_gameplay": "not_run"
+    "tombstone_auto_equip_gameplay": "not_run",
+    "v12_packages_and_configs_preserved": "passed",
+    "autodoors_manifest_dependency_config_and_dll_static": "passed",
+    "autodoors_game_1x_runtime": "not_run",
+    "autodoors_two_player_doors": "not_run",
+    "autodoors_author_support_label": "Deep North Update"
   },
   "artifacts_sha256": {
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
@@ -1264,9 +1300,11 @@
     "shudnal.ExtraSlots.cfg": "e5eeddfac58c11b0de2ee014d5b26bf5da3b0656b33f1a934e938d93607e0c44",
     "server_devcommands.cfg": "281f40ffd86adc3be4500404f36e558cb240fd2e1be72c164baba41451370ea9",
     "Valheim-雙人模組包-安裝指南-v11.html": "bd5f7230b77ef19b7f8ce960788aeb354a9289fe6f2b6e228f7f2a0f66d10e84",
-    "Valheim-Duo-QoL-v12.r2z": "490921325271bd3abf699778b587ea25fa5c8365d33dde02390c44a002b08743",
-    "Valheim-Duo-QoL-config-v12.zip": "68ebff4858d17e343170cd26bad3defaeb7e03f8e15855286854648f2381c84d",
     "v12/shudnal.ExtraSlots.cfg": "dd4a719d029c94df05609868390e6e9d0facac3626ca87c8b763302e364e936d",
-    "Valheim-雙人模組包-安裝指南-v12.html": "9b961162ce92895203afe693148ce094e1581106e39b81576027d872d573973d"
+    "Valheim-雙人模組包-安裝指南-v12.html": "9b961162ce92895203afe693148ce094e1581106e39b81576027d872d573973d",
+    "Valheim-Duo-QoL-v13.r2z": "afff9ce4037bad395c12fa226607378ac6079490ea7ba660ab3c9cb701a5def1",
+    "Valheim-Duo-QoL-config-v13.zip": "8fdd8f70e3bdcc7d9d7bd3c6d27a3d26884d9f190f218171325c56a884e54507",
+    "v13/zenox.autodoors.cfg": "c8f1c04cb683c3b2ee41690fb5c433335dfbf0c22de89b253c050963447f547b",
+    "Valheim-雙人模組包-安裝指南-v13.html": "4505a1f794dfce662fa6e575b2280e8270729adba8020e6605efdd90ab7832d9"
   }
 }
