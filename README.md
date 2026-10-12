@@ -14,7 +14,7 @@
 
 [建材與船身數字](docs/hover-stats.md) · [更新紀錄](CHANGELOG.md) · [版本來源與歷史說明](docs/history.md) · [版本 tags](https://github.com/swear01/valheim-duo-qol/tags)
 
-`profile/` 是這一版的可比較內容，`lock.json` 保存原始版本／來源／設定紀錄。歷史 ZIP 與 lock 保存在 `history/v*/`。
+`profile/` 是這一版的可比較內容，`lock.json` 保存版本／來源／設定紀錄。主分支只保留最新 `history/v35/` 的包與 lock；舊版原始 ZIP／lock 保留在各版 tag，可切換 tag 下載或還原。
 
 完整包的遊戲內、雙人與長時間行為尚未全面實測；歷史封存與靜態檢查不代表遊戲相容性驗證。
 
