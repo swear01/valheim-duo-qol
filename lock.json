@@ -1,6 +1,6 @@
 {
   "created": "2026-10-08",
-  "profile": "Valheim-Duo-QoL-20261008-v7",
+  "profile": "Valheim-Duo-QoL-20261008-v8",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -522,6 +522,21 @@
       "sha256": "0fbdcb03270f15bf9f8e7d4dfb415d013748dc650d25be7a055ba8733df717aa",
       "bytes": 26876,
       "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/omnipeach-ConfigurableCarryWeight-1.0.0.zip"
+    },
+    {
+      "name": "cjayride-SmartShield",
+      "source": "Thunderstore",
+      "version": "1.0.11",
+      "download": "https://thunderstore.io/package/download/cjayride/SmartShield/1.0.11/",
+      "website": "https://discord.gg/cjayride",
+      "page": "https://thunderstore.io/c/valheim/p/cjayride/SmartShield/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350"
+      ],
+      "direct": true,
+      "sha256": "1f1621a198305f232b61aed8c37fa8dabdd7668f26d708104729769a0cf4e857",
+      "bytes": 137989,
+      "archive_url": "https://thunderstore.io/package/download/cjayride/SmartShield/1.0.11/"
     }
   ],
   "configs": {
@@ -1154,6 +1169,25 @@
           "Megingjord Bonus": "266.666667"
         }
       }
+    },
+    "cjayride-SmartShield": {
+      "filename": "cjayride.smartshield.cfg",
+      "sections": {
+        "General": {
+          "Enabled": "true"
+        },
+        "Behavior": {
+          "AutoEquipOnOneHanded": "true",
+          "EquipAfterRanged": "true",
+          "UnequipOnSheath": "false"
+        },
+        "Filters": {
+          "AllowedWeaponTypes": ""
+        },
+        "ShieldSelection": {
+          "SelectionMode": "Best"
+        }
+      }
     }
   },
   "verification": {
@@ -1162,11 +1196,15 @@
     "gale_gui_import": "not_run",
     "game_launch": "not_run",
     "two_player_world": "not_run",
-    "sleep_warning_seconds": 5
+    "sleep_warning_seconds": 5,
+    "v7_preserved": "passed",
+    "smartshield_manifest_and_dll_config": "passed",
+    "smartshield_package_crc": "passed",
+    "dependency_minimums": "passed"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v7.r2z": "75e0765e9069cd5e011d0f8ae59bd4e327648a4c5bc5fc6ae4aa985223f9f72b",
-    "Valheim-Duo-QoL-config-v7.zip": "67c986c996f226843b5dd410736c05556b5f691f249b9667f3ba767f4c09c48f",
-    "Azumatt.SleepSkip.cfg": "096c75553a262d699692f190ad609f8443851519a5a6d1f4dbfbc19a45cf538a"
+    "Valheim-Duo-QoL-v8.r2z": "67fa6a8a954ce596795d9f7549c569db7c05bc7eaf5b89de7cdf8dcd98b15b3b",
+    "Valheim-Duo-QoL-config-v8.zip": "1f0d1de1cc3dbcb9ace21415c38516e0512d7a85fddc1308eb87665420aa3122",
+    "cjayride.smartshield.cfg": "30173e10021e69120f6bc248d18e33f820f2f40b3c1859d467ee574d12d42da2"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261008-v7",
+  "profileName": "Valheim-Duo-QoL-20261008-v8",
   "community": "valheim",
   "mods": [
     {
@@ -318,6 +318,16 @@
         "major": 1,
         "minor": 0,
         "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "cjayride-SmartShield",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 11
       },
       "enabled": true,
       "source": "Thunderstore"
