@@ -1,6 +1,6 @@
 {
   "created": "2026-10-10",
-  "profile": "Valheim-Duo-QoL-20261010-v19",
+  "profile": "Valheim-Duo-QoL-20261010-v20",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -424,18 +424,16 @@
     {
       "name": "Neobotics-HUDCompass",
       "source": "Hexium",
-      "version": "1.2.0",
-      "download": "https://cdn.hexium.gg/upload/951/1.2.0.zip",
+      "version": "1.2.1",
+      "download": "https://cdn.hexium.gg/upload/951/1.2.1.zip",
       "website": "https://www.nexusmods.com/valheim/mods/2674/",
       "page": "https://valheim.hexium.gg/mods/Neobotics/HUDCompass",
-      "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2351"
-      ],
+      "dependencies": [],
       "direct": true,
-      "released": "2026-09-11T00:40:54.000000Z",
-      "sha256": "9019c0cf3fddb32205e5a7228d4a77d9ea521634221b6de0412cf31a503b1f8e",
-      "bytes": 216710,
-      "archive_url": "https://cdn.hexium.gg/upload/951/1.2.0.zip"
+      "released": "2026-10-09T12:52:29.000000Z",
+      "sha256": "124b056ab995daa355340e0184bb013d20d83b29f9ae0b027a7fefe904f823af",
+      "bytes": 220098,
+      "archive_url": "https://cdn.hexium.gg/upload/951/1.2.1.zip"
     },
     {
       "name": "ontrigger-ValheimPerformanceOptimizations",
@@ -456,18 +454,18 @@
     {
       "name": "Searica-Extra_Snap_Points_Made_Easy",
       "source": "Thunderstore",
-      "version": "2.1.0",
-      "download": "https://thunderstore.io/package/download/Searica/Extra_Snap_Points_Made_Easy/2.1.0/",
+      "version": "2.1.1",
+      "download": "https://thunderstore.io/package/download/Searica/Extra_Snap_Points_Made_Easy/2.1.1/",
       "website": "https://discord.gg/sFmGTBYN6n",
       "page": "https://thunderstore.io/c/valheim/p/Searica/Extra_Snap_Points_Made_Easy/",
       "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2350"
+        "denikson-BepInExPack_Valheim-5.4.2351"
       ],
       "direct": true,
-      "released": "2026-09-15T00:06:01.236163Z",
-      "sha256": "bc56b2d249498aeb0814a603ec9110132a07021eff75871bec6cbe7a83bb6cca",
-      "bytes": 76186,
-      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Searica-Extra_Snap_Points_Made_Easy-2.1.0.zip"
+      "released": "2026-10-08T19:33:44.096411Z",
+      "sha256": "ba986bc717c8c0a91d8e1ca3974c7ecd94ffdf91e4a249c1e56cbe0643eb3107",
+      "bytes": 77884,
+      "archive_url": "https://thunderstore.io/package/download/Searica/Extra_Snap_Points_Made_Easy/2.1.1/"
     },
     {
       "name": "Mydayyy-ServerSideMap",
@@ -1521,7 +1519,15 @@
     "adrenaline_decrease_scope": "all_negative_AddAdrenaline_calls_not_only_idle_decay",
     "adrenaline_gameplay_timing_and_multiplayer": "not_run",
     "v19_gale_import": "not_run",
-    "v19_game_launch": "not_run"
+    "v19_game_launch": "not_run",
+    "all_40_latest_versions_checked": "passed_same_package_sources",
+    "v19_configs_and_local_plugin_byte_preserved": "passed",
+    "v20_updated_dll_existing_config_keys_and_guids": "passed",
+    "v20_manifest_crc_sha256_and_dependency_minimums": "passed",
+    "hudcompass_display_setting_delegation_change": "identified_documented",
+    "extra_snap_points_placement_change": "identified_documented",
+    "v20_gale_import": "not_run",
+    "v20_game_launch_and_multiplayer": "not_run"
   },
   "artifacts_sha256": {
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
@@ -1561,7 +1567,10 @@
     "Valheim-Duo-QoL-config-v19.zip": "9a58c3bf505985fa82645d77fab8359d49e779d62af828152711bf1cceebdd8d",
     "Valheim-腎上腺素設定增補-v19.zip": "06d7bfc303f4797ff0e2adfc4e5e810375f8a10bfe944b40e02c99fa78a6d814",
     "Valheim-雙人模組包-安裝指南-v19.html": "eef0467a9da29416090df343f4ca1cddd757b875f506286f98fa483ff8a05ce3",
-    "v19/mightywa33ior.valheim.adrenalinemodifier.cfg": "5b15eb0550f81992f6e0b14ddc1304b5d0a122a0147e1d7c192000d9bac7e660"
+    "v19/mightywa33ior.valheim.adrenalinemodifier.cfg": "5b15eb0550f81992f6e0b14ddc1304b5d0a122a0147e1d7c192000d9bac7e660",
+    "Valheim-Duo-QoL-v20.r2z": "b4089be7b52af0e48caf87d13fac3174cc377e20a65f5345872d8876c671de44",
+    "Valheim-Duo-QoL-config-v20.zip": "43616dde132ca8ffd378a23803785ef68fba9d6e8cf3b551033bd24105e264d7",
+    "Valheim-雙人模組包-安裝指南-v20.html": "85ccde0e52f04eff6bba46ddd63e535880ea5ba2c0767f4bd68ef79eaffac4a7"
   },
   "local_plugins": [
     {
@@ -1704,6 +1713,382 @@
       "sha256": "88b285f7f69e8aa0b84316e58a9d770d9eb3c69691ab24e39e2c45338010ba1f",
       "bytes": 7738,
       "archive_url": "https://thunderstore.io/package/download/mightywa33ior/AdrenalineModifier/1.0.1/"
+    }
+  ],
+  "updates_from_v19": [
+    {
+      "name": "Neobotics-HUDCompass",
+      "from": "1.2.0",
+      "to": "1.2.1",
+      "page": "https://valheim.hexium.gg/mods/Neobotics/HUDCompass"
+    },
+    {
+      "name": "Searica-Extra_Snap_Points_Made_Easy",
+      "from": "2.1.0",
+      "to": "2.1.1",
+      "page": "https://thunderstore.io/c/valheim/p/Searica/Extra_Snap_Points_Made_Easy/"
+    }
+  ],
+  "version_checks_2026_10_10": [
+    {
+      "name": "denikson-BepInExPack_Valheim",
+      "current": "5.4.2351",
+      "latest": "5.4.2351",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/denikson/BepInExPack_Valheim/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-ConfigurationManager",
+      "current": "1.1.25",
+      "latest": "1.1.25",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/shudnal/ConfigurationManager/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-ConditionalConfigSync",
+      "current": "1.0.10",
+      "latest": "1.0.10",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/shudnal/ConditionalConfigSync/",
+      "status": "ok"
+    },
+    {
+      "name": "ValheimModding-YamlDotNet",
+      "current": "16.3.1",
+      "latest": "16.3.1",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/ValheimModding/YamlDotNet/",
+      "status": "ok"
+    },
+    {
+      "name": "ValheimModding-JsonDotNET",
+      "current": "13.0.4",
+      "latest": "13.0.4",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/ValheimModding/JsonDotNET/",
+      "status": "ok"
+    },
+    {
+      "name": "Crystal-Magni",
+      "current": "1.2.3",
+      "latest": "1.2.3",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Crystal/Magni/",
+      "status": "ok"
+    },
+    {
+      "name": "Searica-SkilledCarryWeight",
+      "current": "1.5.0",
+      "latest": "1.5.0",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Searica/SkilledCarryWeight/",
+      "status": "ok"
+    },
+    {
+      "name": "ValheimModding-Jotunn",
+      "current": "2.30.2",
+      "latest": "2.30.2",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/ValheimModding/Jotunn/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-StaminaExtended",
+      "current": "1.0.11",
+      "latest": "1.0.11",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/shudnal/StaminaExtended/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-ExtraSlots",
+      "current": "1.2.17",
+      "latest": "1.2.17",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/shudnal/ExtraSlots/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-AzuCraftyBoxes",
+      "current": "1.8.27",
+      "latest": "1.8.27",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/AzuCraftyBoxes/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-AzuAutoStore",
+      "current": "3.1.7",
+      "latest": "3.1.7",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/AzuAutoStore/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-AAA_Crafting",
+      "current": "2.1.11",
+      "latest": "2.1.11",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/AAA_Crafting/",
+      "status": "ok"
+    },
+    {
+      "name": "Grizzzly-CookingStationTweaks",
+      "current": "0.7.2",
+      "latest": "0.7.2",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Grizzzly/CookingStationTweaks/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-AzuWorkbenchTweaks",
+      "current": "1.0.8",
+      "latest": "1.0.8",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/AzuWorkbenchTweaks/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-PerfectPlacement",
+      "current": "1.2.4",
+      "latest": "1.2.4",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/PerfectPlacement/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-Build_Camera_Custom_Hammers_Edition",
+      "current": "1.3.4",
+      "latest": "1.3.4",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/Build_Camera_Custom_Hammers_Edition/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-FirstPersonMode",
+      "current": "1.4.5",
+      "latest": "1.4.5",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/FirstPersonMode/",
+      "status": "ok"
+    },
+    {
+      "name": "Smoothbrain-TargetPortal",
+      "current": "1.2.7",
+      "latest": "1.2.7",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Smoothbrain/TargetPortal/",
+      "status": "ok"
+    },
+    {
+      "name": "OdinPlus-QuickTeleport",
+      "current": "2.0.5",
+      "latest": "2.0.5",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/OdinPlus/QuickTeleport/",
+      "status": "ok"
+    },
+    {
+      "name": "Smoothbrain-InstantEquip",
+      "current": "1.0.7",
+      "latest": "1.0.7",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Smoothbrain/InstantEquip/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-SleepSkip",
+      "current": "1.3.2",
+      "latest": "1.3.2",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/SleepSkip/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-Unshamed",
+      "current": "1.0.8",
+      "latest": "1.0.8",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/Unshamed/",
+      "status": "ok"
+    },
+    {
+      "name": "Dirtsnack-AchievementTracker",
+      "current": "0.1.0",
+      "latest": "0.1.0",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Dirtsnack/AchievementTracker/",
+      "status": "ok"
+    },
+    {
+      "name": "Snuffy-SkillLimitExtenderFork",
+      "current": "1.0.0",
+      "latest": "1.0.0",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Snuffy/SkillLimitExtenderFork/",
+      "status": "ok"
+    },
+    {
+      "name": "MSchmoecker-MultiUserChest",
+      "current": "0.6.2",
+      "latest": "0.6.2",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/MSchmoecker/MultiUserChest/",
+      "status": "ok"
+    },
+    {
+      "name": "Neobotics-HUDCompass",
+      "current": "1.2.0",
+      "latest": "1.2.1",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Neobotics/HUDCompass/",
+      "status": "ok"
+    },
+    {
+      "name": "ontrigger-ValheimPerformanceOptimizations",
+      "current": "1.2.3",
+      "latest": "1.2.3",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/ontrigger/ValheimPerformanceOptimizations/",
+      "status": "ok"
+    },
+    {
+      "name": "Searica-Extra_Snap_Points_Made_Easy",
+      "current": "2.1.0",
+      "latest": "2.1.1",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Searica/Extra_Snap_Points_Made_Easy/",
+      "status": "ok"
+    },
+    {
+      "name": "Mydayyy-ServerSideMap",
+      "current": "1.3.14",
+      "latest": "1.3.14",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Mydayyy/ServerSideMap/",
+      "status": "ok"
+    },
+    {
+      "name": "JereKuusela-Server_devcommands",
+      "current": "1.115.0",
+      "latest": "1.115.0",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/JereKuusela/Server_devcommands/",
+      "status": "ok"
+    },
+    {
+      "name": "omnipeach-ConfigurableCarryWeight",
+      "current": "1.0.0",
+      "latest": "1.0.0",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/omnipeach/ConfigurableCarryWeight/",
+      "status": "ok"
+    },
+    {
+      "name": "cjayride-SmartShield",
+      "current": "1.0.11",
+      "latest": "1.0.11",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/cjayride/SmartShield/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-Recycle_N_Reclaim",
+      "current": "1.4.5",
+      "latest": "1.4.5",
+      "active": true,
+      "deprecated": false,
+      "source": "https://valheim.hexium.gg/api/experimental/package/Azumatt/Recycle_N_Reclaim/",
+      "status": "ok"
+    },
+    {
+      "name": "Zenox-AutoDoors",
+      "current": "1.0.19",
+      "latest": "1.0.19",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Zenox/AutoDoors/",
+      "status": "ok"
+    },
+    {
+      "name": "QoLTeam-ValheimTerrainTools",
+      "current": "0.6.4",
+      "latest": "0.6.4",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/QoLTeam/ValheimTerrainTools/",
+      "status": "ok"
+    },
+    {
+      "name": "Geda_Giminei-SlashBack",
+      "current": "1.0.2",
+      "latest": "1.0.2",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Geda_Giminei/SlashBack/",
+      "status": "ok"
+    },
+    {
+      "name": "Advize-PlantEasily",
+      "current": "2.3.0",
+      "latest": "2.3.0",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Advize/PlantEasily/",
+      "status": "ok"
+    },
+    {
+      "name": "Advize-PlantEverything",
+      "current": "1.21.3",
+      "latest": "1.21.3",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/Advize/PlantEverything/",
+      "status": "ok"
+    },
+    {
+      "name": "mightywa33ior-AdrenalineModifier",
+      "current": "1.0.1",
+      "latest": "1.0.1",
+      "active": true,
+      "deprecated": false,
+      "source": "https://thunderstore.io/api/experimental/package/mightywa33ior/AdrenalineModifier/",
+      "status": "ok"
     }
   ]
 }

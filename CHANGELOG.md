@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v20 — 2026-10-10
+
+更新 HUDCompass 與 Extra Snap Points。40 個線上套件，34 份設定。
+- 更新 `Searica-Extra_Snap_Points_Made_Easy`：2.1.0 → 2.1.1。
+- 更新 `Neobotics-HUDCompass`：1.2.0 → 1.2.1。
+
 ## v19 — 2026-10-10
 
 加入 AdrenalineModifier。40 個線上套件，34 份設定。
