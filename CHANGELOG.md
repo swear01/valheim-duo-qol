@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v34 — 2026-10-12
+
+更新 AzuCraftyBoxes 1.8.28 與 AAA 修補 1.1.0。45 個線上套件，36 份設定。
+- 更新 `Azumatt-AzuCraftyBoxes`：1.8.27 → 1.8.28。
+- 更新 `swear01-AAA_Crafting_Max_Fix`：1.0.0 → 1.1.0。
+
 ## v33 — 2026-10-12
 
 更新 ExtraSlots 1.2.18 與 ValheimCli 0.5.0。45 個線上套件，36 份設定。

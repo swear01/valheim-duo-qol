@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261012-v33",
+  "profileName": "Valheim-Duo-QoL-20261012-v34",
   "community": "valheim",
   "mods": [
     {
@@ -107,7 +107,7 @@
       "version": {
         "major": 1,
         "minor": 8,
-        "patch": 27
+        "patch": 28
       },
       "enabled": true,
       "source": "Hexium"
@@ -446,7 +446,7 @@
       "name": "swear01-AAA_Crafting_Max_Fix",
       "version": {
         "major": 1,
-        "minor": 0,
+        "minor": 1,
         "patch": 0
       },
       "enabled": true,
