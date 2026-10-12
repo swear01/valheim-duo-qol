@@ -2,6 +2,11 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v7 — 2026-10-08
+
+調整 SleepSkip 設定。32 個線上套件，26 份設定。
+- `BepInEx/config/Azumatt.SleepSkip.cfg` 的 `1 - General / Warning Time`：`None` → `5`。
+
 ## v6 — 2026-10-07
 
 調整負重與控制設定。32 個線上套件，26 份設定。

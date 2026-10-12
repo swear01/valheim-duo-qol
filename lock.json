@@ -1,6 +1,6 @@
 {
-  "created": "2026-10-07",
-  "profile": "Valheim-Duo-QoL-20261007-v6",
+  "created": "2026-10-08",
+  "profile": "Valheim-Duo-QoL-20261008-v7",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -898,7 +898,8 @@
         "1 - General": {
           "Percent of players": "100",
           "Players Needed": "1",
-          "Vote Timeout": "0"
+          "Vote Timeout": "0",
+          "Warning Time": "5"
         },
         "2 - Client Choices": {
           "Popup Auto Choice": "Ask"
@@ -1160,6 +1161,12 @@
     "archive_crc": "passed",
     "gale_gui_import": "not_run",
     "game_launch": "not_run",
-    "two_player_world": "not_run"
+    "two_player_world": "not_run",
+    "sleep_warning_seconds": 5
+  },
+  "artifacts_sha256": {
+    "Valheim-Duo-QoL-v7.r2z": "75e0765e9069cd5e011d0f8ae59bd4e327648a4c5bc5fc6ae4aa985223f9f72b",
+    "Valheim-Duo-QoL-config-v7.zip": "67c986c996f226843b5dd410736c05556b5f691f249b9667f3ba767f4c09c48f",
+    "Azumatt.SleepSkip.cfg": "096c75553a262d699692f190ad609f8443851519a5a6d1f4dbfbc19a45cf538a"
   }
 }
