@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v6 — 2026-10-07
+
+調整負重與控制設定。32 個線上套件，26 份設定。
+- `BepInEx/config/dev.crystal.magni.cfg` 的 `Weight / CarryCapacityMultiplier`：`1.333333333` → `1.5`。
+- `BepInEx/config/robit.configurablecarryweight.cfg` 的 `Carry Weight / Megingjord Bonus`：`300` → `266.666667`。
+
 ## v5 — 2026-10-07
 
 加入 ConfigurableCarryWeight。32 個線上套件，26 份設定。

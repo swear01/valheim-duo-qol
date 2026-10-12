@@ -1,6 +1,6 @@
 {
   "created": "2026-10-07",
-  "profile": "Valheim-Duo-QoL-20261007-v5",
+  "profile": "Valheim-Duo-QoL-20261007-v6",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -539,7 +539,7 @@
       "filename": "dev.crystal.magni.cfg",
       "sections": {
         "Weight": {
-          "CarryCapacityMultiplier": "1.333333333"
+          "CarryCapacityMultiplier": "1.5"
         }
       }
     },
@@ -1150,7 +1150,7 @@
       "sections": {
         "Carry Weight": {
           "Base Carry Weight": "300",
-          "Megingjord Bonus": "300"
+          "Megingjord Bonus": "266.666667"
         }
       }
     }

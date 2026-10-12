@@ -431,5 +431,98 @@
       ],
       "settings_changed": []
     }
+  },
+  {
+    "version": 6,
+    "tag": "v6",
+    "release_date": "2026-10-07",
+    "summary": "調整負重與控制設定",
+    "profile": "Valheim-Duo-QoL-20261007-v6",
+    "archive": "history/v6/Valheim-Duo-QoL-v6.r2z",
+    "archive_sha256": "5a9d3de994de4093e137018b64874d2ab73314cb11666c38da9e539fb7f671ab",
+    "archive_bytes": 11024,
+    "lock": "history/v6/lock.json",
+    "lock_sha256": "6dd46f0b1da3f5e47c8f17715365372691d3c58c114b1f027de31f0ad71e501e",
+    "archive_hash_evidence": "computed_on_import_original_lock_had_no_archive_digest",
+    "online_packages": 32,
+    "configuration_files": 26,
+    "entries_sha256": {
+      "export.r2x": "08a5ce9c276dd438aa1b9b56d4c871de1c0f73e830751d451a21a090b44647d2",
+      "BepInEx/config/Azumatt.AzuAntiArthriticCrafting.cfg": "fdef97d381335e41bdf9e5745d455fef8178fdf14a312e267db3590ff18672b3",
+      "BepInEx/config/Azumatt.AzuAutoStore.cfg": "6d45ebe55185c14140033c5481f6efeaaf2d6c5e44556f162743cb3481e2a5cf",
+      "BepInEx/config/Azumatt.AzuCraftyBoxes.cfg": "19e93671333c39af19e16538ac54cf434f9362f3a74600af6c460700fd1964bd",
+      "BepInEx/config/Azumatt.AzuWorkbenchTweaks.cfg": "dc745c2af1b962986ebc9c6a0b8d3e9644f2824e4b0e894f01a74eca4ea00621",
+      "BepInEx/config/Azumatt.BuildCameraCHE.cfg": "8f39670f248f4c1b7838504f0427b952905e863f68e5150588cb59730afd81c1",
+      "BepInEx/config/Azumatt.FirstPersonMode.cfg": "41c70ce3dd581c54fa29ca08f2098f36d678a2a984c92fd8639fc7d4c94d1380",
+      "BepInEx/config/Azumatt.SleepSkip.cfg": "504dcbd7028588779d97a74fff985e861e6893c574b9167e29b69edcd2971168",
+      "BepInEx/config/Azumatt.Unshamed.cfg": "a8a8d290339f6b69fcf905731fbab42b40112af6162447547c360f340a595a65",
+      "BepInEx/config/Azumatt_and_ValheimPlusDevs.PerfectPlacement.cfg": "35a510dc25c9420a467b1685bd27ce5781b69c4cbef5d19cf03790e6857f30d5",
+      "BepInEx/config/Dirtsnack.AchievementTracker.cfg": "06ab001229a0e79ec14f27ab875ffce6d49807635ab25036571d6a011636993a",
+      "BepInEx/config/Searica.Valheim.ExtraSnapPointsMadeEasy.cfg": "0d873a16a5d93a94572f315961e498a3cb3f6f7f177e1b18e089e7fa01c3dc01",
+      "BepInEx/config/Searica.Valheim.SkilledCarryWeight.cfg": "82d75d0280497730d01b4b0f4d60dd1f4e47b80db90011bc02c9985cb67432fa",
+      "BepInEx/config/SkillLimitExtender.cfg": "6e8d6e40fe4bf0c2dff68f3138b4b182f20c8165d0966bd5b7e6e81c2888b06e",
+      "BepInEx/config/_shudnal.ConfigurationManager.cfg": "52506b6a22074f969d3c60816e4921d0d0164342ebdca33fa20a65a816c89c32",
+      "BepInEx/config/aedenthorn.CookingStationTweaks.cfg": "d49eea13fc2a2b7dc969178aaec7adbe41377e588161f9d42c975097739a705f",
+      "BepInEx/config/dev.crystal.magni.cfg": "c9c4e5f7ee53c0d17a36c55ce69ba2a72c05b2b6526d83d212099cd41db67a93",
+      "BepInEx/config/dev.ontrigger.vpo.cfg": "5449bf45d6dc7dac2e9a92c05b281b997ad5ac999c646a98452125d6afb3ce42",
+      "BepInEx/config/elg.QuickTeleport.cfg": "86d207429033641f1721f2be044556f3b1e37bfab3f95505c210a63ee52c50d6",
+      "BepInEx/config/eu.mydayyy.plugins.serversidemap.cfg": "9e701d56ede89fabc00ec1dbed3675d72d00a9e63bb68c5d70e8d6aa7321ee3f",
+      "BepInEx/config/neobotics.valheim_mod.hudcompass.cfg": "157e2cee1b5693493bd0cb0ec73f6ba60ab07bfb0212f93373053c4cdf2d51e3",
+      "BepInEx/config/org.bepinex.plugins.instantequip.cfg": "a99a288490dc363cfef89e49a79fb9995338f7f24e36f631a364cda595591bce",
+      "BepInEx/config/org.bepinex.plugins.targetportal.cfg": "b036d69ae07c2ca2cb39d11622a17a70521d346bed60ae34b114102c23a1cec9",
+      "BepInEx/config/robit.configurablecarryweight.cfg": "4a40719a7e307ce7ac14f2a50448f3f854e777ce71923c5e5953d2c4488c9cfb",
+      "BepInEx/config/server_devcommands.cfg": "8f0f22fa79ac25b389c9ec7635e320ccb7c4f7b7a556114d0a3f9949c6792ea9",
+      "BepInEx/config/shudnal.ExtraSlots.cfg": "f73c80ebb3240a84a9472d45979b2cc2d9c133178bc9f476a0adea96cb59e1d0",
+      "BepInEx/config/shudnal.StaminaExtended.cfg": "df5b655f3b330665e44cf4b0449ffb0eaa5608cd0ef71288906836d43e279bc4"
+    },
+    "changes": {
+      "packages_added": [],
+      "packages_removed": [],
+      "packages_updated": [],
+      "files_added": [],
+      "files_removed": [],
+      "files_changed": [
+        "BepInEx/config/Azumatt.AzuAntiArthriticCrafting.cfg",
+        "BepInEx/config/Azumatt.AzuAutoStore.cfg",
+        "BepInEx/config/Azumatt.AzuCraftyBoxes.cfg",
+        "BepInEx/config/Azumatt.AzuWorkbenchTweaks.cfg",
+        "BepInEx/config/Azumatt.BuildCameraCHE.cfg",
+        "BepInEx/config/Azumatt.FirstPersonMode.cfg",
+        "BepInEx/config/Azumatt.SleepSkip.cfg",
+        "BepInEx/config/Azumatt.Unshamed.cfg",
+        "BepInEx/config/Azumatt_and_ValheimPlusDevs.PerfectPlacement.cfg",
+        "BepInEx/config/Dirtsnack.AchievementTracker.cfg",
+        "BepInEx/config/Searica.Valheim.ExtraSnapPointsMadeEasy.cfg",
+        "BepInEx/config/Searica.Valheim.SkilledCarryWeight.cfg",
+        "BepInEx/config/SkillLimitExtender.cfg",
+        "BepInEx/config/_shudnal.ConfigurationManager.cfg",
+        "BepInEx/config/aedenthorn.CookingStationTweaks.cfg",
+        "BepInEx/config/dev.crystal.magni.cfg",
+        "BepInEx/config/dev.ontrigger.vpo.cfg",
+        "BepInEx/config/elg.QuickTeleport.cfg",
+        "BepInEx/config/eu.mydayyy.plugins.serversidemap.cfg",
+        "BepInEx/config/neobotics.valheim_mod.hudcompass.cfg",
+        "BepInEx/config/org.bepinex.plugins.instantequip.cfg",
+        "BepInEx/config/org.bepinex.plugins.targetportal.cfg",
+        "BepInEx/config/robit.configurablecarryweight.cfg",
+        "BepInEx/config/server_devcommands.cfg",
+        "BepInEx/config/shudnal.ExtraSlots.cfg",
+        "BepInEx/config/shudnal.StaminaExtended.cfg"
+      ],
+      "settings_changed": [
+        {
+          "file": "BepInEx/config/dev.crystal.magni.cfg",
+          "setting": "Weight / CarryCapacityMultiplier",
+          "from": "1.333333333",
+          "to": "1.5"
+        },
+        {
+          "file": "BepInEx/config/robit.configurablecarryweight.cfg",
+          "setting": "Carry Weight / Megingjord Bonus",
+          "from": "300",
+          "to": "266.666667"
+        }
+      ]
+    }
   }
 ]
