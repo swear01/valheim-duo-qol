@@ -1,0 +1,299 @@
+{
+  "profileName": "Valheim-Duo-QoL-20261007-v1",
+  "community": "valheim",
+  "mods": [
+    {
+      "name": "denikson-BepInExPack_Valheim",
+      "version": {
+        "major": 5,
+        "minor": 4,
+        "patch": 2351
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "shudnal-ConfigurationManager",
+      "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 25
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "shudnal-ConditionalConfigSync",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 10
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "ValheimModding-YamlDotNet",
+      "version": {
+        "major": 16,
+        "minor": 3,
+        "patch": 1
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "ValheimModding-JsonDotNET",
+      "version": {
+        "major": 13,
+        "minor": 0,
+        "patch": 4
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Crystal-Magni",
+      "version": {
+        "major": 1,
+        "minor": 2,
+        "patch": 3
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "Searica-SkilledCarryWeight",
+      "version": {
+        "major": 1,
+        "minor": 5,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "ValheimModding-Jotunn",
+      "version": {
+        "major": 2,
+        "minor": 30,
+        "patch": 2
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "shudnal-StaminaExtended",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 11
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "shudnal-ExtraSlots",
+      "version": {
+        "major": 1,
+        "minor": 2,
+        "patch": 17
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-AzuCraftyBoxes",
+      "version": {
+        "major": 1,
+        "minor": 8,
+        "patch": 27
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-AzuAutoStore",
+      "version": {
+        "major": 3,
+        "minor": 1,
+        "patch": 7
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-AAA_Crafting",
+      "version": {
+        "major": 2,
+        "minor": 1,
+        "patch": 11
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Grizzzly-CookingStationTweaks",
+      "version": {
+        "major": 0,
+        "minor": 7,
+        "patch": 2
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "Azumatt-AzuWorkbenchTweaks",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 8
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-PerfectPlacement",
+      "version": {
+        "major": 1,
+        "minor": 2,
+        "patch": 4
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-Build_Camera_Custom_Hammers_Edition",
+      "version": {
+        "major": 1,
+        "minor": 3,
+        "patch": 4
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-FirstPersonMode",
+      "version": {
+        "major": 1,
+        "minor": 4,
+        "patch": 4
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Smoothbrain-TargetPortal",
+      "version": {
+        "major": 1,
+        "minor": 2,
+        "patch": 7
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "OdinPlus-QuickTeleport",
+      "version": {
+        "major": 2,
+        "minor": 0,
+        "patch": 4
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Smoothbrain-InstantEquip",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 7
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-SleepSkip",
+      "version": {
+        "major": 1,
+        "minor": 3,
+        "patch": 2
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-Unshamed",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 8
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Dirtsnack-AchievementTracker",
+      "version": {
+        "major": 0,
+        "minor": 1,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "Snuffy-SkillLimitExtenderFork",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "MSchmoecker-MultiUserChest",
+      "version": {
+        "major": 0,
+        "minor": 6,
+        "patch": 2
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Neobotics-HUDCompass",
+      "version": {
+        "major": 1,
+        "minor": 2,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "ontrigger-ValheimPerformanceOptimizations",
+      "version": {
+        "major": 1,
+        "minor": 2,
+        "patch": 3
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Searica-Extra_Snap_Points_Made_Easy",
+      "version": {
+        "major": 2,
+        "minor": 1,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    }
+  ],
+  "ignoredUpdates": [],
+  "ignoredPackageUpdates": [],
+  "excludedFiles": []
+}
