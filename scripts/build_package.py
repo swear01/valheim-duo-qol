@@ -6,7 +6,7 @@ from verify_history import ROOT, digest, read_package
 
 
 def main():
-    row = json.loads((ROOT / "history/versions.json").read_text())[-1]
+    row = json.loads((ROOT / "history/versions.json").read_text(encoding="utf-8"))[-1]
     preserved = ROOT / row["archive"]
     files = {
         path.relative_to(ROOT / "profile").as_posix(): path.read_bytes()
