@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v31 — 2026-10-12
+
+AAA 修補改由 Thunderstore 下載。45 個線上套件，36 份設定。
+
+- 新增套件：`swear01-AAA_Crafting_Max_Fix`。
+- 內附檔案變更：`BepInEx/plugins/swear-AAACraftingMaxFix/AAACraftingMaxFix.dll`, `BepInEx/plugins/swear-AAACraftingMaxFix/LICENSE.txt`。
+
 ## v30 — 2026-10-12
 
 移出執行包內的來源文字。44 個線上套件，36 份設定。

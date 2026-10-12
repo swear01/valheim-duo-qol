@@ -1,6 +1,6 @@
 {
   "created": "2026-10-12",
-  "profile": "Valheim-Duo-QoL-20261012-v30",
+  "profile": "Valheim-Duo-QoL-20261012-v31",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -705,6 +705,23 @@
       "sha256": "ad3e4a267b372e952aac5d5f303655042bed0dfe2342dedc12c845294297dd65",
       "bytes": 113408,
       "dll_sha256": "5668609a5a3b9817d99ade84aaf372d8adfafe597d048927d44f9618948e55eb"
+    },
+    {
+      "name": "swear01-AAA_Crafting_Max_Fix",
+      "source": "Thunderstore",
+      "version": "1.0.0",
+      "download": "https://thunderstore.io/package/download/swear01/AAA_Crafting_Max_Fix/1.0.0/",
+      "archive_url": "https://thunderstore.io/package/download/swear01/AAA_Crafting_Max_Fix/1.0.0/",
+      "website": "https://valheim.hexium.gg/mods/Azumatt/AAA_Crafting/threads/277",
+      "page": "https://thunderstore.io/c/valheim/p/swear01/AAA_Crafting_Max_Fix/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-10-11T16:51:36.417951Z",
+      "sha256": "21ef4d2872991aa6027ab28e25b7dc8ae17dac1013d28796ad711c834b732633",
+      "bytes": 20642,
+      "dll_sha256": "56c48ee1624d708719b96b104f1e539de1e5b94698888e7bf7cb1e7157cf9ce9"
     }
   ],
   "configs": {
@@ -1540,29 +1557,23 @@
     }
   },
   "verification": {
-    "scope": "V30 removes duplicate provenance text only; executable content unchanged",
-    "betterfog_latest_active_metadata_zip_manifest_crc_sha256": "passed_1.0.3",
-    "betterfog_1_0_2_to_1_0_3_decompiled_code": "identical_except_version_and_commit_metadata",
-    "betterfog_original_implementation": "Smoke.GetAlpha postfix multiplies alpha; no smoke physics patch",
-    "43_existing_package_pins_34_unrelated_configs_local_plugin_bytes": "preserved",
-    "44_packages_36_configs_dependencies_archive_readback": "passed",
-    "extra_light_patch_dll": "absent",
-    "guide_links_and_hashes": "passed",
+    "scope": "V31 AAA patch distribution only; prior runtime evidence under inherited provenance",
+    "official_manifest_validator": "passed_success_true",
+    "public_package_metadata": "passed_unauthenticated",
+    "public_download_zip_and_dll": "passed_byte_identical_to_prepared_and_v30",
+    "compile": "passed_0_warnings_0_errors",
+    "fixture_and_actual_assembly_checks": "passed_25",
+    "original_44_pins_and_36_configs": "passed_unchanged",
+    "zip_crc_exact_readback_dependencies": "passed",
     "gale_gui_import": "not_run",
-    "multiplayer_endurance": "not_run",
-    "formal_profile": "untouched",
-    "current_session": "untouched_no_restart",
-    "betterfog_native_defaults_vs_actual_dll": "passed_all_three_Config_Bind_defaults",
-    "complete_v29_and_native_defaults_game_launch": "not_run",
-    "runtime_plugin_and_config_bytes": "identical_to_v29",
-    "licenses": "preserved",
-    "original_provenance_text": "preserved_in_separate_file",
-    "complete_v30_game_launch": "not_run"
+    "unity_harmony_detours": "not_run",
+    "multiplayer": "not_run",
+    "current_session": "untouched_no_restart"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v30.r2z": "c6e53252d24a36184e96c6e968980943ed394ac055ad1ea821fd2ed47030a9e6",
-    "Valheim-Duo-QoL-config-v30.zip": "83b238d2f407045b1f5bb76e67247e897b8f27334595b58540613a097049d792",
-    "Valheim-雙人模組包-安裝指南-v30.html": "ef94df5c2510b7bd86f1bcd10b3d133bd7391daa02bc5dd7631a83390c12d33c",
+    "Valheim-Duo-QoL-v31.r2z": "eb733690be8a65e4311159594a29493717eb2f367f48b79f1930783e5d036c5d",
+    "Valheim-Duo-QoL-config-v31.zip": "77c4af95062ef07c20ad264a40b3a4befd7f55ae1d5a450d7640e24624cad388",
+    "Valheim-雙人模組包-安裝指南-v31.html": "2338be7573e900dd404274193cd16e0c47aff5688973aca0c1f5603b3c85ade0",
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
     "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
     "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
@@ -1626,59 +1637,6 @@
         "game_launch": "passed_prior_isolated_profile; complete_v29_not_run",
         "campfire_brightness_in_game": "not_run",
         "campfire_rgb_isolated_1_0_17": "passed_visual_four_campfire_scene; exact intensity overwrite unconfirmed"
-      }
-    },
-    {
-      "name": "AAA Crafting Max Fix",
-      "guid": "swear.valheim.AAACraftingMaxFix",
-      "version": "1.0.0",
-      "author": "Huang Ssu-Wei",
-      "distribution": "local independent Harmony add-on; not an official AAA Crafting update",
-      "plugin_path": "BepInEx/plugins/swear-AAACraftingMaxFix/AAACraftingMaxFix.dll",
-      "dll_sha256": "56c48ee1624d708719b96b104f1e539de1e5b94698888e7bf7cb1e7157cf9ce9",
-      "dll_bytes": 7680,
-      "source_sha256": "f7337beaa5c247715c271ada0d32c8f5c56d46ba33a66af0e1606d4286f1c16b",
-      "build": "dotnet SDK 9.0.317; net48 Release deterministic; 0 warnings, 0 errors",
-      "upstream": {
-        "denikson-BepInExPack_Valheim": {
-          "version": "5.4.2351",
-          "download": "https://cdn.hexium.gg/upload/1/5.4.2351.zip",
-          "sha256": "77e4db6efc378469f3053b82a2fd92485ed68bb2fd94180d5ec4f522b448d068"
-        },
-        "Azumatt-AzuCraftyBoxes": {
-          "version": "1.8.27",
-          "download": "https://cdn.hexium.gg/upload/48/1.8.27.zip",
-          "sha256": "1d34dfe982be6261e6817f598a1e867e021271001facd56299a9411219ddbd3c"
-        },
-        "Azumatt-AAA_Crafting": {
-          "version": "2.1.11",
-          "download": "https://cdn.hexium.gg/upload/218/2.1.11.zip",
-          "sha256": "74bf6ab7f32cf17f6d0933c9b58242c7b7d1706bea496832255273c4d862f866"
-        }
-      },
-      "compile_references_sha256": {
-        "BepInEx.dll": "36bdb9af2b8f2eda4c911d2a49c2a05a4f643637ad724b876d292a9a5fcd8ae6",
-        "0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
-        "UnityEngine.CoreModule.dll": "3cbe147e5c2d5c8d32c1065671ca02035700a0a329607ad5baf689312b0aaad7",
-        "UnityEngine.dll": "2fa5a9219ee69a4d5628d73894085f607fa841589560fbdc63b73cee8dfcb55d"
-      },
-      "changes": [
-        "GetAvailableItems queries existing AAA AzuCraftyBoxes bridge by material name",
-        "Max lower clamp 1 to 0; original upper clamp 100 retained",
-        "Max display invalidated every 0.5 seconds using unscaled time"
-      ],
-      "compatibility": "Only AAA Crafting assembly 2.1.11.0 and AzuCraftyBoxes assembly 1.8.27.0; other versions log a warning and skip patches",
-      "fallback": "If the upstream per-material bridge returns -1, upstream GetAvailableItems fallback remains; upstream logs bridge failures",
-      "verification": {
-        "fixture_and_actual_pinned_dll_checks": 25,
-        "result": "passed",
-        "emitted_zero_clamp_execution": "passed",
-        "upstream_bridge_types_signatures_and_IL": "passed",
-        "direct_material_or_file_writes": "none",
-        "gale_gui_import": "not_run",
-        "unity_harmony_detours": "not_run",
-        "game_and_multiplayer": "not_run",
-        "current_profile_or_game_changed": false
       }
     }
   ],
@@ -2658,6 +2616,77 @@
     "BepInEx/plugins/swear-AAACraftingMaxFix/SOURCE.txt": {
       "sha256": "7de305de280f3376da8c0619a0e10fc20af844809cefaa5fbe3a522622a0200f",
       "preserved_in": "Valheim-Duo-QoL-來源說明-v30.txt"
+    }
+  },
+  "base_v30": {
+    "archive": "Valheim-Duo-QoL-v30.r2z",
+    "archive_sha256": "c6e53252d24a36184e96c6e968980943ed394ac055ad1ea821fd2ed47030a9e6"
+  },
+  "aaa_patch_distribution": {
+    "package": "swear01-AAA_Crafting_Max_Fix-1.0.0",
+    "page": "https://thunderstore.io/c/valheim/p/swear01/AAA_Crafting_Max_Fix/",
+    "public_readback_cdn": "https://gcdn.thunderstore.io/live/repository/packages/swear01-AAA_Crafting_Max_Fix-1.0.0.zip",
+    "removed_bundled_entries": [
+      "BepInEx/plugins/swear-AAACraftingMaxFix/AAACraftingMaxFix.dll",
+      "BepInEx/plugins/swear-AAACraftingMaxFix/LICENSE.txt"
+    ],
+    "patch_provenance": {
+      "name": "AAA Crafting Max Fix",
+      "guid": "swear.valheim.AAACraftingMaxFix",
+      "version": "1.0.0",
+      "author": "Huang Ssu-Wei",
+      "distribution": "local independent Harmony add-on; not an official AAA Crafting update",
+      "plugin_path": "BepInEx/plugins/swear-AAACraftingMaxFix/AAACraftingMaxFix.dll",
+      "dll_sha256": "56c48ee1624d708719b96b104f1e539de1e5b94698888e7bf7cb1e7157cf9ce9",
+      "dll_bytes": 7680,
+      "source_sha256": "f7337beaa5c247715c271ada0d32c8f5c56d46ba33a66af0e1606d4286f1c16b",
+      "build": "dotnet SDK 9.0.317; net48 Release deterministic; 0 warnings, 0 errors",
+      "upstream": {
+        "denikson-BepInExPack_Valheim": {
+          "version": "5.4.2351",
+          "download": "https://cdn.hexium.gg/upload/1/5.4.2351.zip",
+          "sha256": "77e4db6efc378469f3053b82a2fd92485ed68bb2fd94180d5ec4f522b448d068"
+        },
+        "Azumatt-AzuCraftyBoxes": {
+          "version": "1.8.27",
+          "download": "https://cdn.hexium.gg/upload/48/1.8.27.zip",
+          "sha256": "1d34dfe982be6261e6817f598a1e867e021271001facd56299a9411219ddbd3c"
+        },
+        "Azumatt-AAA_Crafting": {
+          "version": "2.1.11",
+          "download": "https://cdn.hexium.gg/upload/218/2.1.11.zip",
+          "sha256": "74bf6ab7f32cf17f6d0933c9b58242c7b7d1706bea496832255273c4d862f866"
+        }
+      },
+      "compile_references_sha256": {
+        "BepInEx.dll": "36bdb9af2b8f2eda4c911d2a49c2a05a4f643637ad724b876d292a9a5fcd8ae6",
+        "0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+        "UnityEngine.CoreModule.dll": "3cbe147e5c2d5c8d32c1065671ca02035700a0a329607ad5baf689312b0aaad7",
+        "UnityEngine.dll": "2fa5a9219ee69a4d5628d73894085f607fa841589560fbdc63b73cee8dfcb55d"
+      },
+      "changes": [
+        "GetAvailableItems queries existing AAA AzuCraftyBoxes bridge by material name",
+        "Max lower clamp 1 to 0; original upper clamp 100 retained",
+        "Max display invalidated every 0.5 seconds using unscaled time"
+      ],
+      "compatibility": "Only AAA Crafting assembly 2.1.11.0 and AzuCraftyBoxes assembly 1.8.27.0; other versions log a warning and skip patches",
+      "fallback": "If the upstream per-material bridge returns -1, upstream GetAvailableItems fallback remains; upstream logs bridge failures",
+      "verification": {
+        "fixture_and_actual_pinned_dll_checks": 25,
+        "result": "passed",
+        "emitted_zero_clamp_execution": "passed",
+        "upstream_bridge_types_signatures_and_IL": "passed",
+        "direct_material_or_file_writes": "none",
+        "gale_gui_import": "not_run",
+        "unity_harmony_detours": "not_run",
+        "game_and_multiplayer": "not_run",
+        "current_profile_or_game_changed": false
+      }
+    },
+    "same_dll": true,
+    "required_hexium_versions": {
+      "Azumatt-AAA_Crafting": "2.1.11",
+      "Azumatt-AzuCraftyBoxes": "1.8.27"
     }
   }
 }
