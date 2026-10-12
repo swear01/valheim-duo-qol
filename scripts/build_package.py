@@ -14,15 +14,18 @@ def main():
         path.relative_to(ROOT / "profile").as_posix(): path.read_bytes()
         for path in (ROOT / "profile").rglob("*") if path.is_file()
     }
-    assert files == read_package(preserved), "Profile differs from preserved release"
+    if files != read_package(preserved):
+        raise ValueError("Profile differs from preserved release")
     output = ROOT / "dist" / preserved.name
     output.parent.mkdir(exist_ok=True)
     with zipfile.ZipFile(preserved) as template, zipfile.ZipFile(output, "w") as archive:
         archive.comment = template.comment
         for info in template.infolist():
-            archive.writestr(info, files[info.filename], compresslevel=6)
-    assert read_package(output) == files, "Rebuilt package contents differ"
-    assert digest(output.read_bytes()) == row["archive_sha256"], "Rebuilt package hash differs"
+            archive.writestr(info, files[info.filename])
+    if read_package(output) != files:
+        raise ValueError("Rebuilt package contents differ")
+    if digest(output.read_bytes()) != row["archive_sha256"]:
+        raise ValueError("Rebuilt package hash differs")
     print(f"PASS: {output.name} rebuilt from profile/; SHA256 {row['archive_sha256']}")
 
 
