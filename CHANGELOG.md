@@ -2,6 +2,11 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v9 — 2026-10-08
+
+調整箱子取料設定。33 個線上套件，27 份設定。
+- `BepInEx/config/Azumatt.AzuCraftyBoxes.cfg` 的 `2 - CraftyBoxes / Container Range`：`20` → `30`。
+
 ## v8 — 2026-10-08
 
 加入 SmartShield。33 個線上套件，27 份設定。

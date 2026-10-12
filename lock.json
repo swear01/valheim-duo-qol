@@ -1,6 +1,6 @@
 {
   "created": "2026-10-08",
-  "profile": "Valheim-Duo-QoL-20261008-v8",
+  "profile": "Valheim-Duo-QoL-20261008-v9",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -762,7 +762,7 @@
       "filename": "Azumatt.AzuCraftyBoxes.cfg",
       "sections": {
         "2 - CraftyBoxes": {
-          "Container Range": "20",
+          "Container Range": "30",
           "Leave One Item": "On"
         }
       }
@@ -1197,14 +1197,16 @@
     "game_launch": "not_run",
     "two_player_world": "not_run",
     "sleep_warning_seconds": 5,
-    "v7_preserved": "passed",
     "smartshield_manifest_and_dll_config": "passed",
     "smartshield_package_crc": "passed",
-    "dependency_minimums": "passed"
+    "dependency_minimums": "passed",
+    "v8_package_versions_and_other_configs_preserved": "passed",
+    "craftyboxes_container_range_meters": 30
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v8.r2z": "67fa6a8a954ce596795d9f7549c569db7c05bc7eaf5b89de7cdf8dcd98b15b3b",
-    "Valheim-Duo-QoL-config-v8.zip": "1f0d1de1cc3dbcb9ace21415c38516e0512d7a85fddc1308eb87665420aa3122",
-    "cjayride.smartshield.cfg": "30173e10021e69120f6bc248d18e33f820f2f40b3c1859d467ee574d12d42da2"
+    "cjayride.smartshield.cfg": "30173e10021e69120f6bc248d18e33f820f2f40b3c1859d467ee574d12d42da2",
+    "Valheim-Duo-QoL-v9.r2z": "4d5d05298fe1047a06eb940abe1ccb902d713c8cebb74eb4a269ab434c9d3a31",
+    "Valheim-Duo-QoL-config-v9.zip": "3a40a433f3933d27735395bdc19d3a61df5384a2dcdecf7247418241bb6a05a1",
+    "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7"
   }
 }
