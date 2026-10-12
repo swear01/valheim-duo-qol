@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v12 — 2026-10-09
+
+調整 ExtraSlots 撿墓碑後自動裝備。34 個線上套件，28 份設定。
+- `BepInEx/config/shudnal.ExtraSlots.cfg` 的 `Extra slots - Auto equip on tombstone pickup / Apply after manual Take All`：`None` → `true`。
+- `BepInEx/config/shudnal.ExtraSlots.cfg` 的 `Extra slots - Auto equip on tombstone pickup / Equip all equipment slots`：`None` → `true`。
+- `BepInEx/config/shudnal.ExtraSlots.cfg` 的 `Extra slots - Auto equip on tombstone pickup / Equip previous weapon and shield`：`None` → `true`。
+
 ## v11 — 2026-10-08
 
 調整 Server Devcommands 設定。34 個線上套件，28 份設定。

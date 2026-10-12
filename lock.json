@@ -1,6 +1,6 @@
 {
-  "created": "2026-10-08",
-  "profile": "Valheim-Duo-QoL-20261008-v11",
+  "created": "2026-10-09",
+  "profile": "Valheim-Duo-QoL-20261009-v12",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -771,6 +771,11 @@
         },
         "Mods compatibility": {
           "Prevent Recycle_N_Reclaim from recycling items in extra slots": "true"
+        },
+        "Extra slots - Auto equip on tombstone pickup": {
+          "Equip all equipment slots": "true",
+          "Equip previous weapon and shield": "true",
+          "Apply after manual Take All": "true"
         }
       }
     },
@@ -1248,15 +1253,20 @@
     "v10_packages_and_unrelated_configs_preserved": "passed",
     "goto_acceleration_config_and_dll_static": "passed",
     "goto_acceleration_runtime": "not_run",
-    "teleport_elapsed_time_measurement": "not_run"
+    "teleport_elapsed_time_measurement": "not_run",
+    "v11_packages_and_unrelated_configs_preserved": "passed",
+    "tombstone_auto_equip_config_and_dll_static": "passed",
+    "tombstone_auto_equip_gameplay": "not_run"
   },
   "artifacts_sha256": {
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
     "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
     "shudnal.ExtraSlots.cfg": "e5eeddfac58c11b0de2ee014d5b26bf5da3b0656b33f1a934e938d93607e0c44",
-    "Valheim-Duo-QoL-v11.r2z": "d543b305a3aa1df8512153b9c4498d4af88b0d0b2a7d61220f24e63dc0bdadbd",
-    "Valheim-Duo-QoL-config-v11.zip": "70e0ab23095fb49baf7e307231c71baa34f2f5fb613c47aaaad00f85a788348f",
     "server_devcommands.cfg": "281f40ffd86adc3be4500404f36e558cb240fd2e1be72c164baba41451370ea9",
-    "Valheim-雙人模組包-安裝指南-v11.html": "bd5f7230b77ef19b7f8ce960788aeb354a9289fe6f2b6e228f7f2a0f66d10e84"
+    "Valheim-雙人模組包-安裝指南-v11.html": "bd5f7230b77ef19b7f8ce960788aeb354a9289fe6f2b6e228f7f2a0f66d10e84",
+    "Valheim-Duo-QoL-v12.r2z": "490921325271bd3abf699778b587ea25fa5c8365d33dde02390c44a002b08743",
+    "Valheim-Duo-QoL-config-v12.zip": "68ebff4858d17e343170cd26bad3defaeb7e03f8e15855286854648f2381c84d",
+    "v12/shudnal.ExtraSlots.cfg": "dd4a719d029c94df05609868390e6e9d0facac3626ca87c8b763302e364e936d",
+    "Valheim-雙人模組包-安裝指南-v12.html": "9b961162ce92895203afe693148ce094e1581106e39b81576027d872d573973d"
   }
 }
