@@ -2,6 +2,11 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v25 — 2026-10-11
+
+箱子取料範圍設為 40 公尺。42 個線上套件，35 份設定。
+- `BepInEx/config/Azumatt.AzuCraftyBoxes.cfg` 的 `2 - CraftyBoxes / Container Range`：`30` → `40`。
+
 ## v24 — 2026-10-11
 
 堆疊倍率調為 ×4。42 個線上套件，35 份設定。

@@ -1,6 +1,6 @@
 {
   "created": "2026-10-11",
-  "profile": "Valheim-Duo-QoL-20261011-v24",
+  "profile": "Valheim-Duo-QoL-20261011-v25",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -905,7 +905,7 @@
       "filename": "Azumatt.AzuCraftyBoxes.cfg",
       "sections": {
         "2 - CraftyBoxes": {
-          "Container Range": "30",
+          "Container Range": "40",
           "Leave One Item": "On"
         }
       }
@@ -1493,31 +1493,32 @@
     }
   },
   "verification": {
-    "scope": "V24 artifact checks only; prior verification retained under base_v23",
-    "only_stack_multiplier_2_to_4_one_yaml_value_changed": "passed",
-    "all_42_online_package_pins_34_unrelated_configs_and_local_plugin_preserved": "passed",
-    "stack_yaml_parse_4_weight_1_empty_overrides": "passed",
-    "v24_zip_crc_unique_members_and_exact_readback": "passed",
-    "v24_guide_links_and_recorded_hashes": "passed",
+    "scope": "V25 artifact checks only; prior verification retained under base_v24",
+    "only_craftyboxes_container_range_30_to_40_one_value_changed": "passed",
+    "all_42_package_pins_34_unrelated_configs_and_local_plugin_preserved": "passed",
+    "cfg_parse_range_40_leave_one_on": "passed",
+    "v25_zip_crc_unique_members_and_exact_readback": "passed",
+    "v25_guide_links_and_recorded_hashes": "passed",
     "prior_deliverables_hash_preserved": "passed",
-    "latest_package_versions_rechecked": "not_run_pins_preserved_from_v23",
+    "latest_package_versions_rechecked": "not_run_pins_preserved_from_v24",
     "gale_gui_import": "not_run",
     "installation_to_current_profile": "not_run",
     "game_launch": "not_run",
-    "stack_inventory_chest_weight_save_reload": "not_run",
-    "two_player_world_sync": "not_run",
+    "crafting_material_pull_and_range": "not_run",
+    "two_player_config_sync": "not_run",
     "current_game_session": "untouched_no_restart"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v24.r2z": "6c4fe373afc0dd02bc16fd94f023eb5262683422b88d3fd56665a784f059c7d0",
-    "Valheim-Duo-QoL-config-v24.zip": "57a68157221b09d383f0637bbf40c279b87aceeb9043dd5a82e08bfa57ad6b59",
-    "Valheim-堆疊設定增補-v24.zip": "1532cba326a64fa6ae5f1f2e5881d0c700d14e0b1e16e69674a6c5c5bf8ee9d6",
-    "Valheim-雙人模組包-安裝指南-v24.html": "c3ccdaf968b3a2048314ca4367eee3351c5b04e45a85b76cdac7a4eb766ef599",
+    "Valheim-Duo-QoL-v25.r2z": "41b37be934533d90dec5a3db42e1e21225fa65917efcee012e967bbe1f71eff7",
+    "Valheim-Duo-QoL-config-v25.zip": "c296bc0f5b6abc75b0923928ea3be0c9e3fa0b19f06889d8423e1b14cb9b13d8",
+    "Valheim-箱子取料範圍設定增補-v25.zip": "a2986f96b6e8880154677b37c6a35c622d5b4954e7d32ec31ff97f76e7e840f6",
+    "Valheim-雙人模組包-安裝指南-v25.html": "3ed64146f57afe8e6088be4fb6a41fd88bf0ccdafbe62826d7e1a5441f28295a",
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
     "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
     "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
     "Valheim-原版鋤頭設定增補-v16.zip": "ae904892bd1768cf664bed54065fddbb4a6b488d00c58b62b4cafb220cc0ada4",
     "Valheim-堆疊設定增補-v22.zip": "dcf5ea938f5e93478bd016cfa6dff4bffbcc285a82c1c7ba5ce034c4a8c5b251",
+    "Valheim-堆疊設定增補-v24.zip": "1532cba326a64fa6ae5f1f2e5881d0c700d14e0b1e16e69674a6c5c5bf8ee9d6",
     "Valheim-工作台範圍設定增補-v23.zip": "004f20fac44d1f28146bde180e3d09d742c3d8aac46a938bc0532d93312383d0",
     "Valheim-種田設定增補-v18.zip": "e2fb6d2b469df7f7983fc38560813f53317a566d5fa67398858881b6f7a3f055",
     "Valheim-腎上腺素設定增補-v19.zip": "06d7bfc303f4797ff0e2adfc4e5e810375f8a10bfe944b40e02c99fa78a6d814",
@@ -2361,6 +2362,43 @@
       },
       "WeightMultiplier.Global": 1,
       "per_item_overrides": {},
+      "current_game_applied": false
+    }
+  ],
+  "base_v24": {
+    "profile": "Valheim-Duo-QoL-20261011-v24",
+    "archive": "Valheim-Duo-QoL-v24.r2z",
+    "archive_sha256": "6c4fe373afc0dd02bc16fd94f023eb5262683422b88d3fd56665a784f059c7d0",
+    "lock": "Valheim-Duo-QoL-lock-v24.json",
+    "lock_sha256": "04fff35886b3e201eb7b508efe4185b2eeb6c0308b8a09ef5233615e82c2ff28",
+    "verification": {
+      "scope": "V24 artifact checks only; prior verification retained under base_v23",
+      "only_stack_multiplier_2_to_4_one_yaml_value_changed": "passed",
+      "all_42_online_package_pins_34_unrelated_configs_and_local_plugin_preserved": "passed",
+      "stack_yaml_parse_4_weight_1_empty_overrides": "passed",
+      "v24_zip_crc_unique_members_and_exact_readback": "passed",
+      "v24_guide_links_and_recorded_hashes": "passed",
+      "prior_deliverables_hash_preserved": "passed",
+      "latest_package_versions_rechecked": "not_run_pins_preserved_from_v23",
+      "gale_gui_import": "not_run",
+      "installation_to_current_profile": "not_run",
+      "game_launch": "not_run",
+      "stack_inventory_chest_weight_save_reload": "not_run",
+      "two_player_world_sync": "not_run",
+      "current_game_session": "untouched_no_restart"
+    }
+  },
+  "configuration_updates_from_v24": [
+    {
+      "package": "Azumatt-AzuCraftyBoxes",
+      "filename": "Azumatt.AzuCraftyBoxes.cfg",
+      "section": "2 - CraftyBoxes",
+      "Container Range": {
+        "from": "30",
+        "to": "40"
+      },
+      "unit": "meters",
+      "Leave One Item": "On",
       "current_game_applied": false
     }
   ]
