@@ -1,6 +1,6 @@
 {
   "created": "2026-10-10",
-  "profile": "Valheim-Duo-QoL-20261010-v21",
+  "profile": "Valheim-Duo-QoL-20261010-v22",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -655,6 +655,23 @@
       "direct": true,
       "sha256": "7d083b1ba5a56f6559efd71f51ce9f7c5335d9c31a73218aa147ea8a490eb6e6",
       "bytes": 9062
+    },
+    {
+      "name": "shudnal-ItemStacksItemWeights",
+      "source": "Thunderstore",
+      "version": "1.1.1",
+      "download": "https://gcdn.thunderstore.io/live/repository/packages/shudnal-ItemStacksItemWeights-1.1.1.zip",
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/shudnal-ItemStacksItemWeights-1.1.1.zip",
+      "website": "https://github.com/shudnal/ItemStacksItemWeights",
+      "page": "https://thunderstore.io/c/valheim/p/shudnal/ItemStacksItemWeights/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350",
+        "shudnal-ConditionalConfigSync-1.0.5",
+        "ValheimModding-YamlDotNet-16.3.1"
+      ],
+      "direct": true,
+      "sha256": "6140f03c079fea362f2a3040022e544f571e494dc497da13792faa1d770eebb5",
+      "bytes": 136444
     }
   ],
   "configs": {
@@ -1459,42 +1476,53 @@
           "AdrenalineDecayDelayMultiplier": "2"
         }
       }
+    },
+    "shudnal-ItemStacksItemWeights": {
+      "filename": "shudnal.ItemStacksItemWeights/shudnal.ItemStacksItemWeights.yml",
+      "format": "yaml",
+      "sections": {
+        "WeightMultiplier": {
+          "Global": 1
+        },
+        "WeightAmount": {},
+        "StackMultiplier": {
+          "Global": 2
+        },
+        "StackSize": {}
+      }
     }
   },
   "verification": {
-    "scope": "V21 artifact/static checks only; prior version checks retained under base_v20.verification",
-    "v20_all_40_packages_preserved": "passed",
-    "v20_33_unrelated_configs_and_local_plugin_byte_preserved": "passed",
-    "carry_run_coefficient_2_to_4_only": "passed",
-    "carry_formula_and_level_samples_static": "passed",
-    "carry_live_capacity_and_server_sync": "not_run",
-    "v21_export_unique_41_enabled_packages_and_source_version_lock": "passed",
-    "v21_all_dependency_minimums": "passed",
-    "portalghostfix_official_archive_crc_sha256_manifest_guid_unique_dll": "passed",
-    "portalghostfix_host_gate_interval_threshold_and_force_send_static": "passed",
-    "portalghostfix_game_1_0_17_api_presence": "passed_static_only",
-    "v21_zip_crc_and_archive_readback": "passed",
-    "v21_guide_local_links_and_copied_support_files": "passed",
-    "baseline_40_latest_versions_rechecked_for_v21": "not_run_pins_preserved_from_v20",
+    "scope": "V22 artifact/static checks only; prior verification retained under base_v21",
+    "v21_all_41_package_pins_34_configs_local_plugin_byte_preserved": "passed",
+    "v22_unique_42_enabled_packages_and_source_version_lock": "passed",
+    "v22_all_dependency_minimums_no_new_dependencies": "passed",
+    "official_stack_archive_crc_sha256_manifest_guid_unique_dll": "passed",
+    "stack_formal_dll_config_path_yaml_fields_nonstackable_gate_and_multipliers": "passed_static_only",
+    "delivered_yaml_parse_stack_2_weight_1_empty_overrides": "passed",
+    "v22_archive_crc_unique_members_and_readback": "passed",
+    "v22_guide_local_links": "passed",
+    "baseline_41_latest_versions_rechecked_for_v22": "not_run_pins_preserved_from_v21",
     "gale_gui_import": "not_run",
     "installation_to_current_profile": "not_run",
     "game_launch": "not_run",
     "two_player_world": "not_run",
-    "portalghostfix_ghost_disappearance": "not_run",
-    "portalghostfix_performance": "not_measured",
+    "stack_inventory_chest_weight_save_reload": "not_run",
+    "server_config_sync": "not_run",
     "current_game_session": "untouched_no_restart"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v21.r2z": "98df3a58eb11d7529a1c9b6dfef35d74d6c37f57fce70fb789445d53d225fe03",
-    "Valheim-Duo-QoL-config-v21.zip": "98a023d5c9e0848fb421229797f2bf0382585a73818591e18627b00afaf3c68e",
-    "Valheim-負重設定增補-v21.zip": "382f52a0398e80cd40a8033f65988781bfdbd52c7885a5e74335599db6fe22ac",
-    "Valheim-雙人模組包-安裝指南-v21.html": "2fd183fb8e0b230679b3771b080bada3e0080281e6d918d51ad28d530b8adaae",
+    "Valheim-Duo-QoL-v22.r2z": "33e4a2981df87c60765846450f12d94e34f88cd7104ae86c42374e6a92206081",
+    "Valheim-Duo-QoL-config-v22.zip": "724667ca9bbd35d19736d838b57d210a10b1b2c10888a0c129c9a1df31bf6e4c",
+    "Valheim-堆疊設定增補-v22.zip": "dcf5ea938f5e93478bd016cfa6dff4bffbcc285a82c1c7ba5ce034c4a8c5b251",
+    "Valheim-雙人模組包-安裝指南-v22.html": "46d61b7a13c51846a0a3608ebff67bdd492b21de6702f3e94bdc693a9c73a396",
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
     "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
     "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
     "Valheim-原版鋤頭設定增補-v16.zip": "ae904892bd1768cf664bed54065fddbb4a6b488d00c58b62b4cafb220cc0ada4",
     "Valheim-種田設定增補-v18.zip": "e2fb6d2b469df7f7983fc38560813f53317a566d5fa67398858881b6f7a3f055",
     "Valheim-腎上腺素設定增補-v19.zip": "06d7bfc303f4797ff0e2adfc4e5e810375f8a10bfe944b40e02c99fa78a6d814",
+    "Valheim-負重設定增補-v21.zip": "382f52a0398e80cd40a8033f65988781bfdbd52c7885a5e74335599db6fe22ac",
     "server_devcommands.cfg": "281f40ffd86adc3be4500404f36e558cb240fd2e1be72c164baba41451370ea9",
     "v12/shudnal.ExtraSlots.cfg": "dd4a719d029c94df05609868390e6e9d0facac3626ca87c8b763302e364e936d",
     "v13/zenox.autodoors.cfg": "c8f1c04cb683c3b2ee41690fb5c433335dfbf0c22de89b253c050963447f547b",
@@ -2189,6 +2217,68 @@
       "author_tested_game": "1.0.12",
       "current_game_api_static_check": "1.0.17",
       "config_and_save_changes": "none_in_author_plugin"
+    }
+  ],
+  "base_v21": {
+    "profile": "Valheim-Duo-QoL-20261010-v21",
+    "archive": "Valheim-Duo-QoL-v21.r2z",
+    "archive_sha256": "98df3a58eb11d7529a1c9b6dfef35d74d6c37f57fce70fb789445d53d225fe03",
+    "lock": "Valheim-Duo-QoL-lock-v21.json",
+    "lock_sha256": "9c6aeadd38816c12dad3e60629b49a4af4eca566a0fe2cf78faf7c6e12389956",
+    "verification": {
+      "scope": "V21 artifact/static checks only; prior version checks retained under base_v20.verification",
+      "v20_all_40_packages_preserved": "passed",
+      "v20_33_unrelated_configs_and_local_plugin_byte_preserved": "passed",
+      "carry_run_coefficient_2_to_4_only": "passed",
+      "carry_formula_and_level_samples_static": "passed",
+      "carry_live_capacity_and_server_sync": "not_run",
+      "v21_export_unique_41_enabled_packages_and_source_version_lock": "passed",
+      "v21_all_dependency_minimums": "passed",
+      "portalghostfix_official_archive_crc_sha256_manifest_guid_unique_dll": "passed",
+      "portalghostfix_host_gate_interval_threshold_and_force_send_static": "passed",
+      "portalghostfix_game_1_0_17_api_presence": "passed_static_only",
+      "v21_zip_crc_and_archive_readback": "passed",
+      "v21_guide_local_links_and_copied_support_files": "passed",
+      "baseline_40_latest_versions_rechecked_for_v21": "not_run_pins_preserved_from_v20",
+      "gale_gui_import": "not_run",
+      "installation_to_current_profile": "not_run",
+      "game_launch": "not_run",
+      "two_player_world": "not_run",
+      "portalghostfix_ghost_disappearance": "not_run",
+      "portalghostfix_performance": "not_measured",
+      "current_game_session": "untouched_no_restart"
+    }
+  },
+  "additions_from_v21": [
+    {
+      "name": "shudnal-ItemStacksItemWeights",
+      "source": "Thunderstore",
+      "version": "1.1.1",
+      "download": "https://gcdn.thunderstore.io/live/repository/packages/shudnal-ItemStacksItemWeights-1.1.1.zip",
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/shudnal-ItemStacksItemWeights-1.1.1.zip",
+      "website": "https://github.com/shudnal/ItemStacksItemWeights",
+      "page": "https://thunderstore.io/c/valheim/p/shudnal/ItemStacksItemWeights/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350",
+        "shudnal-ConditionalConfigSync-1.0.5",
+        "ValheimModding-YamlDotNet-16.3.1"
+      ],
+      "direct": true,
+      "sha256": "6140f03c079fea362f2a3040022e544f571e494dc497da13792faa1d770eebb5",
+      "bytes": 136444,
+      "plugin_guid": "shudnal.ItemStacksItemWeights",
+      "dll_path": "ItemStacksItemWeights.dll",
+      "dll_bytes": 31744,
+      "dll_sha256": "b3d4c02795a22a06444d524247ab5985d7b166981607413731711bba137ed781",
+      "install_scope": "host/server_and_all_clients_required",
+      "new_configs": [
+        "BepInEx/config/shudnal.ItemStacksItemWeights/shudnal.ItemStacksItemWeights.yml"
+      ],
+      "stack_multiplier": 2,
+      "item_weight_multiplier": 1,
+      "nonstackable_items": "unchanged_by_author_condition",
+      "per_item_overrides": {},
+      "current_game_applied": false
     }
   ]
 }

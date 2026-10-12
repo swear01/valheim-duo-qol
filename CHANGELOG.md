@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v22 — 2026-10-10
+
+加入 ItemStacksItemWeights。42 個線上套件，35 份設定。
+
+- 新增套件：`shudnal-ItemStacksItemWeights`。
+
 ## v21 — 2026-10-10
 
 加入 PortalGhostFix 並調整負重成長。41 個線上套件，34 份設定。

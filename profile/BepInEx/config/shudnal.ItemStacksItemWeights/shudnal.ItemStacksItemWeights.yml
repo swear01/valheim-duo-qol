@@ -1,0 +1,6 @@
+WeightMultiplier:
+  Global: 1
+WeightAmount: {}
+StackMultiplier:
+  Global: 2
+StackSize: {}
