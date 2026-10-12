@@ -29,6 +29,13 @@ def git(*args):
     return subprocess.check_output(["git", "-C", str(ROOT), *args])
 
 
+def release_bytes(tag, name):
+    path = ROOT / name
+    if path.exists():
+        return path.read_bytes()
+    return git("show", f"{tag}:{name}")
+
+
 def check_text(data, label):
     text = data.decode("utf-8-sig")
     assert not SENSITIVE.search(text), f"Private data in {label}"
@@ -66,17 +73,20 @@ def tag_profile(tag):
 def main():
     history = json.loads((ROOT / "history/versions.json").read_text())
     assert history and [r["version"] for r in history] == list(range(1, len(history) + 1))
+    if not (ROOT / history[-1]["archive"]).is_file():
+        raise FileNotFoundError("Latest package must remain in the checkout")
     prior_tag = None
     last_files = None
     for row in history:
         tag = row["tag"]
         assert tag == f"v{row['version']}"
         path = ROOT / row["archive"]
-        assert digest(path.read_bytes()) == row["archive_sha256"], tag
-        assert path.stat().st_size == row["archive_bytes"], tag
-        files = read_package(path)
+        archive_bytes = release_bytes(tag, row["archive"])
+        assert digest(archive_bytes) == row["archive_sha256"], tag
+        assert len(archive_bytes) == row["archive_bytes"], tag
+        files = read_package(io.BytesIO(archive_bytes))
         assert {n: digest(b) for n, b in files.items()} == row["entries_sha256"], tag
-        lock_bytes = (ROOT / row["lock"]).read_bytes()
+        lock_bytes = release_bytes(tag, row["lock"])
         assert digest(lock_bytes) == row["lock_sha256"], tag
         check_text(lock_bytes, row["lock"])
         lock = json.loads(lock_bytes)

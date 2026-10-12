@@ -14,7 +14,7 @@
 
 [建材與船身數字](docs/hover-stats.md) · [更新紀錄](CHANGELOG.md) · [版本來源與歷史說明](docs/history.md) · [版本 tags](https://github.com/swear01/valheim-duo-qol/tags)
 
-`profile/` 是這一版的可比較內容，`lock.json` 保存原始版本／來源／設定紀錄。歷史 ZIP 與 lock 保存在 `history/v*/`。
+`profile/` 是這一版的可比較內容，`lock.json` 保存版本／來源／設定紀錄。主分支只保留最新 `history/v35/` 的包與 lock；舊版原始 ZIP／lock 保留在各版 tag，可切換 tag 下載或還原。
 
 [GitHub Actions](https://github.com/swear01/valheim-duo-qol/actions/workflows/verify.yml) 在 push、PR 或手動 Run workflow 時，會驗證所有版本，再從 `profile/` 重建目前的 `.r2z`，確認 SHA256 與封存完全相同才提供下載，保留 30 天（下載需登入 GitHub）。本機在 repository 根目錄執行 `python3 -m scripts.build_package`，產物在 `dist/`。新增版本仍需一併更新封存、lock、版本紀錄與 tag；Actions 不會自動更新模組或改動版本。
 
