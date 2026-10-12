@@ -1,6 +1,6 @@
 {
   "created": "2026-10-07",
-  "profile": "Valheim-Duo-QoL-20261007-v2",
+  "profile": "Valheim-Duo-QoL-20261007-v3",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -488,6 +488,22 @@
       "sha256": "3e973f68da8ede426358e8b47e00a561dd11b650fbea37668167571281738ffc",
       "bytes": 27921,
       "archive_url": "https://cdn.hexium.gg/upload/1526/1.3.14.zip"
+    },
+    {
+      "name": "JereKuusela-Server_devcommands",
+      "source": "Hexium",
+      "version": "1.115.0",
+      "download": "https://cdn.hexium.gg/upload/431/1.115.0.zip",
+      "website": "https://discord.gg/VFRJcPwUdm",
+      "page": "https://valheim.hexium.gg/mods/JereKuusela/Server_devcommands",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-26T06:22:52.000000Z",
+      "sha256": "b975ff340bfcf1cccf3f2cae81cef97e52bd8c23c1762e2693d4065a6a8833e5",
+      "bytes": 313344,
+      "archive_url": "https://cdn.hexium.gg/upload/431/1.115.0.zip"
     }
   ],
   "configs": {
@@ -1087,6 +1103,27 @@
         "General": {
           "EnableMapShare": "true",
           "EnableMarkerShare": "true"
+        }
+      }
+    },
+    "JereKuusela-Server_devcommands": {
+      "filename": "server_devcommands.cfg",
+      "sections": {
+        "1. General": {
+          "Automatic devcommands": "false",
+          "Automatic debug mode": "false",
+          "Automatic fly mode": "false",
+          "Automatic no cost mode": "false",
+          "Automatic god mode": "false",
+          "Automatic ghost mode": "false",
+          "Access private chests": "false",
+          "Access warded areas": "false",
+          "Show private players": "false",
+          "Debug mode fast teleport": "false"
+        },
+        "2. Console": {
+          "Map teleport bind key": "None",
+          "Disable cheat tracking": "false"
         }
       }
     }

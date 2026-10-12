@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261007-v2",
+  "profileName": "Valheim-Duo-QoL-20261007-v3",
   "community": "valheim",
   "mods": [
     {
@@ -298,6 +298,16 @@
         "major": 1,
         "minor": 3,
         "patch": 14
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "JereKuusela-Server_devcommands",
+      "version": {
+        "major": 1,
+        "minor": 115,
+        "patch": 0
       },
       "enabled": true,
       "source": "Hexium"

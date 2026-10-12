@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v3 — 2026-10-07
+
+加入 Server Devcommands。31 個線上套件，25 份設定。
+
+- 新增套件：`JereKuusela-Server_devcommands`。
+
 ## v2 — 2026-10-07
 
 加入 ServerSideMap。30 個線上套件，24 份設定。
