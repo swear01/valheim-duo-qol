@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v32 — 2026-10-12
+
+套用營火 RGB 調暗設定。45 個線上套件，36 份設定。
+- `BepInEx/config/aedenthorn.TorchMod.cfg` 的 `Fire Pits / FirePitColorHigh`：`804129FF` → `402014FF`。
+- `BepInEx/config/aedenthorn.TorchMod.cfg` 的 `Fire Pits / FirePitColorLow`：`6B4335FF` → `35211AFF`。
+- `BepInEx/config/aedenthorn.TorchMod.cfg` 的 `Fire Pits / FirePitIntensityHigh`：`0.5` → `2`。
+- `BepInEx/config/aedenthorn.TorchMod.cfg` 的 `Fire Pits / FirePitIntensityLow`：`0.5` → `1.5`。
+
 ## v31 — 2026-10-12
 
 AAA 修補改由 Thunderstore 下載。45 個線上套件，36 份設定。

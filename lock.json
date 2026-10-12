@@ -1,6 +1,6 @@
 {
   "created": "2026-10-12",
-  "profile": "Valheim-Duo-QoL-20261012-v31",
+  "profile": "Valheim-Duo-QoL-20261012-v32",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1427,10 +1427,10 @@
           "IsDebug": "false"
         },
         "Fire Pits": {
-          "FirePitIntensityLow": "0.5",
-          "FirePitIntensityHigh": "0.5",
-          "FirePitColorLow": "6B4335FF",
-          "FirePitColorHigh": "804129FF"
+          "FirePitIntensityLow": "1.5",
+          "FirePitIntensityHigh": "2",
+          "FirePitColorLow": "35211AFF",
+          "FirePitColorHigh": "402014FF"
         }
       }
     },
@@ -1557,23 +1557,23 @@
     }
   },
   "verification": {
-    "scope": "V31 AAA patch distribution only; prior runtime evidence under inherited provenance",
-    "official_manifest_validator": "passed_success_true",
-    "public_package_metadata": "passed_unauthenticated",
-    "public_download_zip_and_dll": "passed_byte_identical_to_prepared_and_v30",
-    "compile": "passed_0_warnings_0_errors",
-    "fixture_and_actual_assembly_checks": "passed_25",
-    "original_44_pins_and_36_configs": "passed_unchanged",
-    "zip_crc_exact_readback_dependencies": "passed",
-    "gale_gui_import": "not_run",
-    "unity_harmony_detours": "not_run",
+    "scope": "V32 packaging/configuration checks; runtime evidence inherited from earlier isolated trials",
+    "original_45_packages_versions_sources": "passed_unchanged",
+    "original_35_other_configs_and_torch_dll": "passed_byte_identical",
+    "torch_config_four_values_and_metadata": "passed",
+    "dependencies_zip_crc_exact_readback": "passed",
+    "guide_links_and_artifact_hashes": "passed",
+    "prior_isolated_runtime_evidence_assertions": "passed",
+    "gale_gui_import_v32": "not_run",
     "multiplayer": "not_run",
+    "endurance": "not_run",
     "current_session": "untouched_no_restart"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v31.r2z": "eb733690be8a65e4311159594a29493717eb2f367f48b79f1930783e5d036c5d",
-    "Valheim-Duo-QoL-config-v31.zip": "77c4af95062ef07c20ad264a40b3a4befd7f55ae1d5a450d7640e24624cad388",
-    "Valheim-雙人模組包-安裝指南-v31.html": "2338be7573e900dd404274193cd16e0c47aff5688973aca0c1f5603b3c85ade0",
+    "Valheim-Duo-QoL-v32.r2z": "4a176dfc6887ab6a440cabe8c471d417e475fea548196235e6540f81d48f61c3",
+    "Valheim-Duo-QoL-config-v32.zip": "07702ee90845c2cea7371f7b5ee41efe5ebe1d0511958e697e0208d9f7d5f8d2",
+    "Valheim-營火RGB設定增補-v32.zip": "0517e620060713cea01341c163dda5c70b2fe0605dc451d0a76e563cf3bfe67e",
+    "Valheim-雙人模組包-安裝指南-v32.html": "cd5551846b12b3bd25a04e9e2fff449e9efffd442e8726e18fa7ffca9e0de027",
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
     "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
     "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
@@ -1585,6 +1585,7 @@
     "Valheim-堆疊設定增補-v22.zip": "dcf5ea938f5e93478bd016cfa6dff4bffbcc285a82c1c7ba5ce034c4a8c5b251",
     "Valheim-堆疊設定增補-v24.zip": "1532cba326a64fa6ae5f1f2e5881d0c700d14e0b1e16e69674a6c5c5bf8ee9d6",
     "Valheim-工作台範圍設定增補-v23.zip": "004f20fac44d1f28146bde180e3d09d742c3d8aac46a938bc0532d93312383d0",
+    "Valheim-營火亮度-原因與設定-20261012.html": "bb7854ed97068a8c53236efc8398c6e5b42ffa28691f9325cabb20cc6c38f14e",
     "Valheim-種田設定增補-v18.zip": "e2fb6d2b469df7f7983fc38560813f53317a566d5fa67398858881b6f7a3f055",
     "Valheim-箱子取料範圍設定增補-v25.zip": "a2986f96b6e8880154677b37c6a35c622d5b4954e7d32ec31ff97f76e7e840f6",
     "Valheim-腎上腺素設定增補-v19.zip": "06d7bfc303f4797ff0e2adfc4e5e810375f8a10bfe944b40e02c99fa78a6d814",
@@ -1621,22 +1622,22 @@
           "IsDebug": "false"
         },
         "Fire Pits": {
-          "FirePitIntensityLow": "0.5",
-          "FirePitIntensityHigh": "0.5",
-          "FirePitColorLow": "6B4335FF",
-          "FirePitColorHigh": "804129FF"
+          "FirePitIntensityLow": "1.5",
+          "FirePitIntensityHigh": "2",
+          "FirePitColorLow": "35211AFF",
+          "FirePitColorHigh": "402014FF"
         }
       },
       "gale_import_requirement": "Import all files must be enabled to copy bundled DLL; or copy add-on into profile folder",
       "verification": {
         "source_git_blob": "passed",
         "compile": "passed",
-        "config_half_author_defaults": "passed",
+        "config_half_author_defaults": "superseded_by_v32_rgb_workaround",
         "compiled_plugin_config_keys": "passed",
         "gale_gui_import": "not_run",
         "game_launch": "passed_prior_isolated_profile; complete_v29_not_run",
-        "campfire_brightness_in_game": "not_run",
-        "campfire_rgb_isolated_1_0_17": "passed_visual_four_campfire_scene; exact intensity overwrite unconfirmed"
+        "campfire_brightness_in_game": "prior_isolated_1_0_17_rgb_verified; full_v32_not_run",
+        "campfire_rgb_isolated_1_0_17": "passed_prior_four_fire_evidence; VPO_on_off_dry; VPO_off_wet_clear"
       }
     }
   ],
@@ -2688,5 +2689,37 @@
       "Azumatt-AAA_Crafting": "2.1.11",
       "Azumatt-AzuCraftyBoxes": "1.8.27"
     }
+  },
+  "base_v31": {
+    "archive": "Valheim-Duo-QoL-v31.r2z",
+    "archive_sha256": "eb733690be8a65e4311159594a29493717eb2f367f48b79f1930783e5d036c5d"
+  },
+  "configuration_updates_from_v31": {
+    "config_path": "BepInEx/config/aedenthorn.TorchMod.cfg",
+    "before": {
+      "FirePitIntensityLow": "0.5",
+      "FirePitIntensityHigh": "0.5",
+      "FirePitColorLow": "6B4335FF",
+      "FirePitColorHigh": "804129FF"
+    },
+    "after": {
+      "FirePitIntensityLow": "1.5",
+      "FirePitIntensityHigh": "2",
+      "FirePitColorLow": "35211AFF",
+      "FirePitColorHigh": "402014FF"
+    },
+    "method": "dim campfire Light.color RGB; retain observed low/high intensity bases",
+    "candidate_sha256": "c8386c43119a3589ece493880b3f5b30193935b74f70551fee2e24ebba447a41",
+    "pack_config_sha256": "c2afeec581c06ccfcd53a7066de9c648215413dcd86a3e08039ce1c1a03a576f",
+    "prior_isolated_evidence": {
+      "results_sha256": "60c38548995736fdf1a4251cd982d54921703bc0c2ac2e1f9a7d61d47b8db420",
+      "report": "Valheim-營火亮度-原因與設定-20261012.html"
+    },
+    "limitations": [
+      "flame particles/material remain bright",
+      "complete V32 import not run",
+      "multiplayer/endurance not run",
+      "VPO present with wet low branch not run"
+    ]
   }
 }
