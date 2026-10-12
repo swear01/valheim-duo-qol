@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v5 — 2026-10-07
+
+加入 ConfigurableCarryWeight。32 個線上套件，26 份設定。
+
+- 新增套件：`omnipeach-ConfigurableCarryWeight`。
+
 ## v4 — 2026-10-07
 
 調整負重成長設定。31 個線上套件，25 份設定。

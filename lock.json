@@ -1,6 +1,6 @@
 {
   "created": "2026-10-07",
-  "profile": "Valheim-Duo-QoL-20261007-v4",
+  "profile": "Valheim-Duo-QoL-20261007-v5",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -504,6 +504,24 @@
       "sha256": "b975ff340bfcf1cccf3f2cae81cef97e52bd8c23c1762e2693d4065a6a8833e5",
       "bytes": 313344,
       "archive_url": "https://cdn.hexium.gg/upload/431/1.115.0.zip"
+    },
+    {
+      "name": "omnipeach-ConfigurableCarryWeight",
+      "source": "Thunderstore",
+      "version": "1.0.0",
+      "download": "https://thunderstore.io/package/download/omnipeach/ConfigurableCarryWeight/1.0.0/",
+      "website": "https://www.paypal.com/ncp/payment/UQ2EWZLBBYCQ8",
+      "page": "https://thunderstore.io/c/valheim/p/omnipeach/ConfigurableCarryWeight/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2333",
+        "ValheimModding-JsonDotNET-13.0.4",
+        "ValheimModding-Jotunn-2.29.2"
+      ],
+      "direct": true,
+      "released": "2026-09-20T23:49:24.154448Z",
+      "sha256": "0fbdcb03270f15bf9f8e7d4dfb415d013748dc650d25be7a055ba8733df717aa",
+      "bytes": 26876,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/omnipeach-ConfigurableCarryWeight-1.0.0.zip"
     }
   ],
   "configs": {
@@ -1124,6 +1142,15 @@
         "2. Console": {
           "Map teleport bind key": "None",
           "Disable cheat tracking": "false"
+        }
+      }
+    },
+    "omnipeach-ConfigurableCarryWeight": {
+      "filename": "robit.configurablecarryweight.cfg",
+      "sections": {
+        "Carry Weight": {
+          "Base Carry Weight": "300",
+          "Megingjord Bonus": "300"
         }
       }
     }
