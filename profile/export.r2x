@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261012-v32",
+  "profileName": "Valheim-Duo-QoL-20261012-v33",
   "community": "valheim",
   "mods": [
     {
@@ -97,7 +97,7 @@
       "version": {
         "major": 1,
         "minor": 2,
-        "patch": 17
+        "patch": 18
       },
       "enabled": true,
       "source": "Hexium"
@@ -426,7 +426,7 @@
       "name": "swear01-ValheimCli",
       "version": {
         "major": 0,
-        "minor": 4,
+        "minor": 5,
         "patch": 0
       },
       "enabled": true,

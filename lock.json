@@ -1,6 +1,6 @@
 {
   "created": "2026-10-12",
-  "profile": "Valheim-Duo-QoL-20261012-v32",
+  "profile": "Valheim-Duo-QoL-20261012-v33",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -153,8 +153,8 @@
     {
       "name": "shudnal-ExtraSlots",
       "source": "Hexium",
-      "version": "1.2.17",
-      "download": "https://cdn.hexium.gg/upload/306/1.2.17.zip",
+      "version": "1.2.18",
+      "download": "https://cdn.hexium.gg/upload/306/1.2.18.zip",
       "website": "https://github.com/shudnal/ExtraSlots",
       "page": "https://valheim.hexium.gg/mods/shudnal/ExtraSlots",
       "dependencies": [
@@ -163,10 +163,10 @@
         "shudnal-ConditionalConfigSync-1.0.5"
       ],
       "direct": true,
-      "released": "2026-10-05T18:06:02.000000Z",
-      "sha256": "071524cad1364bcfa0cc66e663131268358e31101ff8863dbca8f718cd6a881d",
-      "bytes": 265203,
-      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.17.zip"
+      "released": "2026-10-10T17:07:38.000000Z",
+      "sha256": "27c460a81d6bb9ecb3fd81b13340147fcb5b7f3798b6ab90724d7387394b3daa",
+      "bytes": 266473,
+      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.18.zip"
     },
     {
       "name": "Azumatt-AzuCraftyBoxes",
@@ -465,7 +465,7 @@
       "released": "2026-10-08T19:33:44.096411Z",
       "sha256": "ba986bc717c8c0a91d8e1ca3974c7ecd94ffdf91e4a249c1e56cbe0643eb3107",
       "bytes": 77884,
-      "archive_url": "https://thunderstore.io/package/download/Searica/Extra_Snap_Points_Made_Easy/2.1.1/"
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Searica-Extra_Snap_Points_Made_Easy-2.1.1.zip"
     },
     {
       "name": "Mydayyy-ServerSideMap",
@@ -530,7 +530,7 @@
       "direct": true,
       "sha256": "1f1621a198305f232b61aed8c37fa8dabdd7668f26d708104729769a0cf4e857",
       "bytes": 137989,
-      "archive_url": "https://thunderstore.io/package/download/cjayride/SmartShield/1.0.11/"
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/cjayride-SmartShield-1.0.11.zip"
     },
     {
       "name": "Azumatt-Recycle_N_Reclaim",
@@ -559,7 +559,7 @@
       "released": "2026-10-07T11:32:47.696820Z",
       "sha256": "3bac6b897451bd0817804249f90634917ca9a34dfeb7429980888c433993f036",
       "bytes": 898278,
-      "archive_url": "https://thunderstore.io/package/download/Zenox/AutoDoors/1.0.19/"
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Zenox-AutoDoors-1.0.19.zip"
     },
     {
       "name": "QoLTeam-ValheimTerrainTools",
@@ -575,7 +575,7 @@
       "released": "2026-10-06T18:28:43.488801Z",
       "sha256": "d8483287b20a1ca71a6b2b17a86c96d6ba33b7bcd55e751ec5edba08ead20c68",
       "bytes": 100225,
-      "archive_url": "https://thunderstore.io/package/download/QoLTeam/ValheimTerrainTools/0.6.4/"
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/QoLTeam-ValheimTerrainTools-0.6.4.zip"
     },
     {
       "name": "Geda_Giminei-SlashBack",
@@ -591,7 +591,7 @@
       "released": "2026-09-27T14:11:52.305039Z",
       "sha256": "9b35851ed8eaac3b6f8eda7049de6e955290f9b4a1fe7522a26960e4497e0e4d",
       "bytes": 66989,
-      "archive_url": "https://thunderstore.io/package/download/Geda_Giminei/SlashBack/1.0.2/"
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Geda_Giminei-SlashBack-1.0.2.zip"
     },
     {
       "name": "Advize-PlantEasily",
@@ -607,7 +607,7 @@
       "released": "2026-10-04T17:52:30.975706Z",
       "sha256": "1afe2daffc249ff4dc10dcf659f158d8546070822cb3229be780eee9edc287fe",
       "bytes": 193662,
-      "archive_url": "https://thunderstore.io/package/download/Advize/PlantEasily/2.3.0/"
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Advize-PlantEasily-2.3.0.zip"
     },
     {
       "name": "Advize-PlantEverything",
@@ -623,7 +623,7 @@
       "released": "2026-09-25T02:13:43.381297Z",
       "sha256": "a731227548d4bb0c669da8faf3b4d17f02ea2696b6fac85fcee9cfc3cfd32446",
       "bytes": 292475,
-      "archive_url": "https://thunderstore.io/package/download/Advize/PlantEverything/1.21.3/"
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Advize-PlantEverything-1.21.3.zip"
     },
     {
       "name": "mightywa33ior-AdrenalineModifier",
@@ -639,7 +639,7 @@
       "released": "2025-10-05T23:59:07.516377Z",
       "sha256": "88b285f7f69e8aa0b84316e58a9d770d9eb3c69691ab24e39e2c45338010ba1f",
       "bytes": 7738,
-      "archive_url": "https://thunderstore.io/package/download/mightywa33ior/AdrenalineModifier/1.0.1/"
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/mightywa33ior-AdrenalineModifier-1.0.1.zip"
     },
     {
       "name": "Sfantul-PortalGhostFix",
@@ -676,25 +676,25 @@
     {
       "name": "swear01-ValheimCli",
       "source": "Thunderstore",
-      "version": "0.4.0",
-      "download": "https://thunderstore.io/package/download/swear01/ValheimCli/0.4.0/",
-      "archive_url": "https://thunderstore.io/package/download/swear01/ValheimCli/0.4.0/",
+      "version": "0.5.0",
+      "download": "https://thunderstore.io/package/download/swear01/ValheimCli/0.5.0/",
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/swear01-ValheimCli-0.5.0.zip",
       "website": "https://github.com/swear01/valheim-cli",
-      "page": "https://thunderstore.io/c/valheim/p/swear01/ValheimCli/",
+      "page": "https://thunderstore.io/package/swear01/ValheimCli/",
       "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.2351"
       ],
       "direct": true,
-      "released": "2026-10-11T15:55:20.003340Z",
-      "sha256": "dfd2f6aa449975287ac66acd4128fa023c7ac729f91912242ba53001b62a14b0",
-      "bytes": 184137
+      "released": "2026-10-11T20:06:32.653824Z",
+      "sha256": "369cf0778a63325b5435638010048b7305519e6ca7eed0f529e0cbff681e38a6",
+      "bytes": 181804
     },
     {
       "name": "JevMods-BetterFog",
       "source": "Thunderstore",
       "version": "1.0.3",
       "download": "https://thunderstore.io/package/download/JevMods/BetterFog/1.0.3/",
-      "archive_url": "https://thunderstore.io/package/download/JevMods/BetterFog/1.0.3/",
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/JevMods-BetterFog-1.0.3.zip",
       "website": "https://github.com/JevMods/BetterFog",
       "page": "https://thunderstore.io/c/valheim/p/JevMods/BetterFog/",
       "dependencies": [
@@ -711,7 +711,7 @@
       "source": "Thunderstore",
       "version": "1.0.0",
       "download": "https://thunderstore.io/package/download/swear01/AAA_Crafting_Max_Fix/1.0.0/",
-      "archive_url": "https://thunderstore.io/package/download/swear01/AAA_Crafting_Max_Fix/1.0.0/",
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/swear01-AAA_Crafting_Max_Fix-1.0.0.zip",
       "website": "https://valheim.hexium.gg/mods/Azumatt/AAA_Crafting/threads/277",
       "page": "https://thunderstore.io/c/valheim/p/swear01/AAA_Crafting_Max_Fix/",
       "dependencies": [
@@ -1557,45 +1557,26 @@
     }
   },
   "verification": {
-    "scope": "V32 packaging/configuration checks; runtime evidence inherited from earlier isolated trials",
-    "original_45_packages_versions_sources": "passed_unchanged",
-    "original_35_other_configs_and_torch_dll": "passed_byte_identical",
-    "torch_config_four_values_and_metadata": "passed",
-    "dependencies_zip_crc_exact_readback": "passed",
-    "guide_links_and_artifact_hashes": "passed",
-    "prior_isolated_runtime_evidence_assertions": "passed",
-    "gale_gui_import_v32": "not_run",
+    "scope": "V33 packaging and upstream static checks; inherited runtime statements describe earlier versions only",
+    "zip_crc_paths_exact_readback": "passed",
+    "config_count": 36,
+    "online_package_count": 45,
+    "all_non_export_entries_byte_identical": "passed",
+    "only_two_mod_versions_changed": "passed",
+    "AAA_patch_exact_requirements": "passed",
+    "private_tokens_absent": "passed",
+    "TorchMod_current_author_source_hash": "passed",
+    "gale_gui_import": "not_run",
+    "in_game": "not_run",
     "multiplayer": "not_run",
     "endurance": "not_run",
-    "current_session": "untouched_no_restart"
+    "active_profile": "untouched"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v32.r2z": "4a176dfc6887ab6a440cabe8c471d417e475fea548196235e6540f81d48f61c3",
-    "Valheim-Duo-QoL-config-v32.zip": "07702ee90845c2cea7371f7b5ee41efe5ebe1d0511958e697e0208d9f7d5f8d2",
-    "Valheim-營火RGB設定增補-v32.zip": "0517e620060713cea01341c163dda5c70b2fe0605dc451d0a76e563cf3bfe67e",
-    "Valheim-雙人模組包-安裝指南-v32.html": "cd5551846b12b3bd25a04e9e2fff449e9efffd442e8726e18fa7ffca9e0de027",
-    "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
-    "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
-    "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
-    "Valheim-AAA合成數量修補原始碼-v26.zip": "bb47bce62827954570d6f03a93fe12f6aee828afb42c7254e1df5341e8058730",
-    "Valheim-AAA合成數量修補增補-v26.zip": "a49c7445b202f94e5d103b13e2548f84ace37ee7f496673180285cdb6a9c76c8",
-    "Valheim-Duo-QoL-來源說明-v30.txt": "422ebf3b7396e073c87539824f545edcdf5eebe90349efa9e658cd3929dbf8a9",
-    "Valheim-光照與BetterFog原生設定增補-v29.zip": "e69f7469849931d53bb7de728233d6806f4be828c182c772fbcf3b9f6088f6b8",
-    "Valheim-原版鋤頭設定增補-v16.zip": "ae904892bd1768cf664bed54065fddbb4a6b488d00c58b62b4cafb220cc0ada4",
-    "Valheim-堆疊設定增補-v22.zip": "dcf5ea938f5e93478bd016cfa6dff4bffbcc285a82c1c7ba5ce034c4a8c5b251",
-    "Valheim-堆疊設定增補-v24.zip": "1532cba326a64fa6ae5f1f2e5881d0c700d14e0b1e16e69674a6c5c5bf8ee9d6",
-    "Valheim-工作台範圍設定增補-v23.zip": "004f20fac44d1f28146bde180e3d09d742c3d8aac46a938bc0532d93312383d0",
-    "Valheim-營火亮度-原因與設定-20261012.html": "bb7854ed97068a8c53236efc8398c6e5b42ffa28691f9325cabb20cc6c38f14e",
-    "Valheim-種田設定增補-v18.zip": "e2fb6d2b469df7f7983fc38560813f53317a566d5fa67398858881b6f7a3f055",
-    "Valheim-箱子取料範圍設定增補-v25.zip": "a2986f96b6e8880154677b37c6a35c622d5b4954e7d32ec31ff97f76e7e840f6",
-    "Valheim-腎上腺素設定增補-v19.zip": "06d7bfc303f4797ff0e2adfc4e5e810375f8a10bfe944b40e02c99fa78a6d814",
-    "Valheim-負重設定增補-v21.zip": "382f52a0398e80cd40a8033f65988781bfdbd52c7885a5e74335599db6fe22ac",
-    "server_devcommands.cfg": "281f40ffd86adc3be4500404f36e558cb240fd2e1be72c164baba41451370ea9",
-    "v12/shudnal.ExtraSlots.cfg": "dd4a719d029c94df05609868390e6e9d0facac3626ca87c8b763302e364e936d",
-    "v13/zenox.autodoors.cfg": "c8f1c04cb683c3b2ee41690fb5c433335dfbf0c22de89b253c050963447f547b",
-    "v14/TorchLight-build-provenance.json": "f2e3b67227f36a3a94dc8cc13df7909506ac14f22733a0060df6821ba117618f",
-    "v14/TorchMod-source.zip": "35f95f974266b7b8fab613d6d39c3d7560fc3909a5198078cef53f68fffc6f04",
-    "v16/icecub.ValheimTerrainTools.cfg": "637f4f1a98eb981b190347298e3ef90617ea54eb203ade1b2f2927b4832b31c3"
+    "Valheim-Duo-QoL-v33.r2z": "1b017710d18dcdac878ae03785ba5adcfc690aa5e0c47d18c12a52a605ae4630",
+    "Valheim-Duo-QoL-config-v33.zip": "0cc6a53be64865c854fc468404a3cb18dc4b4693e933da4ad7ff71f4d0befce9",
+    "Valheim-雙人模組包-安裝指南-v33.html": "0c9283f505afacb9fdad3622701c333a792a959f30a47049715db2ce706039a8",
+    "Valheim-Duo-QoL-v33-驗證.json": "1f502dd43761bb58b61f0077d4550bcff444a2e0455aff904d9818cb270b9ecc"
   },
   "local_plugins": [
     {
@@ -2721,5 +2702,389 @@
       "multiplayer/endurance not run",
       "VPO present with wet low branch not run"
     ]
-  }
+  },
+  "base_v32": {
+    "archive": "Valheim-Duo-QoL-v32.r2z",
+    "archive_sha256": "4a176dfc6887ab6a440cabe8c471d417e475fea548196235e6540f81d48f61c3"
+  },
+  "updates_from_v32": {
+    "shudnal-ExtraSlots": {
+      "from": "1.2.17",
+      "to": "1.2.18"
+    },
+    "swear01-ValheimCli": {
+      "from": "0.4.0",
+      "to": "0.5.0"
+    }
+  },
+  "deferred_updates_v33": [
+    {
+      "name": "Azumatt-AzuCraftyBoxes",
+      "selected": "1.8.27",
+      "latest": "1.8.28",
+      "reason": "AAA Crafting Max Fix 1.0.0 checks exact assembly 1.8.27.0 and skips patches on 1.8.28; changelog only adds Cookables group, not the AAA Max fix"
+    }
+  ],
+  "upstream_checks_v33": [
+    {
+      "name": "denikson-BepInExPack_Valheim",
+      "source": "Hexium",
+      "current": "5.4.2351",
+      "latest": "5.4.2351",
+      "api": "https://valheim.hexium.gg/api/experimental/package/denikson/BepInExPack_Valheim/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-ConfigurationManager",
+      "source": "Hexium",
+      "current": "1.1.25",
+      "latest": "1.1.25",
+      "api": "https://valheim.hexium.gg/api/experimental/package/shudnal/ConfigurationManager/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-ConditionalConfigSync",
+      "source": "Hexium",
+      "current": "1.0.10",
+      "latest": "1.0.10",
+      "api": "https://valheim.hexium.gg/api/experimental/package/shudnal/ConditionalConfigSync/",
+      "status": "ok"
+    },
+    {
+      "name": "ValheimModding-YamlDotNet",
+      "source": "Hexium",
+      "current": "16.3.1",
+      "latest": "16.3.1",
+      "api": "https://valheim.hexium.gg/api/experimental/package/ValheimModding/YamlDotNet/",
+      "status": "ok"
+    },
+    {
+      "name": "ValheimModding-JsonDotNET",
+      "source": "Hexium",
+      "current": "13.0.4",
+      "latest": "13.0.4",
+      "api": "https://valheim.hexium.gg/api/experimental/package/ValheimModding/JsonDotNET/",
+      "status": "ok"
+    },
+    {
+      "name": "Crystal-Magni",
+      "source": "Thunderstore",
+      "current": "1.2.3",
+      "latest": "1.2.3",
+      "api": "https://thunderstore.io/api/experimental/package/Crystal/Magni/",
+      "status": "ok"
+    },
+    {
+      "name": "Searica-SkilledCarryWeight",
+      "source": "Thunderstore",
+      "current": "1.5.0",
+      "latest": "1.5.0",
+      "api": "https://thunderstore.io/api/experimental/package/Searica/SkilledCarryWeight/",
+      "status": "ok"
+    },
+    {
+      "name": "ValheimModding-Jotunn",
+      "source": "Hexium",
+      "current": "2.30.2",
+      "latest": "2.30.2",
+      "api": "https://valheim.hexium.gg/api/experimental/package/ValheimModding/Jotunn/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-StaminaExtended",
+      "source": "Hexium",
+      "current": "1.0.11",
+      "latest": "1.0.11",
+      "api": "https://valheim.hexium.gg/api/experimental/package/shudnal/StaminaExtended/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-ExtraSlots",
+      "source": "Hexium",
+      "current": "1.2.17",
+      "latest": "1.2.18",
+      "api": "https://valheim.hexium.gg/api/experimental/package/shudnal/ExtraSlots/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-AzuCraftyBoxes",
+      "source": "Hexium",
+      "current": "1.8.27",
+      "latest": "1.8.28",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/AzuCraftyBoxes/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-AzuAutoStore",
+      "source": "Hexium",
+      "current": "3.1.7",
+      "latest": "3.1.7",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/AzuAutoStore/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-AAA_Crafting",
+      "source": "Hexium",
+      "current": "2.1.11",
+      "latest": "2.1.11",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/AAA_Crafting/",
+      "status": "ok"
+    },
+    {
+      "name": "Grizzzly-CookingStationTweaks",
+      "source": "Thunderstore",
+      "current": "0.7.2",
+      "latest": "0.7.2",
+      "api": "https://thunderstore.io/api/experimental/package/Grizzzly/CookingStationTweaks/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-AzuWorkbenchTweaks",
+      "source": "Hexium",
+      "current": "1.0.8",
+      "latest": "1.0.8",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/AzuWorkbenchTweaks/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-PerfectPlacement",
+      "source": "Hexium",
+      "current": "1.2.4",
+      "latest": "1.2.4",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/PerfectPlacement/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-Build_Camera_Custom_Hammers_Edition",
+      "source": "Hexium",
+      "current": "1.3.4",
+      "latest": "1.3.4",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/Build_Camera_Custom_Hammers_Edition/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-FirstPersonMode",
+      "source": "Hexium",
+      "current": "1.4.5",
+      "latest": "1.4.5",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/FirstPersonMode/",
+      "status": "ok"
+    },
+    {
+      "name": "Smoothbrain-TargetPortal",
+      "source": "Hexium",
+      "current": "1.2.7",
+      "latest": "1.2.7",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Smoothbrain/TargetPortal/",
+      "status": "ok"
+    },
+    {
+      "name": "OdinPlus-QuickTeleport",
+      "source": "Hexium",
+      "current": "2.0.5",
+      "latest": "2.0.5",
+      "api": "https://valheim.hexium.gg/api/experimental/package/OdinPlus/QuickTeleport/",
+      "status": "ok"
+    },
+    {
+      "name": "Smoothbrain-InstantEquip",
+      "source": "Hexium",
+      "current": "1.0.7",
+      "latest": "1.0.7",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Smoothbrain/InstantEquip/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-SleepSkip",
+      "source": "Hexium",
+      "current": "1.3.2",
+      "latest": "1.3.2",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/SleepSkip/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-Unshamed",
+      "source": "Hexium",
+      "current": "1.0.8",
+      "latest": "1.0.8",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/Unshamed/",
+      "status": "ok"
+    },
+    {
+      "name": "Dirtsnack-AchievementTracker",
+      "source": "Thunderstore",
+      "current": "0.1.0",
+      "latest": "0.1.0",
+      "api": "https://thunderstore.io/api/experimental/package/Dirtsnack/AchievementTracker/",
+      "status": "ok"
+    },
+    {
+      "name": "Snuffy-SkillLimitExtenderFork",
+      "source": "Thunderstore",
+      "current": "1.0.0",
+      "latest": "1.0.0",
+      "api": "https://thunderstore.io/api/experimental/package/Snuffy/SkillLimitExtenderFork/",
+      "status": "ok"
+    },
+    {
+      "name": "MSchmoecker-MultiUserChest",
+      "source": "Hexium",
+      "current": "0.6.2",
+      "latest": "0.6.2",
+      "api": "https://valheim.hexium.gg/api/experimental/package/MSchmoecker/MultiUserChest/",
+      "status": "ok"
+    },
+    {
+      "name": "Neobotics-HUDCompass",
+      "source": "Hexium",
+      "current": "1.2.1",
+      "latest": "1.2.1",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Neobotics/HUDCompass/",
+      "status": "ok"
+    },
+    {
+      "name": "ontrigger-ValheimPerformanceOptimizations",
+      "source": "Hexium",
+      "current": "1.2.3",
+      "latest": "1.2.3",
+      "api": "https://valheim.hexium.gg/api/experimental/package/ontrigger/ValheimPerformanceOptimizations/",
+      "status": "ok"
+    },
+    {
+      "name": "Searica-Extra_Snap_Points_Made_Easy",
+      "source": "Thunderstore",
+      "current": "2.1.1",
+      "latest": "2.1.1",
+      "api": "https://thunderstore.io/api/experimental/package/Searica/Extra_Snap_Points_Made_Easy/",
+      "status": "ok"
+    },
+    {
+      "name": "Mydayyy-ServerSideMap",
+      "source": "Hexium",
+      "current": "1.3.14",
+      "latest": "1.3.14",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Mydayyy/ServerSideMap/",
+      "status": "ok"
+    },
+    {
+      "name": "JereKuusela-Server_devcommands",
+      "source": "Hexium",
+      "current": "1.115.0",
+      "latest": "1.115.0",
+      "api": "https://valheim.hexium.gg/api/experimental/package/JereKuusela/Server_devcommands/",
+      "status": "ok"
+    },
+    {
+      "name": "omnipeach-ConfigurableCarryWeight",
+      "source": "Thunderstore",
+      "current": "1.0.0",
+      "latest": "1.0.0",
+      "api": "https://thunderstore.io/api/experimental/package/omnipeach/ConfigurableCarryWeight/",
+      "status": "ok"
+    },
+    {
+      "name": "cjayride-SmartShield",
+      "source": "Thunderstore",
+      "current": "1.0.11",
+      "latest": "1.0.11",
+      "api": "https://thunderstore.io/api/experimental/package/cjayride/SmartShield/",
+      "status": "ok"
+    },
+    {
+      "name": "Azumatt-Recycle_N_Reclaim",
+      "source": "Hexium",
+      "current": "1.4.5",
+      "latest": "1.4.5",
+      "api": "https://valheim.hexium.gg/api/experimental/package/Azumatt/Recycle_N_Reclaim/",
+      "status": "ok"
+    },
+    {
+      "name": "Zenox-AutoDoors",
+      "source": "Thunderstore",
+      "current": "1.0.19",
+      "latest": "1.0.19",
+      "api": "https://thunderstore.io/api/experimental/package/Zenox/AutoDoors/",
+      "status": "ok"
+    },
+    {
+      "name": "QoLTeam-ValheimTerrainTools",
+      "source": "Thunderstore",
+      "current": "0.6.4",
+      "latest": "0.6.4",
+      "api": "https://thunderstore.io/api/experimental/package/QoLTeam/ValheimTerrainTools/",
+      "status": "ok"
+    },
+    {
+      "name": "Geda_Giminei-SlashBack",
+      "source": "Thunderstore",
+      "current": "1.0.2",
+      "latest": "1.0.2",
+      "api": "https://thunderstore.io/api/experimental/package/Geda_Giminei/SlashBack/",
+      "status": "ok"
+    },
+    {
+      "name": "Advize-PlantEasily",
+      "source": "Thunderstore",
+      "current": "2.3.0",
+      "latest": "2.3.0",
+      "api": "https://thunderstore.io/api/experimental/package/Advize/PlantEasily/",
+      "status": "ok"
+    },
+    {
+      "name": "Advize-PlantEverything",
+      "source": "Thunderstore",
+      "current": "1.21.3",
+      "latest": "1.21.3",
+      "api": "https://thunderstore.io/api/experimental/package/Advize/PlantEverything/",
+      "status": "ok"
+    },
+    {
+      "name": "mightywa33ior-AdrenalineModifier",
+      "source": "Thunderstore",
+      "current": "1.0.1",
+      "latest": "1.0.1",
+      "api": "https://thunderstore.io/api/experimental/package/mightywa33ior/AdrenalineModifier/",
+      "status": "ok"
+    },
+    {
+      "name": "Sfantul-PortalGhostFix",
+      "source": "Thunderstore",
+      "current": "1.0.0",
+      "latest": "1.0.0",
+      "api": "https://thunderstore.io/api/experimental/package/Sfantul/PortalGhostFix/",
+      "status": "ok"
+    },
+    {
+      "name": "shudnal-ItemStacksItemWeights",
+      "source": "Thunderstore",
+      "current": "1.1.1",
+      "latest": "1.1.1",
+      "api": "https://thunderstore.io/api/experimental/package/shudnal/ItemStacksItemWeights/",
+      "status": "ok"
+    },
+    {
+      "name": "swear01-ValheimCli",
+      "source": "Thunderstore",
+      "current": "0.4.0",
+      "latest": "0.5.0",
+      "api": "https://thunderstore.io/api/experimental/package/swear01/ValheimCli/",
+      "status": "ok"
+    },
+    {
+      "name": "JevMods-BetterFog",
+      "source": "Thunderstore",
+      "current": "1.0.3",
+      "latest": "1.0.3",
+      "api": "https://thunderstore.io/api/experimental/package/JevMods/BetterFog/",
+      "status": "ok"
+    },
+    {
+      "name": "swear01-AAA_Crafting_Max_Fix",
+      "source": "Thunderstore",
+      "current": "1.0.0",
+      "latest": "1.0.0",
+      "api": "https://thunderstore.io/api/experimental/package/swear01/AAA_Crafting_Max_Fix/",
+      "status": "ok"
+    }
+  ]
 }

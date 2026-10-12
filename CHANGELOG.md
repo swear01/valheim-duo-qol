@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v33 — 2026-10-12
+
+更新 ExtraSlots 1.2.18 與 ValheimCli 0.5.0。45 個線上套件，36 份設定。
+- 更新 `shudnal-ExtraSlots`：1.2.17 → 1.2.18。
+- 更新 `swear01-ValheimCli`：0.4.0 → 0.5.0。
+
 ## v32 — 2026-10-12
 
 套用營火 RGB 調暗設定。45 個線上套件，36 份設定。
