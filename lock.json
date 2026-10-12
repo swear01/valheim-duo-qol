@@ -1,6 +1,6 @@
 {
   "created": "2026-10-09",
-  "profile": "Valheim-Duo-QoL-20261009-v13",
+  "profile": "Valheim-Duo-QoL-20261009-v14",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1262,6 +1262,19 @@
           "MaxPairDistance": "2.5"
         }
       }
+    },
+    "aedenthorn-TorchMod": {
+      "filename": "aedenthorn.TorchMod.cfg",
+      "sections": {
+        "General": {
+          "Enabled": "true",
+          "IsDebug": "false"
+        },
+        "Fire Pits": {
+          "FirePitIntensityLow": "0.5",
+          "FirePitIntensityHigh": "0.5"
+        }
+      }
     }
   },
   "verification": {
@@ -1292,7 +1305,12 @@
     "autodoors_manifest_dependency_config_and_dll_static": "passed",
     "autodoors_game_1x_runtime": "not_run",
     "autodoors_two_player_doors": "not_run",
-    "autodoors_author_support_label": "Deep North Update"
+    "autodoors_author_support_label": "Deep North Update",
+    "v13_online_packages_and_configs_preserved": "passed",
+    "torchlight_unmodified_source_compile": "passed",
+    "torchlight_half_author_default_intensity": "passed",
+    "torchlight_gameplay": "not_run",
+    "gale_bundled_dll_import_requires_import_all": true
   },
   "artifacts_sha256": {
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
@@ -1302,9 +1320,55 @@
     "Valheim-雙人模組包-安裝指南-v11.html": "bd5f7230b77ef19b7f8ce960788aeb354a9289fe6f2b6e228f7f2a0f66d10e84",
     "v12/shudnal.ExtraSlots.cfg": "dd4a719d029c94df05609868390e6e9d0facac3626ca87c8b763302e364e936d",
     "Valheim-雙人模組包-安裝指南-v12.html": "9b961162ce92895203afe693148ce094e1581106e39b81576027d872d573973d",
-    "Valheim-Duo-QoL-v13.r2z": "afff9ce4037bad395c12fa226607378ac6079490ea7ba660ab3c9cb701a5def1",
-    "Valheim-Duo-QoL-config-v13.zip": "8fdd8f70e3bdcc7d9d7bd3c6d27a3d26884d9f190f218171325c56a884e54507",
     "v13/zenox.autodoors.cfg": "c8f1c04cb683c3b2ee41690fb5c433335dfbf0c22de89b253c050963447f547b",
-    "Valheim-雙人模組包-安裝指南-v13.html": "4505a1f794dfce662fa6e575b2280e8270729adba8020e6605efdd90ab7832d9"
-  }
+    "Valheim-雙人模組包-安裝指南-v13.html": "4505a1f794dfce662fa6e575b2280e8270729adba8020e6605efdd90ab7832d9",
+    "Valheim-Duo-QoL-v14.r2z": "f11d421ad1b1fe3a3d405708c7c4c5a0b92c362fb4d2c908e28d866be657df03",
+    "Valheim-Duo-QoL-config-v14.zip": "9a9f95121a5503c85eabf03cdceac56ae62a0ebd5bec348fe11974df04420b43",
+    "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
+    "v14/aedenthorn.TorchMod.cfg": "5256032caf65a7fd1b0c7e12acfaa073a2bc63c5aa8c33e9aed75c90097b9b4c",
+    "v14/TorchLight-build-provenance.json": "f2e3b67227f36a3a94dc8cc13df7909506ac14f22733a0060df6821ba117618f",
+    "v14/TorchMod-source.zip": "35f95f974266b7b8fab613d6d39c3d7560fc3909a5198078cef53f68fffc6f04",
+    "Valheim-雙人模組包-安裝指南-v14.html": "11f26b219ce76b684a5e118c86e7a1c8318c1c91a62fc64b86c15aabf9bd1246"
+  },
+  "local_plugins": [
+    {
+      "name": "Torch Light Mod",
+      "guid": "aedenthorn.TorchMod",
+      "version": "1.0.1",
+      "distribution": "local build of unchanged public author source; not Nexus precompiled binary",
+      "author": "aedenthorn",
+      "page": "https://www.nexusmods.com/valheim/mods/11",
+      "source_url": "https://github.com/aedenthorn/ValheimMods/blob/83690e8ef9a37c4694604416667d252b4ff5f645/TorchMod/TorchMod.cs",
+      "source_commit": "83690e8ef9a37c4694604416667d252b4ff5f645",
+      "source_git_blob": "c5f485907f8726a3206bab0617d4d083191db4e3",
+      "source_sha256": "471dcc34f4f400a7cbcbe29e2bac8566ca0ea6c37b04225beddba298a07da544",
+      "dll_sha256": "c79b8106e7aff0d646b9be75a0e731ffd856a35f47a73471078bd5c419f9e77a",
+      "dll_bytes": 20992,
+      "build": "dotnet SDK 9.0.317; net48; Release; deterministic; 0 warnings, 0 errors",
+      "game_references": "Digitalroot.Valheim.Common.References 1.0.16 (compile-only)",
+      "unity_references": "UnityEngine.Modules 2021.3.33; Unity.TextMeshPro 3.0.6 (compile-only)",
+      "plugin_path": "BepInEx/plugins/aedenthorn-TorchMod/TorchMod.dll",
+      "config_path": "BepInEx/config/aedenthorn.TorchMod.cfg",
+      "config_sections": {
+        "General": {
+          "Enabled": "true",
+          "IsDebug": "false"
+        },
+        "Fire Pits": {
+          "FirePitIntensityLow": "0.5",
+          "FirePitIntensityHigh": "0.5"
+        }
+      },
+      "gale_import_requirement": "Import all files must be enabled to copy bundled DLL; or copy add-on into profile folder",
+      "verification": {
+        "source_git_blob": "passed",
+        "compile": "passed",
+        "config_half_author_defaults": "passed",
+        "compiled_plugin_config_keys": "passed",
+        "gale_gui_import": "not_run",
+        "game_launch": "not_run",
+        "campfire_brightness_in_game": "not_run"
+      }
+    }
+  ]
 }

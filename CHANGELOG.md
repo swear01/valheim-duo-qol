@@ -2,6 +2,11 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v14 — 2026-10-09
+
+內附 Torch Light Mod 與營火設定。35 個線上套件，30 份設定。
+- 內附檔案變更：`BepInEx/plugins/aedenthorn-TorchMod/LICENSE.txt`, `BepInEx/plugins/aedenthorn-TorchMod/SOURCE.txt`, `BepInEx/plugins/aedenthorn-TorchMod/TorchMod.dll`。
+
 ## v13 — 2026-10-09
 
 加入 AutoDoors。35 個線上套件，29 份設定。
