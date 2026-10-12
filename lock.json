@@ -1,6 +1,6 @@
 {
   "created": "2026-10-12",
-  "profile": "Valheim-Duo-QoL-20261012-v27",
+  "profile": "Valheim-Duo-QoL-20261012-v28",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -688,6 +688,23 @@
       "released": "2026-10-11T15:55:20.003340Z",
       "sha256": "dfd2f6aa449975287ac66acd4128fa023c7ac729f91912242ba53001b62a14b0",
       "bytes": 184137
+    },
+    {
+      "name": "JevMods-BetterFog",
+      "source": "Thunderstore",
+      "version": "1.0.3",
+      "download": "https://thunderstore.io/package/download/JevMods/BetterFog/1.0.3/",
+      "archive_url": "https://thunderstore.io/package/download/JevMods/BetterFog/1.0.3/",
+      "website": "https://github.com/JevMods/BetterFog",
+      "page": "https://thunderstore.io/c/valheim/p/JevMods/BetterFog/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-10-08T13:28:30.336018Z",
+      "sha256": "ad3e4a267b372e952aac5d5f303655042bed0dfe2342dedc12c845294297dd65",
+      "bytes": 113408,
+      "dll_sha256": "5668609a5a3b9817d99ade84aaf372d8adfafe597d048927d44f9618948e55eb"
     }
   ],
   "configs": {
@@ -1394,7 +1411,9 @@
         },
         "Fire Pits": {
           "FirePitIntensityLow": "0.5",
-          "FirePitIntensityHigh": "0.5"
+          "FirePitIntensityHigh": "0.5",
+          "FirePitColorLow": "6B4335FF",
+          "FirePitColorHigh": "804129FF"
         }
       }
     },
@@ -1506,25 +1525,45 @@
         },
         "StackSize": {}
       }
+    },
+    "JevMods-BetterFog": {
+      "filename": "JevMods.BetterFog.cfg",
+      "sections": {
+        "Fog": {
+          "Density": "1",
+          "MistOpacity": "1"
+        },
+        "Smoke": {
+          "Opacity": "0.9"
+        }
+      }
     }
   },
   "verification": {
-    "v27_published_package_readback": "passed_exact_zip_and_dll",
-    "v26_packages_configs_and_local_plugin_byte_preserved": "passed",
-    "v27_manifest_crc_sha256_and_dependency_minimums": "passed",
-    "v27_private_tokens_and_probe_plugins": "absent",
-    "v27_gale_import": "not_run",
-    "v27_game_launch_and_multiplayer": "not_run"
+    "scope": "V28 artifact checks; prior isolated visual results referenced explicitly",
+    "betterfog_latest_active_metadata_zip_manifest_crc_sha256": "passed_1.0.3",
+    "betterfog_1_0_2_to_1_0_3_decompiled_code": "identical_except_version_and_commit_metadata",
+    "betterfog_original_implementation": "Smoke.GetAlpha postfix multiplies alpha; no smoke physics patch",
+    "43_existing_package_pins_34_unrelated_configs_local_plugin_bytes": "preserved",
+    "44_packages_36_configs_dependencies_archive_readback": "passed",
+    "extra_light_patch_dll": "absent",
+    "guide_links_and_hashes": "passed",
+    "gale_gui_import": "not_run",
+    "complete_v28_and_betterfog_1_0_3_game_launch": "not_run",
+    "multiplayer_endurance": "not_run",
+    "formal_profile": "untouched",
+    "current_session": "untouched_no_restart"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v26.r2z": "fa61affeaeee50db96830f8b8d14aeacc8373879dff83e1a606e9e30b5dacb44",
-    "Valheim-Duo-QoL-config-v26.zip": "9ef42f12e48bd051575f7bdf7a92b8562b967b11750e1db5b3e5ddcb5df8c494",
-    "Valheim-AAA合成數量修補增補-v26.zip": "a49c7445b202f94e5d103b13e2548f84ace37ee7f496673180285cdb6a9c76c8",
-    "Valheim-AAA合成數量修補原始碼-v26.zip": "bb47bce62827954570d6f03a93fe12f6aee828afb42c7254e1df5341e8058730",
-    "Valheim-雙人模組包-安裝指南-v26.html": "9d5b5a6fc60a4bc0cb7addcf9f0fa4f4cfbe338c905513671e23a7f799b6d2c3",
+    "Valheim-Duo-QoL-v28.r2z": "5800dcff0f488716755fad7271523a665e3a761fcdc08f08811d0915add06c05",
+    "Valheim-Duo-QoL-config-v28.zip": "9ea8e585a6cdf4ef38dc3773c72d65ec0e1dfd858ef44f51127b92213d0fd716",
+    "Valheim-雙人模組包-安裝指南-v28.html": "5ceca27f5eda48263da88d2728322a9c21080228a0a6041e111b6bb528479934",
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
     "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
+    "TorchLight-照明與微量減煙設定-20261011.zip": "27b2c22080962adf374a290c2476b0668f68622d478b3ff5ecc742156f6b5d22",
     "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
+    "Valheim-AAA合成數量修補原始碼-v26.zip": "bb47bce62827954570d6f03a93fe12f6aee828afb42c7254e1df5341e8058730",
+    "Valheim-AAA合成數量修補增補-v26.zip": "a49c7445b202f94e5d103b13e2548f84ace37ee7f496673180285cdb6a9c76c8",
     "Valheim-原版鋤頭設定增補-v16.zip": "ae904892bd1768cf664bed54065fddbb4a6b488d00c58b62b4cafb220cc0ada4",
     "Valheim-堆疊設定增補-v22.zip": "dcf5ea938f5e93478bd016cfa6dff4bffbcc285a82c1c7ba5ce034c4a8c5b251",
     "Valheim-堆疊設定增補-v24.zip": "1532cba326a64fa6ae5f1f2e5881d0c700d14e0b1e16e69674a6c5c5bf8ee9d6",
@@ -1538,10 +1577,7 @@
     "v13/zenox.autodoors.cfg": "c8f1c04cb683c3b2ee41690fb5c433335dfbf0c22de89b253c050963447f547b",
     "v14/TorchLight-build-provenance.json": "f2e3b67227f36a3a94dc8cc13df7909506ac14f22733a0060df6821ba117618f",
     "v14/TorchMod-source.zip": "35f95f974266b7b8fab613d6d39c3d7560fc3909a5198078cef53f68fffc6f04",
-    "v16/icecub.ValheimTerrainTools.cfg": "637f4f1a98eb981b190347298e3ef90617ea54eb203ade1b2f2927b4832b31c3",
-    "Valheim-Duo-QoL-v27.r2z": "6a12a5010e0595b90fd1242e9c965ae2da17ab1a80415c061fbeb011e162d84f",
-    "Valheim-Duo-QoL-config-v27.zip": "a82388b7bdc225874547372a82594f9227c46f0da74c73e3f0258268fed12dfd",
-    "Valheim-雙人模組包-安裝指南-v27.html": "ac03ea57a68bba6e1043d6f9de0d2484a5c91386a44c144b5e3298a1227a4a6b"
+    "v16/icecub.ValheimTerrainTools.cfg": "637f4f1a98eb981b190347298e3ef90617ea54eb203ade1b2f2927b4832b31c3"
   },
   "local_plugins": [
     {
@@ -1569,7 +1605,9 @@
         },
         "Fire Pits": {
           "FirePitIntensityLow": "0.5",
-          "FirePitIntensityHigh": "0.5"
+          "FirePitIntensityHigh": "0.5",
+          "FirePitColorLow": "6B4335FF",
+          "FirePitColorHigh": "804129FF"
         }
       },
       "gale_import_requirement": "Import all files must be enabled to copy bundled DLL; or copy add-on into profile folder",
@@ -1579,8 +1617,9 @@
         "config_half_author_defaults": "passed",
         "compiled_plugin_config_keys": "passed",
         "gale_gui_import": "not_run",
-        "game_launch": "not_run",
-        "campfire_brightness_in_game": "not_run"
+        "game_launch": "passed_isolated_profile; complete_v28_not_run",
+        "campfire_brightness_in_game": "not_run",
+        "campfire_rgb_isolated_1_0_17": "passed_visual_four_campfire_scene; exact intensity overwrite unconfirmed"
       }
     },
     {
@@ -2567,6 +2606,38 @@
       "unity_harmony_detour": "not_run",
       "game_and_multiplayer": "not_run",
       "current_session": "untouched_no_restart"
+    }
+  },
+  "additions_from_v27": [
+    "JevMods-BetterFog-1.0.3"
+  ],
+  "configuration_updates_from_v27": {
+    "TorchMod": {
+      "FirePitColorLow": "6B4335FF",
+      "FirePitColorHigh": "804129FF"
+    },
+    "BetterFog": {
+      "Fog": {
+        "Density": "1",
+        "MistOpacity": "1"
+      },
+      "Smoke": {
+        "Opacity": "0.9"
+      }
+    },
+    "extra_light_patch_dll": "absent; original TorchMod.dll retained byte-for-byte"
+  },
+  "base_v27": {
+    "profile": "Valheim-Duo-QoL-20261012-v27",
+    "archive": "Valheim-Duo-QoL-v27.r2z",
+    "archive_sha256": "6a12a5010e0595b90fd1242e9c965ae2da17ab1a80415c061fbeb011e162d84f",
+    "verification": {
+      "v27_published_package_readback": "passed_exact_zip_and_dll",
+      "v26_packages_configs_and_local_plugin_byte_preserved": "passed",
+      "v27_manifest_crc_sha256_and_dependency_minimums": "passed",
+      "v27_private_tokens_and_probe_plugins": "absent",
+      "v27_gale_import": "not_run",
+      "v27_game_launch_and_multiplayer": "not_run"
     }
   }
 }

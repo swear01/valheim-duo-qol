@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v28 — 2026-10-12
+
+加入 BetterFog 並調整營火 RGB。44 個線上套件，36 份設定。
+
+- 新增套件：`JevMods-BetterFog`。
+- `BepInEx/config/aedenthorn.TorchMod.cfg` 的 `Fire Pits / FirePitColorHigh`：`None` → `804129FF`。
+- `BepInEx/config/aedenthorn.TorchMod.cfg` 的 `Fire Pits / FirePitColorLow`：`None` → `6B4335FF`。
+
 ## v27 — 2026-10-12
 
 加入 ValheimCli 0.4.0。43 個線上套件，35 份設定。
