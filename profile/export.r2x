@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261009-v16",
+  "profileName": "Valheim-Duo-QoL-20261009-v17",
   "community": "valheim",
   "mods": [
     {
@@ -358,6 +358,16 @@
         "major": 0,
         "minor": 6,
         "patch": 4
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "Geda_Giminei-SlashBack",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 2
       },
       "enabled": true,
       "source": "Thunderstore"

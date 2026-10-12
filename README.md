@@ -2,12 +2,12 @@
 
 給兩人一起玩的 Valheim 1.x QoL 模組包，一人開世界、另一人加入。使用 Gale 從 Thunderstore／Hexium 下載模組。
 
-目前版本 **v16**（2026-10-09）：36 個線上套件、31 份設定。
+目前版本 **v17**（2026-10-09）：37 個線上套件、31 份設定。
 
 ## 安裝
 
 1. 兩人正常退出遊戲，備份角色與世界。
-2. 下載 [v16 模組包](history/v16/Valheim-Duo-QoL-v16.r2z)，在 Gale 匯入為新 profile，勾選 **Import all files／匯入所有檔案**。
+2. 下載 [v17 模組包](history/v17/Valheim-Duo-QoL-v17.r2z)，在 Gale 匯入為新 profile，勾選 **Import all files／匯入所有檔案**。
 3. 等待下載完成；兩人使用同一版本，先在測試世界確認後再載入原世界。
 
 首次安裝需要網路；舊版套件能否繼續下載，取決於上游是否保留。

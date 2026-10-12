@@ -1,6 +1,6 @@
 {
   "created": "2026-10-09",
-  "profile": "Valheim-Duo-QoL-20261009-v16",
+  "profile": "Valheim-Duo-QoL-20261009-v17",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -578,6 +578,22 @@
       "sha256": "d8483287b20a1ca71a6b2b17a86c96d6ba33b7bcd55e751ec5edba08ead20c68",
       "bytes": 100225,
       "archive_url": "https://thunderstore.io/package/download/QoLTeam/ValheimTerrainTools/0.6.4/"
+    },
+    {
+      "name": "Geda_Giminei-SlashBack",
+      "source": "Thunderstore",
+      "version": "1.0.2",
+      "download": "https://thunderstore.io/package/download/Geda_Giminei/SlashBack/1.0.2/",
+      "website": "",
+      "page": "https://thunderstore.io/c/valheim/p/Geda_Giminei/SlashBack/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-27T14:11:52.305039Z",
+      "sha256": "9b35851ed8eaac3b6f8eda7049de6e955290f9b4a1fe7522a26960e4497e0e4d",
+      "bytes": 66989,
+      "archive_url": "https://thunderstore.io/package/download/Geda_Giminei/SlashBack/1.0.2/"
     }
   ],
   "configs": {
@@ -1356,7 +1372,13 @@
     "terrain_tools_manifest_dependency_config_and_hoe_menu_static": "passed",
     "terrain_tools_explicit_function_key_conflicts": "passed",
     "terrain_tools_gameplay_and_two_player_save_reload": "not_run",
-    "v16_gale_import": "not_run"
+    "v16_gale_import": "not_run",
+    "v16_all_packages_configs_and_local_plugin_preserved": "passed",
+    "slashback_manifest_dependency_guid_command_and_timing_static": "passed",
+    "slashback_stationary_zero_coordinate_bug": "identified_in_unmodified_author_dll",
+    "slashback_quickteleport_multiplayer": "not_run",
+    "v17_gale_import": "not_run",
+    "v17_game_launch": "not_run"
   },
   "artifacts_sha256": {
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
@@ -1382,7 +1404,10 @@
     "Valheim-Duo-QoL-config-v16.zip": "49e466be306db8e86eb0ad3f35c7d705c13a88a09cbfcfb541c4bd68d8540bce",
     "Valheim-原版鋤頭設定增補-v16.zip": "ae904892bd1768cf664bed54065fddbb4a6b488d00c58b62b4cafb220cc0ada4",
     "Valheim-雙人模組包-安裝指南-v16.html": "3ed3a937cb3c7effb48a4bcea40a09bd15ff5c817aa174a3382cb1f226498174",
-    "v16/icecub.ValheimTerrainTools.cfg": "637f4f1a98eb981b190347298e3ef90617ea54eb203ade1b2f2927b4832b31c3"
+    "v16/icecub.ValheimTerrainTools.cfg": "637f4f1a98eb981b190347298e3ef90617ea54eb203ade1b2f2927b4832b31c3",
+    "Valheim-Duo-QoL-v17.r2z": "d4aabfae2076b6fe1e14c6b5311f5fc2e406048f545c9b956ac273602c7530b0",
+    "Valheim-Duo-QoL-config-v17.zip": "c712b4e2b3e2163d15304bc23137fdc0e3bf5df2d23eeacaf20f89540e8f1cb5",
+    "Valheim-雙人模組包-安裝指南-v17.html": "891dc1d2bea93feac86971ace50672ffdc6fbb1add73d5411abe4dc0483ef6f4"
   },
   "local_plugins": [
     {
@@ -1455,6 +1480,24 @@
       "sha256": "d8483287b20a1ca71a6b2b17a86c96d6ba33b7bcd55e751ec5edba08ead20c68",
       "bytes": 100225,
       "archive_url": "https://thunderstore.io/package/download/QoLTeam/ValheimTerrainTools/0.6.4/"
+    }
+  ],
+  "additions_from_v16": [
+    {
+      "name": "Geda_Giminei-SlashBack",
+      "source": "Thunderstore",
+      "version": "1.0.2",
+      "download": "https://thunderstore.io/package/download/Geda_Giminei/SlashBack/1.0.2/",
+      "website": "",
+      "page": "https://thunderstore.io/c/valheim/p/Geda_Giminei/SlashBack/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-27T14:11:52.305039Z",
+      "sha256": "9b35851ed8eaac3b6f8eda7049de6e955290f9b4a1fe7522a26960e4497e0e4d",
+      "bytes": 66989,
+      "archive_url": "https://thunderstore.io/package/download/Geda_Giminei/SlashBack/1.0.2/"
     }
   ]
 }
