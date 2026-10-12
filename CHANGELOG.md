@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v29 — 2026-10-12
+
+BetterFog 改用作者原生預設。44 個線上套件，36 份設定。
+- `BepInEx/config/JevMods.BetterFog.cfg` 的 `Fog / Density`：`1` → `0.5`。
+- `BepInEx/config/JevMods.BetterFog.cfg` 的 `Fog / MistOpacity`：`1` → `0.2`。
+- `BepInEx/config/JevMods.BetterFog.cfg` 的 `Smoke / Opacity`：`0.9` → `0.5`。
+
 ## v28 — 2026-10-12
 
 加入 BetterFog 並調整營火 RGB。44 個線上套件，36 份設定。
