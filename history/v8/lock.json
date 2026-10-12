@@ -1,0 +1,1210 @@
+{
+  "created": "2026-10-08",
+  "profile": "Valheim-Duo-QoL-20261008-v8",
+  "packages": [
+    {
+      "name": "denikson-BepInExPack_Valheim",
+      "source": "Hexium",
+      "version": "5.4.2351",
+      "download": "https://cdn.hexium.gg/upload/1/5.4.2351.zip",
+      "website": "https://github.com/AzumattDev/BepInEx",
+      "page": "https://valheim.hexium.gg/mods/denikson/BepInExPack_Valheim",
+      "dependencies": [],
+      "direct": true,
+      "released": "2026-09-24T06:11:20.000000Z",
+      "sha256": "77e4db6efc378469f3053b82a2fd92485ed68bb2fd94180d5ec4f522b448d068",
+      "bytes": 702924,
+      "archive_url": "https://cdn.hexium.gg/upload/1/5.4.2351.zip"
+    },
+    {
+      "name": "shudnal-ConfigurationManager",
+      "source": "Hexium",
+      "version": "1.1.25",
+      "download": "https://cdn.hexium.gg/upload/298/1.1.25.zip",
+      "website": "https://github.com/shudnal/ConfigurationManager",
+      "page": "https://valheim.hexium.gg/mods/shudnal/ConfigurationManager",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351",
+        "shudnal-ConditionalConfigSync-1.0.5",
+        "ValheimModding-YamlDotNet-16.3.0",
+        "ValheimModding-JsonDotNET-13.0.3"
+      ],
+      "direct": true,
+      "released": "2026-10-06T23:28:29.000000Z",
+      "sha256": "cf54722f8373a772e5d3c0d09153d0b3080518d8ef1eac554f160b099e78c2ae",
+      "bytes": 157269,
+      "archive_url": "https://cdn.hexium.gg/upload/298/1.1.25.zip"
+    },
+    {
+      "name": "shudnal-ConditionalConfigSync",
+      "source": "Hexium",
+      "version": "1.0.10",
+      "download": "https://cdn.hexium.gg/upload/311/1.0.10.zip",
+      "website": "https://github.com/shudnal/ConditionalConfigSync",
+      "page": "https://valheim.hexium.gg/mods/shudnal/ConditionalConfigSync",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": false,
+      "released": "2026-10-03T19:44:47.000000Z",
+      "sha256": "0ca43ea900af757f9d26b3902608d67c99151a9860fddde9a0d821abdc882483",
+      "bytes": 254432,
+      "archive_url": "https://cdn.hexium.gg/upload/311/1.0.10.zip"
+    },
+    {
+      "name": "ValheimModding-YamlDotNet",
+      "source": "Hexium",
+      "version": "16.3.1",
+      "download": "https://cdn.hexium.gg/upload/370/16.3.1.zip",
+      "website": "https://github.com/Valheim-Modding/CommonPackages",
+      "page": "https://valheim.hexium.gg/mods/ValheimModding/YamlDotNet",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": false,
+      "released": "2026-07-12T05:19:32.000000Z",
+      "sha256": "3e2158b359105856aa86f87646e9c3409e4e63238bd8c859ddafc5289d901525",
+      "bytes": 130184,
+      "archive_url": "https://cdn.hexium.gg/upload/370/16.3.1.zip"
+    },
+    {
+      "name": "ValheimModding-JsonDotNET",
+      "source": "Hexium",
+      "version": "13.0.4",
+      "download": "https://cdn.hexium.gg/upload/371/13.0.4.zip",
+      "website": "https://github.com/Valheim-Modding/CommonPackages",
+      "page": "https://valheim.hexium.gg/mods/ValheimModding/JsonDotNET",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": false,
+      "released": "2026-07-12T05:20:09.000000Z",
+      "sha256": "29abe9eef389fd78e7313e000d8846f1be01aa965eed0a9af31c50dec6906adb",
+      "bytes": 308355,
+      "archive_url": "https://cdn.hexium.gg/upload/371/13.0.4.zip"
+    },
+    {
+      "name": "Crystal-Magni",
+      "source": "Thunderstore",
+      "version": "1.2.3",
+      "download": "https://thunderstore.io/package/download/Crystal/Magni/1.2.3/",
+      "website": "https://github.com/CrystalFerrai/ValheimMods",
+      "page": "https://thunderstore.io/c/valheim/p/Crystal/Magni/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350",
+        "shudnal-ConditionalConfigSync-1.0.6"
+      ],
+      "direct": true,
+      "released": "2026-09-14T14:43:42.719567Z",
+      "sha256": "6414a73784f771714037272f4c85035f088bd58e723a97757a2f14d7b0d47810",
+      "bytes": 23405,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Crystal-Magni-1.2.3.zip"
+    },
+    {
+      "name": "Searica-SkilledCarryWeight",
+      "source": "Thunderstore",
+      "version": "1.5.0",
+      "download": "https://thunderstore.io/package/download/Searica/SkilledCarryWeight/1.5.0/",
+      "website": "https://discord.gg/sFmGTBYN6n",
+      "page": "https://thunderstore.io/c/valheim/p/Searica/SkilledCarryWeight/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350",
+        "ValheimModding-Jotunn-2.30.0"
+      ],
+      "direct": true,
+      "released": "2026-09-15T17:47:01.458913Z",
+      "sha256": "d97251ea6782be53f3ff63d943db316ab8db6cdaf97b4f5bfab3097e83a5f682",
+      "bytes": 53800,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Searica-SkilledCarryWeight-1.5.0.zip"
+    },
+    {
+      "name": "ValheimModding-Jotunn",
+      "source": "Hexium",
+      "version": "2.30.2",
+      "download": "https://cdn.hexium.gg/upload/140/2.30.2.zip",
+      "website": "https://github.com/Valheim-Modding/Jotunn",
+      "page": "https://valheim.hexium.gg/mods/ValheimModding/Jotunn",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": false,
+      "released": "2026-09-21T17:20:34.000000Z",
+      "sha256": "6c14bf4fdbac62c43eef35a920d46ec708ef75d5d2835509ba19e25f4a8f4f2c",
+      "bytes": 835156,
+      "archive_url": "https://cdn.hexium.gg/upload/140/2.30.2.zip"
+    },
+    {
+      "name": "shudnal-StaminaExtended",
+      "source": "Hexium",
+      "version": "1.0.11",
+      "download": "https://cdn.hexium.gg/upload/321/1.0.11.zip",
+      "website": "https://github.com/shudnal/StaminaExtended",
+      "page": "https://valheim.hexium.gg/mods/shudnal/StaminaExtended",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351",
+        "shudnal-ConditionalConfigSync-1.0.5"
+      ],
+      "direct": true,
+      "released": "2026-09-11T00:53:50.000000Z",
+      "sha256": "2ed23816ff1481e0f75839e89b1081308d0f22d29a38c90c1bfbc42fb6b16b78",
+      "bytes": 157487,
+      "archive_url": "https://cdn.hexium.gg/upload/321/1.0.11.zip"
+    },
+    {
+      "name": "shudnal-ExtraSlots",
+      "source": "Hexium",
+      "version": "1.2.17",
+      "download": "https://cdn.hexium.gg/upload/306/1.2.17.zip",
+      "website": "https://github.com/shudnal/ExtraSlots",
+      "page": "https://valheim.hexium.gg/mods/shudnal/ExtraSlots",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351",
+        "ValheimModding-YamlDotNet-16.3.1",
+        "shudnal-ConditionalConfigSync-1.0.5"
+      ],
+      "direct": true,
+      "released": "2026-10-05T18:06:02.000000Z",
+      "sha256": "071524cad1364bcfa0cc66e663131268358e31101ff8863dbca8f718cd6a881d",
+      "bytes": 265203,
+      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.17.zip"
+    },
+    {
+      "name": "Azumatt-AzuCraftyBoxes",
+      "source": "Hexium",
+      "version": "1.8.27",
+      "download": "https://cdn.hexium.gg/upload/48/1.8.27.zip",
+      "website": "https://discord.gg/pdHgy6Bsng",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/AzuCraftyBoxes",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-10-02T03:37:40.000000Z",
+      "sha256": "1d34dfe982be6261e6817f598a1e867e021271001facd56299a9411219ddbd3c",
+      "bytes": 423173,
+      "archive_url": "https://cdn.hexium.gg/upload/48/1.8.27.zip"
+    },
+    {
+      "name": "Azumatt-AzuAutoStore",
+      "source": "Hexium",
+      "version": "3.1.7",
+      "download": "https://cdn.hexium.gg/upload/12/3.1.7.zip",
+      "website": "https://discord.gg/pdHgy6Bsng",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/AzuAutoStore",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-10-03T06:24:37.000000Z",
+      "sha256": "9713e6d9c33fbf38ce73a2dbb22c468dccf45e15cbd6eb70acf45b4f1ce2b3c6",
+      "bytes": 265588,
+      "archive_url": "https://cdn.hexium.gg/upload/12/3.1.7.zip"
+    },
+    {
+      "name": "Azumatt-AAA_Crafting",
+      "source": "Hexium",
+      "version": "2.1.11",
+      "download": "https://cdn.hexium.gg/upload/218/2.1.11.zip",
+      "website": "https://discord.gg/pdHgy6Bsng",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/AAA_Crafting",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-10-02T03:43:14.000000Z",
+      "sha256": "74bf6ab7f32cf17f6d0933c9b58242c7b7d1706bea496832255273c4d862f866",
+      "bytes": 2249198,
+      "archive_url": "https://cdn.hexium.gg/upload/218/2.1.11.zip"
+    },
+    {
+      "name": "Grizzzly-CookingStationTweaks",
+      "source": "Thunderstore",
+      "version": "0.7.2",
+      "download": "https://thunderstore.io/package/download/Grizzzly/CookingStationTweaks/0.7.2/",
+      "website": "https://www.nexusmods.com/valheim/mods/895",
+      "page": "https://thunderstore.io/c/valheim/p/Grizzzly/CookingStationTweaks/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350"
+      ],
+      "direct": true,
+      "released": "2026-09-20T02:24:05.643123Z",
+      "sha256": "214c559aaa000bdab5ad8275ffdc4e7978807591f2c5a65258c84993b7e399dc",
+      "bytes": 115721,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Grizzzly-CookingStationTweaks-0.7.2.zip"
+    },
+    {
+      "name": "Azumatt-AzuWorkbenchTweaks",
+      "source": "Hexium",
+      "version": "1.0.8",
+      "download": "https://cdn.hexium.gg/upload/253/1.0.8.zip",
+      "website": "https://discord.gg/pdHgy6Bsng",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/AzuWorkbenchTweaks",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-17T22:47:43.000000Z",
+      "sha256": "cca6798a7330b40ac7d09bddaf6365de66668bcd64f41a677ce775b98ed884ee",
+      "bytes": 119050,
+      "archive_url": "https://cdn.hexium.gg/upload/253/1.0.8.zip"
+    },
+    {
+      "name": "Azumatt-PerfectPlacement",
+      "source": "Hexium",
+      "version": "1.2.4",
+      "download": "https://cdn.hexium.gg/upload/278/1.2.4.zip",
+      "website": "https://github.com/AzumattDev/PerfectPlacement",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/PerfectPlacement",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-18T00:50:53.000000Z",
+      "sha256": "fe662a72a573dc0f25e82a65290d180b8a3f02908e7b8eb06ff1870dce62e2ae",
+      "bytes": 125479,
+      "archive_url": "https://cdn.hexium.gg/upload/278/1.2.4.zip"
+    },
+    {
+      "name": "Azumatt-Build_Camera_Custom_Hammers_Edition",
+      "source": "Hexium",
+      "version": "1.3.4",
+      "download": "https://cdn.hexium.gg/upload/221/1.3.4.zip",
+      "website": "https://github.com/AzumattDev/BuildCameraCustomHammersEdition",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/Build_Camera_Custom_Hammers_Edition",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-10-03T02:28:00.000000Z",
+      "sha256": "36056ad69843f4190b082b81c378f153d468ef1576e2f77548c7efabd3a69e15",
+      "bytes": 107832,
+      "archive_url": "https://cdn.hexium.gg/upload/221/1.3.4.zip"
+    },
+    {
+      "name": "Azumatt-FirstPersonMode",
+      "source": "Hexium",
+      "version": "1.4.4",
+      "download": "https://cdn.hexium.gg/upload/225/1.4.4.zip",
+      "website": "https://discord.gg/pdHgy6Bsng",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/FirstPersonMode",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-25T06:18:01.000000Z",
+      "sha256": "904b6412dcd04a19500cf4eda740e435192c28c0dd224676e800c797ebe30635",
+      "bytes": 150709,
+      "archive_url": "https://cdn.hexium.gg/upload/225/1.4.4.zip"
+    },
+    {
+      "name": "Smoothbrain-TargetPortal",
+      "source": "Hexium",
+      "version": "1.2.7",
+      "download": "https://cdn.hexium.gg/upload/231/1.2.7.zip",
+      "website": "https://github.com/blaxxun-boop/TargetPortal",
+      "page": "https://valheim.hexium.gg/mods/Smoothbrain/TargetPortal",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-23T00:24:58.000000Z",
+      "sha256": "9b0cc309e411ce63e716ce2d42bbe1574453e96c9782be164fa1afbc985023a7",
+      "bytes": 227696,
+      "archive_url": "https://cdn.hexium.gg/upload/231/1.2.7.zip"
+    },
+    {
+      "name": "OdinPlus-QuickTeleport",
+      "source": "Hexium",
+      "version": "2.0.4",
+      "download": "https://cdn.hexium.gg/upload/1282/2.0.4.zip",
+      "website": "https://www.nexusmods.com/valheim/mods/2291",
+      "page": "https://valheim.hexium.gg/mods/OdinPlus/QuickTeleport",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-25T23:04:18.000000Z",
+      "sha256": "c7137a240ed31759e79b594cb8149194208ac7bdf12008d583a0227355f60dec",
+      "bytes": 84322,
+      "archive_url": "https://cdn.hexium.gg/upload/1282/2.0.4.zip"
+    },
+    {
+      "name": "Smoothbrain-InstantEquip",
+      "source": "Hexium",
+      "version": "1.0.7",
+      "download": "https://cdn.hexium.gg/upload/349/1.0.7.zip",
+      "website": "https://github.com/blaxxun-boop/InstantEquip",
+      "page": "https://valheim.hexium.gg/mods/Smoothbrain/InstantEquip",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-13T20:28:33.000000Z",
+      "sha256": "9bd4c0cbbf1350002549180275ee0d58dcb0889fa71c867d29fbf57b17c19e32",
+      "bytes": 78341,
+      "archive_url": "https://cdn.hexium.gg/upload/349/1.0.7.zip"
+    },
+    {
+      "name": "Azumatt-SleepSkip",
+      "source": "Hexium",
+      "version": "1.3.2",
+      "download": "https://cdn.hexium.gg/upload/285/1.3.2.zip",
+      "website": "https://discord.gg/Pb6bVMnFb2",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/SleepSkip",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-18T00:46:52.000000Z",
+      "sha256": "a40ac41ad259cb36594b37a510b13dd2a8b3db78aef7a82568a9bdabd9882bcd",
+      "bytes": 243318,
+      "archive_url": "https://cdn.hexium.gg/upload/285/1.3.2.zip"
+    },
+    {
+      "name": "Azumatt-Unshamed",
+      "source": "Hexium",
+      "version": "1.0.8",
+      "download": "https://cdn.hexium.gg/upload/850/1.0.8.zip",
+      "website": "https://discord.gg/pdHgy6Bsng",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/Unshamed",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-26T10:45:16.000000Z",
+      "sha256": "405d016d08b72212fe215baa318a78a74386bd946ee94422115ed66ba20f4a2c",
+      "bytes": 60856,
+      "archive_url": "https://cdn.hexium.gg/upload/850/1.0.8.zip"
+    },
+    {
+      "name": "Dirtsnack-AchievementTracker",
+      "source": "Thunderstore",
+      "version": "0.1.0",
+      "download": "https://thunderstore.io/package/download/Dirtsnack/AchievementTracker/0.1.0/",
+      "website": "",
+      "page": "https://thunderstore.io/c/valheim/p/Dirtsnack/AchievementTracker/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-10-07T04:03:00.222954Z",
+      "sha256": "2b3e6054810b1acc4c826013da19887736d62df9167d87d531e4931616cb2129",
+      "bytes": 157178,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Dirtsnack-AchievementTracker-0.1.0.zip"
+    },
+    {
+      "name": "Snuffy-SkillLimitExtenderFork",
+      "source": "Thunderstore",
+      "version": "1.0.0",
+      "download": "https://thunderstore.io/package/download/Snuffy/SkillLimitExtenderFork/1.0.0/",
+      "website": "https://github.com/snuffy179/Skill-Limit-Extender-Fork/tree/main",
+      "page": "https://thunderstore.io/c/valheim/p/Snuffy/SkillLimitExtenderFork/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350"
+      ],
+      "direct": true,
+      "released": "2026-10-07T06:08:35.457248Z",
+      "sha256": "56cb4c40f287e64add6cd99b85521cec54c6664b53143fe61a34de5f47172fc4",
+      "bytes": 170586,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Snuffy-SkillLimitExtenderFork-1.0.0.zip"
+    },
+    {
+      "name": "MSchmoecker-MultiUserChest",
+      "source": "Hexium",
+      "version": "0.6.2",
+      "download": "https://cdn.hexium.gg/upload/376/0.6.2.zip",
+      "website": "https://github.com/MSchmoecker/No-Chest-Block",
+      "page": "https://valheim.hexium.gg/mods/MSchmoecker/MultiUserChest",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351",
+        "ValheimModding-Jotunn-2.30.0"
+      ],
+      "direct": true,
+      "released": "2026-09-12T15:55:59.000000Z",
+      "sha256": "6882c9323b9dccc908bef51ea3efd5a3490b66eb56a76d1a904c69ed7f936a57",
+      "bytes": 83038,
+      "archive_url": "https://cdn.hexium.gg/upload/376/0.6.2.zip"
+    },
+    {
+      "name": "Neobotics-HUDCompass",
+      "source": "Hexium",
+      "version": "1.2.0",
+      "download": "https://cdn.hexium.gg/upload/951/1.2.0.zip",
+      "website": "https://www.nexusmods.com/valheim/mods/2674/",
+      "page": "https://valheim.hexium.gg/mods/Neobotics/HUDCompass",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-11T00:40:54.000000Z",
+      "sha256": "9019c0cf3fddb32205e5a7228d4a77d9ea521634221b6de0412cf31a503b1f8e",
+      "bytes": 216710,
+      "archive_url": "https://cdn.hexium.gg/upload/951/1.2.0.zip"
+    },
+    {
+      "name": "ontrigger-ValheimPerformanceOptimizations",
+      "source": "Hexium",
+      "version": "1.2.3",
+      "download": "https://cdn.hexium.gg/upload/660/1.2.3.zip",
+      "website": "https://github.com/ontrigger/ValheimPerformanceOptimizations",
+      "page": "https://valheim.hexium.gg/mods/ontrigger/ValheimPerformanceOptimizations",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-26T15:42:09.000000Z",
+      "sha256": "9dd4b85f6baf15d3ba8c72eadf1da2527247dea21b14fb000f729f16a9787401",
+      "bytes": 767245,
+      "archive_url": "https://cdn.hexium.gg/upload/660/1.2.3.zip"
+    },
+    {
+      "name": "Searica-Extra_Snap_Points_Made_Easy",
+      "source": "Thunderstore",
+      "version": "2.1.0",
+      "download": "https://thunderstore.io/package/download/Searica/Extra_Snap_Points_Made_Easy/2.1.0/",
+      "website": "https://discord.gg/sFmGTBYN6n",
+      "page": "https://thunderstore.io/c/valheim/p/Searica/Extra_Snap_Points_Made_Easy/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350"
+      ],
+      "direct": true,
+      "released": "2026-09-15T00:06:01.236163Z",
+      "sha256": "bc56b2d249498aeb0814a603ec9110132a07021eff75871bec6cbe7a83bb6cca",
+      "bytes": 76186,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Searica-Extra_Snap_Points_Made_Easy-2.1.0.zip"
+    },
+    {
+      "name": "Mydayyy-ServerSideMap",
+      "source": "Hexium",
+      "version": "1.3.14",
+      "download": "https://cdn.hexium.gg/upload/1526/1.3.14.zip",
+      "website": "https://github.com/Mydayyy/Valheim-ServerSideMap",
+      "page": "https://valheim.hexium.gg/mods/Mydayyy/ServerSideMap",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-22T19:56:36.000000Z",
+      "sha256": "3e973f68da8ede426358e8b47e00a561dd11b650fbea37668167571281738ffc",
+      "bytes": 27921,
+      "archive_url": "https://cdn.hexium.gg/upload/1526/1.3.14.zip"
+    },
+    {
+      "name": "JereKuusela-Server_devcommands",
+      "source": "Hexium",
+      "version": "1.115.0",
+      "download": "https://cdn.hexium.gg/upload/431/1.115.0.zip",
+      "website": "https://discord.gg/VFRJcPwUdm",
+      "page": "https://valheim.hexium.gg/mods/JereKuusela/Server_devcommands",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-26T06:22:52.000000Z",
+      "sha256": "b975ff340bfcf1cccf3f2cae81cef97e52bd8c23c1762e2693d4065a6a8833e5",
+      "bytes": 313344,
+      "archive_url": "https://cdn.hexium.gg/upload/431/1.115.0.zip"
+    },
+    {
+      "name": "omnipeach-ConfigurableCarryWeight",
+      "source": "Thunderstore",
+      "version": "1.0.0",
+      "download": "https://thunderstore.io/package/download/omnipeach/ConfigurableCarryWeight/1.0.0/",
+      "website": "https://www.paypal.com/ncp/payment/UQ2EWZLBBYCQ8",
+      "page": "https://thunderstore.io/c/valheim/p/omnipeach/ConfigurableCarryWeight/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2333",
+        "ValheimModding-JsonDotNET-13.0.4",
+        "ValheimModding-Jotunn-2.29.2"
+      ],
+      "direct": true,
+      "released": "2026-09-20T23:49:24.154448Z",
+      "sha256": "0fbdcb03270f15bf9f8e7d4dfb415d013748dc650d25be7a055ba8733df717aa",
+      "bytes": 26876,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/omnipeach-ConfigurableCarryWeight-1.0.0.zip"
+    },
+    {
+      "name": "cjayride-SmartShield",
+      "source": "Thunderstore",
+      "version": "1.0.11",
+      "download": "https://thunderstore.io/package/download/cjayride/SmartShield/1.0.11/",
+      "website": "https://discord.gg/cjayride",
+      "page": "https://thunderstore.io/c/valheim/p/cjayride/SmartShield/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350"
+      ],
+      "direct": true,
+      "sha256": "1f1621a198305f232b61aed8c37fa8dabdd7668f26d708104729769a0cf4e857",
+      "bytes": 137989,
+      "archive_url": "https://thunderstore.io/package/download/cjayride/SmartShield/1.0.11/"
+    }
+  ],
+  "configs": {
+    "shudnal-ConfigurationManager": {
+      "filename": "_shudnal.ConfigurationManager.cfg",
+      "sections": {
+        "General": {
+          "Show config manager": "F10",
+          "Reset position and size": "F10 + LeftControl",
+          "Reset scale": "F10 + LeftShift"
+        }
+      }
+    },
+    "Crystal-Magni": {
+      "filename": "dev.crystal.magni.cfg",
+      "sections": {
+        "Weight": {
+          "CarryCapacityMultiplier": "1.5"
+        }
+      }
+    },
+    "Searica-SkilledCarryWeight": {
+      "filename": "Searica.Valheim.SkilledCarryWeight.cfg",
+      "sections": {
+        "​​Cart Mass": {
+          "CarryWeightAffectsCart": "false"
+        },
+        "​Quick Cart": {
+          "QuickCartKey": "None"
+        },
+        "Swords": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Knives": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Clubs": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Polearms": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Spears": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Blocking": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Axes": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Bows": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "ElementalMagic": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "BloodMagic": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Unarmed": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Pickaxes": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "WoodCutting": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Crossbows": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Jump": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Sneak": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Run": {
+          "​Enabled": "true",
+          "Coefficient": "2",
+          "Power": "1"
+        },
+        "Swim": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Fishing": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Cooking": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Farming": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Crafting": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Dodge": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        },
+        "Ride": {
+          "​Enabled": "false",
+          "Coefficient": "1",
+          "Power": "1"
+        }
+      }
+    },
+    "shudnal-StaminaExtended": {
+      "filename": "shudnal.StaminaExtended.cfg",
+      "sections": {
+        "2 - Linear regeneration change": {
+          "Enabled": "false"
+        },
+        "3 - Extra stamina regeneration": {
+          "Enabled": "false"
+        },
+        "4 - Encumbered stamina": {
+          "Enabled": "false"
+        },
+        "5 - Swimming stamina": {
+          "Enabled": "false"
+        },
+        "6 - Sneaking stamina": {
+          "Enabled": "false"
+        },
+        "7 - Base stamina": {
+          "Enabled": "false"
+        },
+        "Grounds": {
+          "Enabled": "false"
+        },
+        "8 - Various multipliers": {
+          "Run stamina drain": "1",
+          "Dodge stamina usage": "1",
+          "Jump stamina usage": "1",
+          "Block stamina drain": "1"
+        },
+        "8 - Various multipliers - Out of combat": {
+          "Run stamina drain": "0.25",
+          "Dodge stamina usage": "1",
+          "Jump stamina usage": "1",
+          "Sneak stamina usage": "1"
+        },
+        "9 - Misc": {
+          "Block stamina usage depends on skill": "false",
+          "Dodge stamina usage depends on Jump skill": "false",
+          "Jump stamina usage depends on Jump skill": "false",
+          "Stamina regen multiplier while blocking": "1",
+          "Stamina usage multiplier on perfect parry": "1"
+        }
+      }
+    },
+    "shudnal-ExtraSlots": {
+      "filename": "shudnal.ExtraSlots.cfg",
+      "sections": {
+        "Extra slots": {
+          "Amount of extra inventory rows": "1",
+          "Amount of extra utility slots": "0",
+          "Amount of quick slots": "3",
+          "Enable ammo slots": "false",
+          "Enable food slots": "false",
+          "Enable misc slots": "false",
+          "Slots progression enabled": "true",
+          "Inventory rows progression enabled": "false",
+          "Slots backup enabled": "true"
+        },
+        "Extra slots - Lightened slots": {
+          "First row index": "0"
+        },
+        "Hotkeys": {
+          "Quickslot 1": "Z + LeftAlt",
+          "Quickslot 2": "X + LeftAlt",
+          "Quickslot 3": "C + LeftAlt"
+        }
+      }
+    },
+    "Azumatt-AzuCraftyBoxes": {
+      "filename": "Azumatt.AzuCraftyBoxes.cfg",
+      "sections": {
+        "2 - CraftyBoxes": {
+          "Container Range": "20",
+          "Leave One Item": "On"
+        }
+      }
+    },
+    "Azumatt-AzuAutoStore": {
+      "filename": "Azumatt.AzuAutoStore.cfg",
+      "sections": {
+        "1 - General": {
+          "Chests Pickup From Ground": "Off",
+          "Player Range": "20",
+          "Must Have Existing Item To Pull": "On",
+          "Player Ignore Hotbar": "On",
+          "Player Ignore Quick Slots": "On"
+        },
+        "2 - Shortcuts": {
+          "Store Shortcut": "Y",
+          "SearchModifierKeybind": "T",
+          "Pause Shortcut": "None"
+        },
+        "3 - Favoriting": {
+          "FavoritingModifierKeybind1": "Z",
+          "FavoritingModifierKeybind2": "Z"
+        }
+      }
+    },
+    "Azumatt-AAA_Crafting": {
+      "filename": "Azumatt.AzuAntiArthriticCrafting.cfg",
+      "sections": {
+        "2 - Game": {
+          "Override Crafting Speed": "Off"
+        }
+      }
+    },
+    "Grizzzly-CookingStationTweaks": {
+      "filename": "aedenthorn.CookingStationTweaks.cfg",
+      "sections": {
+        "General": {
+          "Enabled": "true",
+          "IsDebug": "false"
+        },
+        "Options": {
+          "PreventBurning": "true",
+          "AutoPop": "false",
+          "SlotMultiplier": "1",
+          "CookTimeMultiplier": "1"
+        }
+      }
+    },
+    "Azumatt-AzuWorkbenchTweaks": {
+      "filename": "Azumatt.AzuWorkbenchTweaks.cfg",
+      "sections": {
+        "1 - General": {
+          "Auto Repair": "Off"
+        },
+        "2 - WorkBench": {
+          "WorkBenchRange": "40",
+          "WorkBenchRange (Playerbase size)": "20",
+          "Change No Roof Behavior": "On",
+          "Change Require Fire Behavior": "Off",
+          "WorkBench Extension": "10"
+        }
+      }
+    },
+    "Azumatt-PerfectPlacement": {
+      "filename": "Azumatt_and_ValheimPlusDevs.PerfectPlacement.cfg",
+      "sections": {
+        "1 - General": {
+          "Enable Free Placement Rotation": "On",
+          "Enable Advanced Building Mode": "On",
+          "Enable Advanced Editing Mode": "On",
+          "Enable Grid Alignment": "Off"
+        },
+        "3 - Advanced Building Mode": {
+          "Enter Advanced Building Mode": "F1",
+          "Exit Advanced Building Mode": "F3",
+          "Reset Advanced Building Mode": "F7"
+        },
+        "4 - Advanced Editing Mode": {
+          "Enter Advanced Editing Mode": "Keypad0",
+          "Confirm Placement of Advanced Editing Mode": "KeypadEnter",
+          "Reset Advanced Editing Mode": "F7",
+          "Abort and Exit Advanced Editing Mode": "F8"
+        }
+      }
+    },
+    "Azumatt-Build_Camera_Custom_Hammers_Edition": {
+      "filename": "Azumatt.BuildCameraCHE.cfg",
+      "sections": {
+        "General": {
+          "Distance Can Build From Avatar": "40",
+          "Distance Can Build From Workbench": "40",
+          "Resource Pickup Range": "2"
+        },
+        "Mist": {
+          "Demister Range Multiplier": "1"
+        },
+        "Hotkeys": {
+          "Toggle build mode": "B"
+        }
+      }
+    },
+    "Azumatt-FirstPersonMode": {
+      "filename": "Azumatt.FirstPersonMode.cfg",
+      "sections": {
+        "1 - Toggles": {
+          "Enable First Person": "On",
+          "Enforce First Person": "Off"
+        },
+        "3 - Keyboard Shortcuts": {
+          "Toggle First Person Shortcut": "H + LeftShift"
+        }
+      }
+    },
+    "Smoothbrain-TargetPortal": {
+      "filename": "org.bepinex.plugins.targetportal.cfg",
+      "sections": {
+        "1 - General": {
+          "Default Portal mode": "Public",
+          "Allow non public portals": "Off",
+          "Ignore item teleport restrictions": "Default"
+        }
+      }
+    },
+    "OdinPlus-QuickTeleport": {
+      "filename": "elg.QuickTeleport.cfg",
+      "sections": {
+        "Portals": {
+          "Portal Load Safety Delay": "0.5",
+          "Portal Fade Time": "0.2"
+        },
+        "Safety": {
+          "Arrival Safety": "FullWorld"
+        }
+      }
+    },
+    "Smoothbrain-InstantEquip": {
+      "filename": "org.bepinex.plugins.instantequip.cfg",
+      "sections": {
+        "1 - General": {
+          "Instant Equip Weapons": "On",
+          "Instant Equip Armor": "On"
+        }
+      }
+    },
+    "Azumatt-SleepSkip": {
+      "filename": "Azumatt.SleepSkip.cfg",
+      "sections": {
+        "1 - General": {
+          "Percent of players": "100",
+          "Players Needed": "1",
+          "Vote Timeout": "0",
+          "Warning Time": "5"
+        },
+        "2 - Client Choices": {
+          "Popup Auto Choice": "Ask"
+        }
+      }
+    },
+    "Azumatt-Unshamed": {
+      "filename": "Azumatt.Unshamed.cfg",
+      "sections": {
+        "1 - General": {
+          "Enabled": "On",
+          "Ignore Cheat Flags": "On"
+        },
+        "3 - Retroactive": {
+          "Enable Retroactive": "Off"
+        },
+        "4 - Guide": {
+          "Reveal Requirements": "Off",
+          "Guide Panel": "Off"
+        }
+      }
+    },
+    "Dirtsnack-AchievementTracker": {
+      "filename": "Dirtsnack.AchievementTracker.cfg",
+      "sections": {
+        "General": {
+          "ToggleKey": "F9",
+          "RevealSecrets": "false"
+        }
+      }
+    },
+    "Snuffy-SkillLimitExtenderFork": {
+      "filename": "SkillLimitExtender.cfg",
+      "sections": {
+        "2 - Server": {
+          "LockConfiguration": "true"
+        },
+        "3 - Extended Scaling": {
+          "ScaleSafeFallDistance": "false"
+        },
+        "Swords": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Knives": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Clubs": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Polearms": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Spears": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Blocking": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Axes": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Bows": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "ElementalMagic": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "BloodMagic": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Unarmed": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Pickaxes": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "WoodCutting": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Crossbows": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Jump": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Sneak": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Run": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Swim": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Fishing": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Cooking": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Farming": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Crafting": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Dodge": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        },
+        "Ride": {
+          "Cap": "200",
+          "BonusCap": "200",
+          "Relative": "false",
+          "UseCustomGrowthCurve": "false"
+        }
+      }
+    },
+    "Neobotics-HUDCompass": {
+      "filename": "neobotics.valheim_mod.hudcompass.cfg",
+      "sections": {
+        "F - Dynamic Pins": {
+          "Show dynamic pins on map": "false",
+          "Show dynamic pins on compass": "true"
+        },
+        "B - Compass Display": {
+          "Player Pin Visibility": "PlayerChoice"
+        }
+      }
+    },
+    "ontrigger-ValheimPerformanceOptimizations": {
+      "filename": "dev.ontrigger.vpo.cfg",
+      "sections": {
+        "General": {
+          "Threaded terrain collision baking enabled": "false",
+          "Max physics updates per frame": "8"
+        }
+      }
+    },
+    "Searica-Extra_Snap_Points_Made_Easy": {
+      "filename": "Searica.Valheim.ExtraSnapPointsMadeEasy.cfg",
+      "sections": {
+        "2 - Manual Snapping": {
+          "Toggle Manual+ Snap Mode": "P",
+          "Toggle Grid Snap Mode": "F11"
+        }
+      }
+    },
+    "Mydayyy-ServerSideMap": {
+      "filename": "eu.mydayyy.plugins.serversidemap.cfg",
+      "sections": {
+        "General": {
+          "EnableMapShare": "true",
+          "EnableMarkerShare": "true"
+        }
+      }
+    },
+    "JereKuusela-Server_devcommands": {
+      "filename": "server_devcommands.cfg",
+      "sections": {
+        "1. General": {
+          "Automatic devcommands": "false",
+          "Automatic debug mode": "false",
+          "Automatic fly mode": "false",
+          "Automatic no cost mode": "false",
+          "Automatic god mode": "false",
+          "Automatic ghost mode": "false",
+          "Access private chests": "false",
+          "Access warded areas": "false",
+          "Show private players": "false",
+          "Debug mode fast teleport": "false"
+        },
+        "2. Console": {
+          "Map teleport bind key": "None",
+          "Disable cheat tracking": "false"
+        }
+      }
+    },
+    "omnipeach-ConfigurableCarryWeight": {
+      "filename": "robit.configurablecarryweight.cfg",
+      "sections": {
+        "Carry Weight": {
+          "Base Carry Weight": "300",
+          "Megingjord Bonus": "266.666667"
+        }
+      }
+    },
+    "cjayride-SmartShield": {
+      "filename": "cjayride.smartshield.cfg",
+      "sections": {
+        "General": {
+          "Enabled": "true"
+        },
+        "Behavior": {
+          "AutoEquipOnOneHanded": "true",
+          "EquipAfterRanged": "true",
+          "UnequipOnSheath": "false"
+        },
+        "Filters": {
+          "AllowedWeaponTypes": ""
+        },
+        "ShieldSelection": {
+          "SelectionMode": "Best"
+        }
+      }
+    }
+  },
+  "verification": {
+    "package_downloads": "passed",
+    "archive_crc": "passed",
+    "gale_gui_import": "not_run",
+    "game_launch": "not_run",
+    "two_player_world": "not_run",
+    "sleep_warning_seconds": 5,
+    "v7_preserved": "passed",
+    "smartshield_manifest_and_dll_config": "passed",
+    "smartshield_package_crc": "passed",
+    "dependency_minimums": "passed"
+  },
+  "artifacts_sha256": {
+    "Valheim-Duo-QoL-v8.r2z": "67fa6a8a954ce596795d9f7549c569db7c05bc7eaf5b89de7cdf8dcd98b15b3b",
+    "Valheim-Duo-QoL-config-v8.zip": "1f0d1de1cc3dbcb9ace21415c38516e0512d7a85fddc1308eb87665420aa3122",
+    "cjayride.smartshield.cfg": "30173e10021e69120f6bc248d18e33f820f2f40b3c1859d467ee574d12d42da2"
+  }
+}

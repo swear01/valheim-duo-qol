@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261007-v1",
+  "profileName": "Valheim-Duo-QoL-20261012-v34",
   "community": "valheim",
   "mods": [
     {
@@ -97,7 +97,7 @@
       "version": {
         "major": 1,
         "minor": 2,
-        "patch": 17
+        "patch": 18
       },
       "enabled": true,
       "source": "Hexium"
@@ -107,7 +107,7 @@
       "version": {
         "major": 1,
         "minor": 8,
-        "patch": 27
+        "patch": 28
       },
       "enabled": true,
       "source": "Hexium"
@@ -177,7 +177,7 @@
       "version": {
         "major": 1,
         "minor": 4,
-        "patch": 4
+        "patch": 5
       },
       "enabled": true,
       "source": "Hexium"
@@ -197,7 +197,7 @@
       "version": {
         "major": 2,
         "minor": 0,
-        "patch": 4
+        "patch": 5
       },
       "enabled": true,
       "source": "Hexium"
@@ -267,7 +267,7 @@
       "version": {
         "major": 1,
         "minor": 2,
-        "patch": 0
+        "patch": 1
       },
       "enabled": true,
       "source": "Hexium"
@@ -286,6 +286,166 @@
       "name": "Searica-Extra_Snap_Points_Made_Easy",
       "version": {
         "major": 2,
+        "minor": 1,
+        "patch": 1
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "Mydayyy-ServerSideMap",
+      "version": {
+        "major": 1,
+        "minor": 3,
+        "patch": 14
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "JereKuusela-Server_devcommands",
+      "version": {
+        "major": 1,
+        "minor": 115,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "omnipeach-ConfigurableCarryWeight",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "cjayride-SmartShield",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 11
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "Azumatt-Recycle_N_Reclaim",
+      "version": {
+        "major": 1,
+        "minor": 4,
+        "patch": 5
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Zenox-AutoDoors",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 19
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "QoLTeam-ValheimTerrainTools",
+      "version": {
+        "major": 0,
+        "minor": 6,
+        "patch": 4
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "Geda_Giminei-SlashBack",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 2
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "Advize-PlantEasily",
+      "enabled": true,
+      "source": "Thunderstore",
+      "version": {
+        "major": 2,
+        "minor": 3,
+        "patch": 0
+      }
+    },
+    {
+      "name": "Advize-PlantEverything",
+      "enabled": true,
+      "source": "Thunderstore",
+      "version": {
+        "major": 1,
+        "minor": 21,
+        "patch": 3
+      }
+    },
+    {
+      "name": "mightywa33ior-AdrenalineModifier",
+      "enabled": true,
+      "source": "Thunderstore",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 1
+      }
+    },
+    {
+      "name": "Sfantul-PortalGhostFix",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "shudnal-ItemStacksItemWeights",
+      "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "swear01-ValheimCli",
+      "version": {
+        "major": 0,
+        "minor": 5,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "JevMods-BetterFog",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 3
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "swear01-AAA_Crafting_Max_Fix",
+      "version": {
+        "major": 1,
         "minor": 1,
         "patch": 0
       },

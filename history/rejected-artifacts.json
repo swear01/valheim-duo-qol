@@ -1,0 +1,10 @@
+[
+  {
+    "filename": "Valheim-Duo-QoL-v21.r2z",
+    "profile": "Valheim-Duo-QoL-20261011-v21",
+    "sha256": "7d76fe39a82149448385fba7b7214712f98c87fc53d5bca9b2da397b1c64649e",
+    "status": "withdrawn_wrong_base",
+    "reason": "Added ValheimCli to an old CLI-workspace v20 base; superseded by correct-base v27. Not the formal PortalGhostFix/carry-weight v21.",
+    "formal_v21_sha256": "98df3a58eb11d7529a1c9b6dfef35d74d6c37f57fce70fb789445d53d225fe03"
+  }
+]
