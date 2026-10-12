@@ -2,6 +2,11 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v23 — 2026-10-11
+
+工作台範圍設為 50 公尺。42 個線上套件，35 份設定。
+- `BepInEx/config/Azumatt.AzuWorkbenchTweaks.cfg` 的 `2 - WorkBench / WorkBenchRange`：`40` → `50`。
+
 ## v22 — 2026-10-10
 
 加入 ItemStacksItemWeights。42 個線上套件，35 份設定。

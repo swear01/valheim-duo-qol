@@ -1,6 +1,6 @@
 {
-  "created": "2026-10-10",
-  "profile": "Valheim-Duo-QoL-20261010-v22",
+  "created": "2026-10-11",
+  "profile": "Valheim-Duo-QoL-20261011-v23",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -961,7 +961,7 @@
           "Auto Repair": "Off"
         },
         "2 - WorkBench": {
-          "WorkBenchRange": "40",
+          "WorkBenchRange": "50",
           "WorkBenchRange (Playerbase size)": "20",
           "Change No Roof Behavior": "On",
           "Change Require Fire Behavior": "Off",
@@ -1493,33 +1493,35 @@
     }
   },
   "verification": {
-    "scope": "V22 artifact/static checks only; prior verification retained under base_v21",
-    "v21_all_41_package_pins_34_configs_local_plugin_byte_preserved": "passed",
-    "v22_unique_42_enabled_packages_and_source_version_lock": "passed",
-    "v22_all_dependency_minimums_no_new_dependencies": "passed",
-    "official_stack_archive_crc_sha256_manifest_guid_unique_dll": "passed",
-    "stack_formal_dll_config_path_yaml_fields_nonstackable_gate_and_multipliers": "passed_static_only",
-    "delivered_yaml_parse_stack_2_weight_1_empty_overrides": "passed",
-    "v22_archive_crc_unique_members_and_readback": "passed",
-    "v22_guide_local_links": "passed",
-    "baseline_41_latest_versions_rechecked_for_v22": "not_run_pins_preserved_from_v21",
+    "scope": "V23 artifact/static checks only; prior verification retained under base_v22",
+    "all_42_online_package_pins_and_local_plugin_preserved": "passed",
+    "only_workbench_range_40_to_50_one_config_line_changed": "passed",
+    "other_34_config_files_byte_preserved_including_stack_and_carry": "passed",
+    "official_workbench_and_camera_archives_crc_sha256_manifest": "passed",
+    "workbench_setting_range_station_Start_and_marker_static": "passed_static_only",
+    "camera_uses_max_station_range_and_config_setting_static": "passed_static_only",
+    "v23_zip_crc_unique_members_and_readback": "passed",
+    "v23_guide_local_links_and_recorded_hashes": "passed",
+    "prior_deliverables_hash_preserved": "passed",
+    "baseline_latest_versions_rechecked": "not_run_pins_preserved_from_v22",
     "gale_gui_import": "not_run",
     "installation_to_current_profile": "not_run",
     "game_launch": "not_run",
-    "two_player_world": "not_run",
-    "stack_inventory_chest_weight_save_reload": "not_run",
-    "server_config_sync": "not_run",
+    "station_build_range_and_visual_marker": "not_run",
+    "camera_move_range": "not_run",
+    "two_player_world_sync": "not_run",
     "current_game_session": "untouched_no_restart"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v22.r2z": "33e4a2981df87c60765846450f12d94e34f88cd7104ae86c42374e6a92206081",
-    "Valheim-Duo-QoL-config-v22.zip": "724667ca9bbd35d19736d838b57d210a10b1b2c10888a0c129c9a1df31bf6e4c",
-    "Valheim-堆疊設定增補-v22.zip": "dcf5ea938f5e93478bd016cfa6dff4bffbcc285a82c1c7ba5ce034c4a8c5b251",
-    "Valheim-雙人模組包-安裝指南-v22.html": "46d61b7a13c51846a0a3608ebff67bdd492b21de6702f3e94bdc693a9c73a396",
+    "Valheim-Duo-QoL-v23.r2z": "14dabde4495f71a18c43637e2a3e20f7608b014d6de500e8246bd9eb6da84d56",
+    "Valheim-Duo-QoL-config-v23.zip": "2c1a30a26883abbdde975c06fdf7f40efd52d5e5a465fa5badb0966a3a5ef239",
+    "Valheim-工作台範圍設定增補-v23.zip": "004f20fac44d1f28146bde180e3d09d742c3d8aac46a938bc0532d93312383d0",
+    "Valheim-雙人模組包-安裝指南-v23.html": "7d7833299e8b1c2b0314ad51919bbf5f6019c409d3afdeea88e34e508f8193f5",
     "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
     "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
     "TorchLight-營火半亮度-v14.zip": "889f1e101c821446cbe1ffdf70087fa7c2476986dd10573000015205b30445f6",
     "Valheim-原版鋤頭設定增補-v16.zip": "ae904892bd1768cf664bed54065fddbb4a6b488d00c58b62b4cafb220cc0ada4",
+    "Valheim-堆疊設定增補-v22.zip": "dcf5ea938f5e93478bd016cfa6dff4bffbcc285a82c1c7ba5ce034c4a8c5b251",
     "Valheim-種田設定增補-v18.zip": "e2fb6d2b469df7f7983fc38560813f53317a566d5fa67398858881b6f7a3f055",
     "Valheim-腎上腺素設定增補-v19.zip": "06d7bfc303f4797ff0e2adfc4e5e810375f8a10bfe944b40e02c99fa78a6d814",
     "Valheim-負重設定增補-v21.zip": "382f52a0398e80cd40a8033f65988781bfdbd52c7885a5e74335599db6fe22ac",
@@ -2279,6 +2281,49 @@
       "nonstackable_items": "unchanged_by_author_condition",
       "per_item_overrides": {},
       "current_game_applied": false
+    }
+  ],
+  "base_v22": {
+    "profile": "Valheim-Duo-QoL-20261010-v22",
+    "archive": "Valheim-Duo-QoL-v22.r2z",
+    "archive_sha256": "33e4a2981df87c60765846450f12d94e34f88cd7104ae86c42374e6a92206081",
+    "lock": "Valheim-Duo-QoL-lock-v22.json",
+    "lock_sha256": "e54c1768122283ee4c5da3d66a338f9634f394a6bf720856fbfbaa4868e90a6e",
+    "verification": {
+      "scope": "V22 artifact/static checks only; prior verification retained under base_v21",
+      "v21_all_41_package_pins_34_configs_local_plugin_byte_preserved": "passed",
+      "v22_unique_42_enabled_packages_and_source_version_lock": "passed",
+      "v22_all_dependency_minimums_no_new_dependencies": "passed",
+      "official_stack_archive_crc_sha256_manifest_guid_unique_dll": "passed",
+      "stack_formal_dll_config_path_yaml_fields_nonstackable_gate_and_multipliers": "passed_static_only",
+      "delivered_yaml_parse_stack_2_weight_1_empty_overrides": "passed",
+      "v22_archive_crc_unique_members_and_readback": "passed",
+      "v22_guide_local_links": "passed",
+      "baseline_41_latest_versions_rechecked_for_v22": "not_run_pins_preserved_from_v21",
+      "gale_gui_import": "not_run",
+      "installation_to_current_profile": "not_run",
+      "game_launch": "not_run",
+      "two_player_world": "not_run",
+      "stack_inventory_chest_weight_save_reload": "not_run",
+      "server_config_sync": "not_run",
+      "current_game_session": "untouched_no_restart"
+    }
+  },
+  "configuration_updates_from_v22": [
+    {
+      "package": "Azumatt-AzuWorkbenchTweaks",
+      "filename": "Azumatt.AzuWorkbenchTweaks.cfg",
+      "section": "2 - WorkBench",
+      "WorkBenchRange": {
+        "from": "40",
+        "to": "50"
+      },
+      "unit": "meters_radius",
+      "interpretation": "plus_5_tiles_if_tile_width_is_2_meters",
+      "scope": "all_CraftingStation_instances_on_Start",
+      "camera_effective_station_range": "max(station_range_50, camera_setting_40) = 50",
+      "current_game_applied": false,
+      "existing_station_hot_reload": "not_supported_by_observed_patch"
     }
   ]
 }
