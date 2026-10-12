@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v27 — 2026-10-12
+
+加入 ValheimCli 0.4.0。43 個線上套件，35 份設定。
+
+- 新增套件：`swear01-ValheimCli`。
+
 ## v26 — 2026-10-11
 
 內附 AAA Crafting Max Fix 1.0.0。42 個線上套件，35 份設定。
