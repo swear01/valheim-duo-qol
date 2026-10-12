@@ -1,6 +1,6 @@
 {
-  "created": "2026-10-12",
-  "profile": "Valheim-Duo-QoL-20261012-v34",
+  "created": "2026-10-13",
+  "profile": "Valheim-Duo-QoL-20261013-v35",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -722,6 +722,23 @@
       "sha256": "98d89d4f95c9c6cd8bcb89f6d48db0b13211f45a37f91b032335a888271116ce",
       "bytes": 23362,
       "dll_sha256": "0ded675f64165ab790a79ef48fa42d022c0618f16529a150bab05f59d7360ceb"
+    },
+    {
+      "name": "Azumatt-AzuHoverStats",
+      "source": "Hexium",
+      "version": "1.1.11",
+      "download": "https://cdn.hexium.gg/upload/219/1.1.11.zip",
+      "website": "https://discord.gg/pdHgy6Bsng",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/AzuHoverStats",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
+      "direct": true,
+      "released": "2026-09-18T00:37:54.000000Z",
+      "sha256": "f2f893373f052a6ee3ca87fac333ce43de36e54771cba17243aaa0afb3ff3d25",
+      "bytes": 164567,
+      "archive_url": "https://cdn.hexium.gg/upload/219/1.1.11.zip",
+      "dll_sha256": "eb9e5a1be9d6f5f87c7aecc771bc3e63c78fe3c92f86ccc4cdba064ced629bb9"
     }
   ],
   "configs": {
@@ -1554,28 +1571,59 @@
           "Opacity": "0.5"
         }
       }
+    },
+    "Azumatt-AzuHoverStats": {
+      "filename": "Azumatt.AzuHoverStats.cfg",
+      "sections": {
+        "1 - General": {
+          "Disable All Visuals": "None",
+          "Show Tooltip Information": "Off"
+        },
+        "2 - Build Piece": {
+          "Show Health Bar": "On",
+          "Show Health Text": "On",
+          "Show Integrity Text": "On",
+          "Custom Health Colors": "Off",
+          "Custom Integrity Colors": "Off",
+          "Health Text": "耐久 {0}/{1} ({2}%)",
+          "Integrity Text": "支撐 {0}/{1} ({2}%)"
+        },
+        "3 - Hover Texts": {
+          "Show Build Piece Status": "On",
+          "Show Fireplace Status": "Off",
+          "Show Cooking Station Status": "Off",
+          "Show Mine Rock Status": "Off",
+          "Show Tree Status": "Off",
+          "Show Pickable Status": "Off",
+          "Show Plant Status": "Off",
+          "Show Sap Collector Status": "Off",
+          "Show Beehive Status": "Off",
+          "Show Fermenter Status": "Off"
+        },
+        "4 - Show Chest Contents": {
+          "Show Chest Contents": "Off"
+        }
+      }
     }
   },
   "verification": {
-    "package_count": 45,
-    "config_count": 36,
-    "zip_crc_paths_manifest_dependencies": "passed",
-    "only_export_r2x_changed": "passed",
-    "only_two_pins_changed": "passed",
-    "all_configs_and_TorchMod_license_dll_unchanged": "passed",
-    "patch_source_and_DLL_public_readback": "passed",
+    "package_count": 46,
+    "config_count": 37,
+    "new_package_zip_crc_paths_manifest_dependencies": "passed",
+    "existing_45_pins_and_36_configs_and_bundled_dlls_unchanged": "passed",
+    "new_config_keys_match_published_code": "passed",
     "private_tokens_absent": "passed",
+    "boat_health_code_path": "inspected_Piece_WearNTear_hover_health",
     "gale_gui_import": "not_run",
-    "Unity_Harmony_detours": "not_run",
-    "in_game_multiplayer_endurance": "not_run",
-    "current_profile_world_character": "untouched"
+    "in_game_ship_hover_display": "not_run",
+    "multiplayer_endurance": "not_run",
+    "active_profile_world_character": "untouched"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v34.r2z": "4eececdd94eb318cdd886451f985fb34263e14046f24c23edf82644b989f50d0",
-    "Valheim-Duo-QoL-config-v34.zip": "405004d62250c0f30c27fd05b75d09f05f024015706178e4c1b531503f6b3d78",
-    "Valheim-雙人模組包-安裝指南-v34.html": "7c23042a5eb9e7ff8ec66ac190ebe6beb92e6735b5300d13fa16e124fe8b1fba",
-    "Valheim-Duo-QoL-v34-驗證.json": "4ffb56312a615db730c8a9d1ee15b5bca2966c2548243d8146edf4c6748058c6",
-    "AAA_Crafting_Max_Fix-1.1.0-Thunderstore.zip": "98d89d4f95c9c6cd8bcb89f6d48db0b13211f45a37f91b032335a888271116ce"
+    "Valheim-Duo-QoL-v35.r2z": "6713f247ba1a9330f0f9cc393411dc0a57b14182d15dafbeca3a3f5c358495b5",
+    "Valheim-Duo-QoL-config-v35.zip": "a60d10723980c457e8891ea0ad407c5a244e1f7ab329ef2a61ed7e9ab657e2a7",
+    "Valheim-雙人模組包-安裝指南-v35.html": "985cd5ddbabdb5254f93a4fa90d1659ff4fe3f42bc96b4ac6a30adba4f66dd7a",
+    "Valheim-Duo-QoL-v35-驗證.json": "cde94402a434ad9f1fb6c22e128fd06822de04997f6cd9a0134ee0156e1c1062"
   },
   "local_plugins": [
     {
@@ -3057,5 +3105,15 @@
       "to": "1.1.0"
     }
   },
-  "deferred_updates_v34": []
+  "deferred_updates_v34": [],
+  "base_v34": {
+    "name": "Valheim-Duo-QoL-v34.r2z",
+    "sha256": "4eececdd94eb318cdd886451f985fb34263e14046f24c23edf82644b989f50d0"
+  },
+  "updates_from_v34": {
+    "added": [
+      "Azumatt-AzuHoverStats-1.1.11"
+    ],
+    "existing_packages": "unchanged"
+  }
 }
