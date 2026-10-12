@@ -1,7 +1,8 @@
-name: Verify modpack history
+name: Verify and package modpack
 on:
   push:
   pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
@@ -16,3 +17,10 @@ jobs:
           python-version: '3.12'
       - run: python -m unittest discover -s tests
       - run: python scripts/verify_history.py
+      - run: python scripts/build_package.py
+      - uses: actions/upload-artifact@v7
+        with:
+          path: dist/*.r2z
+          archive: false
+          if-no-files-found: error
+          retention-days: 30

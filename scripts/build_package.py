@@ -1,0 +1,28 @@
+"""Rebuild the current Gale package from profile/ with preserved ZIP metadata."""
+import json
+import zipfile
+
+from verify_history import ROOT, digest, read_package
+
+
+def main():
+    row = json.loads((ROOT / "history/versions.json").read_text())[-1]
+    preserved = ROOT / row["archive"]
+    files = {
+        path.relative_to(ROOT / "profile").as_posix(): path.read_bytes()
+        for path in (ROOT / "profile").rglob("*") if path.is_file()
+    }
+    assert files == read_package(preserved), "Profile differs from preserved release"
+    output = ROOT / "dist" / preserved.name
+    output.parent.mkdir(exist_ok=True)
+    with zipfile.ZipFile(preserved) as template, zipfile.ZipFile(output, "w") as archive:
+        archive.comment = template.comment
+        for info in template.infolist():
+            archive.writestr(info, files[info.filename], compresslevel=6)
+    assert read_package(output) == files, "Rebuilt package contents differ"
+    assert digest(output.read_bytes()) == row["archive_sha256"], "Rebuilt package hash differs"
+    print(f"PASS: {output.name} rebuilt from profile/; SHA256 {row['archive_sha256']}")
+
+
+if __name__ == "__main__":
+    main()
