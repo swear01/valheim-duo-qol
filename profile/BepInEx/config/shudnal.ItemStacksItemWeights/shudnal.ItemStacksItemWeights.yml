@@ -2,5 +2,5 @@ WeightMultiplier:
   Global: 1
 WeightAmount: {}
 StackMultiplier:
-  Global: 2
+  Global: 4
 StackSize: {}
