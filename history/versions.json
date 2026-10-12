@@ -436,7 +436,7 @@
     "version": 6,
     "tag": "v6",
     "release_date": "2026-10-07",
-    "summary": "調整負重與控制設定",
+    "summary": "調整負重倍率與腰帶加成",
     "profile": "Valheim-Duo-QoL-20261007-v6",
     "archive": "history/v6/Valheim-Duo-QoL-v6.r2z",
     "archive_sha256": "5a9d3de994de4093e137018b64874d2ab73314cb11666c38da9e539fb7f671ab",
