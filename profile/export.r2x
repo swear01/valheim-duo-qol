@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261010-v20",
+  "profileName": "Valheim-Duo-QoL-20261010-v21",
   "community": "valheim",
   "mods": [
     {
@@ -401,6 +401,16 @@
         "minor": 0,
         "patch": 1
       }
+    },
+    {
+      "name": "Sfantul-PortalGhostFix",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
     }
   ],
   "ignoredUpdates": [],

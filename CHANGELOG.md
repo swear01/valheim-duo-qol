@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v21 — 2026-10-10
+
+加入 PortalGhostFix 並調整負重成長。41 個線上套件，34 份設定。
+
+- 新增套件：`Sfantul-PortalGhostFix`。
+- `BepInEx/config/Searica.Valheim.SkilledCarryWeight.cfg` 的 `Run / Coefficient`：`2` → `4`。
+
 ## v20 — 2026-10-10
 
 更新 HUDCompass 與 Extra Snap Points。40 個線上套件，34 份設定。
