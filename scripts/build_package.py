@@ -2,7 +2,7 @@
 import json
 import zipfile
 
-from verify_history import ROOT, digest, read_package
+from scripts.verify_history import ROOT, digest, read_package
 
 
 def main():

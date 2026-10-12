@@ -16,7 +16,7 @@
 
 `profile/` 是這一版的可比較內容，`lock.json` 保存原始版本／來源／設定紀錄。歷史 ZIP 與 lock 保存在 `history/v*/`。
 
-[GitHub Actions](https://github.com/swear01/valheim-duo-qol/actions/workflows/verify.yml) 在 push、PR 或手動 Run workflow 時，會驗證所有版本，再從 `profile/` 重建目前的 `.r2z`，確認 SHA256 與封存完全相同才提供下載，保留 30 天（下載需登入 GitHub）。本機可執行 `python3 scripts/build_package.py`，產物在 `dist/`。新增版本仍需一併更新封存、lock、版本紀錄與 tag；Actions 不會自動更新模組或改動版本。
+[GitHub Actions](https://github.com/swear01/valheim-duo-qol/actions/workflows/verify.yml) 在 push、PR 或手動 Run workflow 時，會驗證所有版本，再從 `profile/` 重建目前的 `.r2z`，確認 SHA256 與封存完全相同才提供下載，保留 30 天（下載需登入 GitHub）。本機在 repository 根目錄執行 `python3 -m scripts.build_package`，產物在 `dist/`。新增版本仍需一併更新封存、lock、版本紀錄與 tag；Actions 不會自動更新模組或改動版本。
 
 完整包的遊戲內、雙人與長時間行為尚未全面實測；歷史封存與靜態檢查不代表遊戲相容性驗證。
 
