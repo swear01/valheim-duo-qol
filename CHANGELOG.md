@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v10 — 2026-10-08
+
+加入 Recycle N Reclaim 與裝備欄保護。34 個線上套件，28 份設定。
+
+- 新增套件：`Azumatt-Recycle_N_Reclaim`。
+- `BepInEx/config/shudnal.ExtraSlots.cfg` 的 `Mods compatibility / Prevent Recycle_N_Reclaim from recycling items in extra slots`：`None` → `true`。
+
 ## v9 — 2026-10-08
 
 調整箱子取料設定。33 個線上套件，27 份設定。

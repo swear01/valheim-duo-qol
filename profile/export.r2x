@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261008-v9",
+  "profileName": "Valheim-Duo-QoL-20261008-v10",
   "community": "valheim",
   "mods": [
     {
@@ -331,6 +331,16 @@
       },
       "enabled": true,
       "source": "Thunderstore"
+    },
+    {
+      "name": "Azumatt-Recycle_N_Reclaim",
+      "version": {
+        "major": 1,
+        "minor": 4,
+        "patch": 5
+      },
+      "enabled": true,
+      "source": "Hexium"
     }
   ],
   "ignoredUpdates": [],

@@ -1,6 +1,6 @@
 {
   "created": "2026-10-08",
-  "profile": "Valheim-Duo-QoL-20261008-v9",
+  "profile": "Valheim-Duo-QoL-20261008-v10",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -537,6 +537,19 @@
       "sha256": "1f1621a198305f232b61aed8c37fa8dabdd7668f26d708104729769a0cf4e857",
       "bytes": 137989,
       "archive_url": "https://thunderstore.io/package/download/cjayride/SmartShield/1.0.11/"
+    },
+    {
+      "name": "Azumatt-Recycle_N_Reclaim",
+      "source": "Hexium",
+      "version": "1.4.5",
+      "download": "https://cdn.hexium.gg/upload/226/1.4.5.zip",
+      "website": "https://discord.gg/pdHgy6Bsng",
+      "page": "https://valheim.hexium.gg/mods/Azumatt/Recycle_N_Reclaim",
+      "dependencies": [],
+      "direct": true,
+      "sha256": "fe56cbeba2687b0d6117b7ad7e3dc40e2f92b5612b7846cffac17c64541d8115",
+      "bytes": 434662,
+      "archive_url": "https://cdn.hexium.gg/upload/226/1.4.5.zip"
     }
   ],
   "configs": {
@@ -755,6 +768,9 @@
           "Quickslot 1": "Z + LeftAlt",
           "Quickslot 2": "X + LeftAlt",
           "Quickslot 3": "C + LeftAlt"
+        },
+        "Mods compatibility": {
+          "Prevent Recycle_N_Reclaim from recycling items in extra slots": "true"
         }
       }
     },
@@ -1188,6 +1204,27 @@
           "SelectionMode": "Best"
         }
       }
+    },
+    "Azumatt-Recycle_N_Reclaim": {
+      "filename": "Azumatt.Recycle_N_Reclaim.cfg",
+      "sections": {
+        "2 - Inventory Recycle": {
+          "Enabled": "Off",
+          "DiscardHotkey(s)": "None",
+          "TrashingKeybind": "None",
+          "TrashingModifierKeybind1": "None"
+        },
+        "3 - Reclaiming": {
+          "RecyclingRate": "1",
+          "RequireExactCraftingStationForRecycling": "On"
+        },
+        "4 - UI": {
+          "ContainerRecyclingEnabled": "Off",
+          "EnableExperimentalCraftingTabUI": "On",
+          "HideRecipesForEquippedItems": "On",
+          "IgnoreItemsOnHotbar": "On"
+        }
+      }
     }
   },
   "verification": {
@@ -1201,12 +1238,19 @@
     "smartshield_package_crc": "passed",
     "dependency_minimums": "passed",
     "v8_package_versions_and_other_configs_preserved": "passed",
-    "craftyboxes_container_range_meters": 30
+    "craftyboxes_container_range_meters": 30,
+    "v9_packages_and_unrelated_configs_preserved": "passed",
+    "recycling_manifest_crc_and_config_keys": "passed",
+    "extra_slots_recycling_exclusion_and_aaa_compatibility_static": "passed",
+    "recycling_return_fraction": 1,
+    "recycling_gameplay": "not_run"
   },
   "artifacts_sha256": {
     "cjayride.smartshield.cfg": "30173e10021e69120f6bc248d18e33f820f2f40b3c1859d467ee574d12d42da2",
-    "Valheim-Duo-QoL-v9.r2z": "4d5d05298fe1047a06eb940abe1ccb902d713c8cebb74eb4a269ab434c9d3a31",
-    "Valheim-Duo-QoL-config-v9.zip": "3a40a433f3933d27735395bdc19d3a61df5384a2dcdecf7247418241bb6a05a1",
-    "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7"
+    "Azumatt.AzuCraftyBoxes.cfg": "43fae82655bdbf732465dafaf412e8b5d99e6d6e92fed9200065248c055e14a7",
+    "Valheim-Duo-QoL-v10.r2z": "45c8e749df5ea4d42eda26a89ea3e0259a4300827cd65fc9f1c9054a07787efd",
+    "Valheim-Duo-QoL-config-v10.zip": "ba894079c91516edfe4870a3588c2d6897cb1a8745c9d0a258ee4176ab33e50c",
+    "Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
+    "shudnal.ExtraSlots.cfg": "e5eeddfac58c11b0de2ee014d5b26bf5da3b0656b33f1a934e938d93607e0c44"
   }
 }
