@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v15 — 2026-10-09
+
+更新 FirstPersonMode 與 QuickTeleport。35 個線上套件，30 份設定。
+- 更新 `OdinPlus-QuickTeleport`：2.0.4 → 2.0.5。
+- 更新 `Azumatt-FirstPersonMode`：1.4.4 → 1.4.5。
+
 ## v14 — 2026-10-09
 
 內附 Torch Light Mod 與營火設定。35 個線上套件，30 份設定。
