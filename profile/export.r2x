@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261009-v18",
+  "profileName": "Valheim-Duo-QoL-20261010-v19",
   "community": "valheim",
   "mods": [
     {
@@ -390,6 +390,16 @@
         "major": 1,
         "minor": 21,
         "patch": 3
+      }
+    },
+    {
+      "name": "mightywa33ior-AdrenalineModifier",
+      "enabled": true,
+      "source": "Thunderstore",
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "patch": 1
       }
     }
   ],

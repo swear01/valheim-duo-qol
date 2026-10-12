@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v19 — 2026-10-10
+
+加入 AdrenalineModifier。40 個線上套件，34 份設定。
+
+- 新增套件：`mightywa33ior-AdrenalineModifier`。
+
 ## v18 — 2026-10-09
 
 加入 PlantEasily 與 PlantEverything。39 個線上套件，33 份設定。
