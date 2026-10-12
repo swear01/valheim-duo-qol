@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v11 — 2026-10-08
+
+調整 Server Devcommands 設定。34 個線上套件，28 份設定。
+- `BepInEx/config/server_devcommands.cfg` 的 `1. General / Automatic debug mode`：`false` → `true`。
+- `BepInEx/config/server_devcommands.cfg` 的 `1. General / Debug mode fast teleport`：`false` → `true`。
+- `BepInEx/config/server_devcommands.cfg` 的 `2. Console / Disable debug mode keys`：`None` → `true`。
+
 ## v10 — 2026-10-08
 
 加入 Recycle N Reclaim 與裝備欄保護。34 個線上套件，28 份設定。
