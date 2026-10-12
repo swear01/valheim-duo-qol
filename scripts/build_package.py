@@ -2,7 +2,7 @@
 import json
 import zipfile
 
-from scripts.verify_history import ROOT, digest, read_package
+from scripts.verify_history import ROOT, digest, git, read_package
 
 
 def main():
@@ -11,8 +11,8 @@ def main():
     row = json.loads((ROOT / "history/versions.json").read_text(encoding="utf-8"))[-1]
     preserved = ROOT / row["archive"]
     files = {
-        path.relative_to(ROOT / "profile").as_posix(): path.read_bytes()
-        for path in (ROOT / "profile").rglob("*") if path.is_file()
+        name.removeprefix("profile/"): (ROOT / name).read_bytes()
+        for name in git("ls-files", "-z", "--", "profile").decode().split("\0") if name
     }
     if files != read_package(preserved):
         raise ValueError("Profile differs from preserved release")
