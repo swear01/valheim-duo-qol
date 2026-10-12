@@ -2,6 +2,12 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v18 — 2026-10-09
+
+加入 PlantEasily 與 PlantEverything。39 個線上套件，33 份設定。
+
+- 新增套件：`Advize-PlantEasily`, `Advize-PlantEverything`。
+
 ## v17 — 2026-10-09
 
 加入 SlashBack。37 個線上套件，31 份設定。
