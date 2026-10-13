@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v38 — 2026-10-13
+
+HUDCompass 地圖動態標記預設開啟，顯示船隻、推車與傳送門。47 個線上套件，38 份設定。
+
+- `F - Dynamic Pins / Show dynamic pins on map`：`false` → `true`。
+- 套件版本、其他 37 份設定與內附 DLL 不變，MovingDay 地形快捷鍵保留。
+- [使用方式與驗證範圍](docs/map-pins.md)。
+
 ## v37 — 2026-10-13
 
 恢復 MovingDay 的左 Ctrl 地形搬移快捷鍵，讓依賴整地／地下室的房子可以連地形搬移。47 個線上套件，38 份設定。
