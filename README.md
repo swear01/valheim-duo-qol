@@ -20,4 +20,6 @@
 
 完整包的遊戲內、雙人與長時間行為尚未全面實測；歷史封存與靜態檢查不代表遊戲相容性驗證。
 
+維護雙人私人包時，必須沿用本機固定的私人管理員設定，執行 `python3 -m scripts.build_private_package`；缺少設定時停止私人交付，不退回公開包。設定位置、換機與隱私界線見 [私人包維護](docs/private-package.md)。
+
 內附模組授權與來源見 [THIRD_PARTY.md](THIRD_PARTY.md)。
