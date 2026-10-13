@@ -8,7 +8,7 @@
 python3 -m scripts.build_private_package
 ```
 
-它先核對並重建目前正式版本，再把本機兩位管理員寫入 `BepInEx/config/permissions.yaml`、開啟 `Automatic devcommands`，輸出 `dist/Valheim-Duo-QoL-v版本-private-admins.r2z`。其他設定、模組版本與內附檔案保留；免費建造、支撐與耐久設定沿用正式版本。私人包使用獨立 profile 名稱，兩人匯入新 profile 並勾選 Import all files。
+它先核對並重建目前正式版本，再把本機兩位管理員寫入 `BepInEx/config/permissions.yaml`、開啟 `Automatic devcommands`，輸出 `dist/private/Valheim-Duo-QoL-v版本.r2z`。檔名與 profile 沿用正式版本，不加私人版尾碼；公開包在 `dist/`，兩人交付使用 `dist/private/` 內的包。其他設定、模組版本與內附檔案保留；免費建造、支撐與耐久設定沿用正式版本。兩人匯入新 profile 並勾選 Import all files；若已有同名 profile，先備份並在 Gale 另取名稱，避免覆蓋。
 
 私人設定檔缺失、格式不正確或不是兩個不同 Steam 帳號時，打包會失敗。此時應恢復私人設定，不能把公開包當成已包含雙人管理員的版本交付。
 

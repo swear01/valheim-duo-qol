@@ -59,9 +59,6 @@ def build_private(settings_path, public_archive, output):
         permissions += "\n- id: " + json.dumps(admin["id"]) + "\n"
         permissions += "  name: " + json.dumps(admin["name"], ensure_ascii=False) + '\n  admin: "yes"\n'
     files[permission_file] = permissions.encode("utf-8")
-    export = json.loads(files["export.r2x"])
-    export["profileName"] += "-private-admins"
-    files["export.r2x"] = (json.dumps(export, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile(dir=output.parent, delete=False) as temporary:
         pending = Path(temporary.name)
@@ -86,9 +83,9 @@ def main():
     build_package.main()
     row = json.loads((ROOT / "history/versions.json").read_text(encoding="utf-8"))[-1]
     public = ROOT / "dist" / Path(row["archive"]).name
-    output = public.with_name(public.stem + "-private-admins.r2z")
+    output = public.parent / "private" / public.name
     checksum = build_private(PRIVATE_SETTINGS, public, output)
-    print(f"PASS: {output.name}; two private admins; SHA256 {checksum}")
+    print(f"PASS: {output.relative_to(ROOT)}; two private admins; SHA256 {checksum}")
 
 
 if __name__ == "__main__":
