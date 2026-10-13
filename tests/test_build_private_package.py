@@ -52,6 +52,29 @@ class PrivatePackageValidation(unittest.TestCase):
         self.assertEqual(build_private(self.settings, self.public, self.output), first)
         self.assertEqual(self.output.read_bytes(), contents)
 
+    def test_windows_utf8_bom_settings_are_accepted(self):
+        self.settings.write_bytes(b"\xef\xbb\xbf" + self.settings.read_bytes())
+        build_private(self.settings, self.public, self.output)
+        self.assertTrue(self.output.is_file())
+
+    def test_wrong_json_shape_has_clear_error(self):
+        for settings in ([], {}):
+            with self.subTest(settings=settings):
+                self.settings.write_text(json.dumps(settings), encoding="utf-8")
+                with self.assertRaisesRegex(ValueError, "exactly two admin accounts"):
+                    build_private(self.settings, self.public, self.output)
+                self.assertFalse(self.output.exists())
+
+    def test_wrong_config_section_is_rejected(self):
+        server_file = "BepInEx/config/server_devcommands.cfg"
+        self.files[server_file] = self.files[server_file].replace(b"1. General", b"Wrong Section")
+        with zipfile.ZipFile(self.public, "w", zipfile.ZIP_DEFLATED) as archive:
+            for name, data in self.files.items():
+                archive.writestr(name, data)
+        with self.assertRaisesRegex(ValueError, "in 1. General"):
+            build_private(self.settings, self.public, self.output)
+        self.assertFalse(self.output.exists())
+
     def test_missing_settings_does_not_fall_back_to_public_package(self):
         self.settings.unlink()
         with self.assertRaisesRegex(FileNotFoundError, "docs/private-package.md"):
