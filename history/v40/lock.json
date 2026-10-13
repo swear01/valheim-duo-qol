@@ -1,6 +1,6 @@
 {
   "created": "2026-10-13",
-  "profile": "Valheim-Duo-QoL-20261013-v39",
+  "profile": "Valheim-Duo-QoL-20261013-v40",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1718,7 +1718,7 @@
         },
         "3. Binds": {
           "Freeze selection": "F4",
-          "Zooping horizontal (mouse wheel)": "F2",
+          "Zooping horizontal (mouse wheel)": "RightAlt",
           "Build scaling (mouse wheel)": "None",
           "Select": "None",
           "Select frozen": "None",
@@ -1763,22 +1763,19 @@
   "verification": {
     "package_count": 50,
     "config_count": 40,
-    "new_packages_crc_paths_manifests_dependencies": "passed",
-    "new_config_keys_and_guids_match_published_dlls": "passed",
-    "prior_47_pins_38_configs_bundled_dlls_unchanged": "passed",
-    "group_material_cost_and_no_cost_paths": "inspected",
-    "live_object_data_and_admin_direct_build_bypasses": "identified_documented_and_risky_shortcuts_disabled",
-    "existing_placement_hooks": "inspected_runtime_interactions_not_tested",
+    "all_50_package_pins_unchanged": "passed",
+    "only_horizontal_zoop_key_changed_other_39_configs_and_bundled_dlls_unchanged": "passed",
+    "published_config_binding": "verified_in_v39",
     "gale_gui_import": "not_run",
     "in_game_material_support_and_blueprints": "not_run",
     "multiplayer_save_reload": "not_run",
     "active_profile_world_character": "untouched"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v39.r2z": "7080cd52b16454114352102390a134fec705bc211e67b91ba21f94aea31748ff",
-    "Valheim-Duo-QoL-config-v39.zip": "666aaad7238ec199a04108aa114b35f5867c68ae5d3f36081bd517d544314ef3",
-    "Valheim-雙人模組包-安裝指南-v39.html": "889ea838890316d6e8387bdbad5dc7d70f32138fa5da22fc65905384b6981063",
-    "Valheim-Duo-QoL-v39-驗證.json": "4b1d6f5867844bce26c18623e8f4038e343b82c3cc2788dc01d54247dfa94661"
+    "Valheim-Duo-QoL-v40.r2z": "16b392a23c5939a7d957edc54825cd857005d1a295754adc6f057ae566838181",
+    "Valheim-Duo-QoL-config-v40.zip": "1ade800481fcd678545e81098c8986f55ca090e2c883ed2af7ac9712efd2fa53",
+    "Valheim-Duo-QoL-v40-驗證.json": "e7a79e11ee1a6cc5eaad74dd7150d737d8d74617a1bc8c039473a815e5349014",
+    "Valheim-雙人模組包-安裝指南-v40.html": "83eac0919a6a0f707c277ab3035a1d7d441cb3345ad74b5d1df9b11fbc857928"
   },
   "local_plugins": [
     {
@@ -3316,5 +3313,17 @@
       "MathiasDecrock-PlanBuild-0.20.0"
     ],
     "existing_packages": "unchanged"
-  }
+  },
+  "base_v39": {
+    "name": "Valheim-Duo-QoL-v39.r2z",
+    "sha256": "7080cd52b16454114352102390a134fec705bc211e67b91ba21f94aea31748ff"
+  },
+  "configuration_updates_from_v39": [
+    {
+      "file": "BepInEx/config/infinity_hammer.cfg",
+      "setting": "3. Binds / Zooping horizontal (mouse wheel)",
+      "from": "F2",
+      "to": "RightAlt"
+    }
+  ]
 }

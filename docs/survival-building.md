@@ -1,6 +1,6 @@
 # 生存建築：Infinity Hammer 與 PlanBuild
 
-v39 加入 Infinity Hammer 1.90.0、它需要的 World Edit Commands 1.81.0，以及 PlanBuild 0.20.0。原有 Server devcommands 1.115.0、Jotunn 2.30.2 已符合依賴，不需升級。兩人退出遊戲、備份世界與角色後，在 Gale 匯入同版新 profile，勾選 Import all files。原有 47 個套件、38 份設定與內附 DLL 保留。
+v40 加入 Infinity Hammer 1.90.0、它需要的 World Edit Commands 1.81.0，以及 PlanBuild 0.20.0。原有 Server devcommands 1.115.0、Jotunn 2.30.2 已符合依賴，不需升級。兩人退出遊戲、備份世界與角色後，在 Gale 匯入同版新 profile，勾選 Import all files。原有 47 個套件、38 份設定與內附 DLL 保留。
 
 ## 預設消耗與限制
 
@@ -16,11 +16,11 @@ PlanBuild 藍圖也可能記錄箱內資料；規劃建造路徑不還原箱內�
 ## 成排鋪設與微調
 
 1. 拿普通建築槌，從原本選單選已解鎖的地板、牆或屋頂。
-2. 按住 **F2＋滾輪** 調整水平排列的預覽；確認材料總數足夠再左鍵放置。先試 3 塊木地板，確認扣除 3 份材料。
+2. 按住 **右 Alt＋滾輪** 調整水平排列的預覽；確認材料總數足夠再左鍵放置。先試 3 塊木地板，確認扣除 3 份材料。
 3. **F4** 凍結／解除預覽位置。方向鍵微調前後左右，PageUp／PageDown 微調高度；不要同時啟用 PerfectPlacement 進階模式或 MovingDay 搬移模式。
 4. 需要垂直／前後排列，可在 F5 執行 `hammer_zoop_up auto`／`hammer_zoop_forward auto`；`hammer_grid 1 0,0,0` 切換 1 公尺網格。指令需有權限；若未啟用主控台，可在啟動參數加入 `-console`。
 
-PlanBuild 鏡像改為 J，避開 MovingDay 的 H（兩者都接受建造工具）；F4 避開 PerfectPlacement 的 Keypad0；停用 Infinity Hammer 的 Shift＋滾輪縮放，保留原有旋轉操作。整組三軸旋轉和 PerfectPlacement 的互動仍需遊戲內測試。
+水平排列使用 RightAlt，避開原版 F2 資訊面板；PlanBuild 鏡像改為 J，避開 MovingDay 的 H（兩者都接受建造工具）；F4 避開 PerfectPlacement 的 Keypad0；停用 Infinity Hammer 的 Shift＋滾輪縮放，保留原有旋轉操作。整組三軸旋轉和 PerfectPlacement 的互動仍需遊戲內測試。
 
 ## 複製、旋轉、翻轉與貼上
 

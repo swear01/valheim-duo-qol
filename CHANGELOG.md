@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v40 — 2026-10-13
+
+水平排列改用右 Alt＋滾輪，避開原版 F2 資訊面板。50 個線上套件，40 份設定。
+
+- 只改 Infinity Hammer 的水平排列鍵；v39 的生存建築設定、套件版本與其他設定保留。
+- 舊版封存留在各版 tag；[完整建築操作](docs/survival-building.md)。
+
 ## v39 — 2026-10-13
 
 加入 Infinity Hammer 1.90.0、依賴 World Edit Commands 1.81.0、PlanBuild 0.20.0。50 個線上套件，40 份設定。
