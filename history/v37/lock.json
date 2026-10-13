@@ -1,6 +1,6 @@
 {
   "created": "2026-10-13",
-  "profile": "Valheim-Duo-QoL-20261013-v36",
+  "profile": "Valheim-Duo-QoL-20261013-v37",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1626,7 +1626,7 @@
       "filename": "com.drakosdj.movingday.cfg",
       "sections": {
         "Keybinds": {
-          "TerrainModifierKey": "None"
+          "TerrainModifierKey": "LeftControl"
         },
         "Safety": {
           "PlayerSafetyAction": "Block",
@@ -1641,22 +1641,20 @@
   "verification": {
     "package_count": 47,
     "config_count": 38,
-    "new_package_zip_crc_paths_manifest_dependencies": "passed",
-    "existing_46_pins_37_configs_bundled_dlls_unchanged": "passed",
-    "new_config_keys_and_guid_match_published_dll": "passed",
-    "terrain_none_and_safety_and_support_code_paths": "inspected",
-    "perfectplacement_shared_hooks": "inspected_runtime_interaction_not_tested",
-    "private_tokens_absent": "passed",
+    "all_47_package_pins_unchanged": "passed",
+    "only_terrain_key_changed_other_37_configs_and_bundled_dlls_unchanged": "passed",
+    "key_matches_published_dll_default": "passed",
+    "terrain_apply_then_source_clear_and_height_limit": "inspected",
     "gale_gui_import": "not_run",
-    "in_game_relocation": "not_run",
+    "in_game_terrain_relocation": "not_run",
     "multiplayer_save_reload": "not_run",
     "active_profile_world_character": "untouched"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v36.r2z": "852af2eba2eb8ff4f9bb48c06e984bd49acd45b7be060cac0c6f1ae4ada9c831",
-    "Valheim-Duo-QoL-config-v36.zip": "008aa968df72ae0f14077384c34321a4820506972694ca0d031d0cab4a50c74e",
-    "Valheim-雙人模組包-安裝指南-v36.html": "306b09782755bb54b34890618da0f20730354b2560ba7f56f9a302ce75cc6de7",
-    "Valheim-Duo-QoL-v36-驗證.json": "a6b7a1e80efd76d079edcbc6d47ee402624368cb2095e146919af14eb0036fcb"
+    "Valheim-Duo-QoL-v37.r2z": "900226a5e214f4dd70610d768a5ac362795139d568b08189e10393359d99c1b3",
+    "Valheim-Duo-QoL-config-v37.zip": "3ea4ae2d270dc3e4c1309d95f4c39c18ff6a9f283a407956e348e93106c7860c",
+    "Valheim-雙人模組包-安裝指南-v37.html": "01a0d65e40e37c316f891366a25f785847b1862297e573f940553ae4885abd10",
+    "Valheim-Duo-QoL-v37-驗證.json": "30a9e93e7a2bdb20ce7beac3a10de9e042538cfa0d4aec97f8c2671a1c5b54a7"
   },
   "local_plugins": [
     {
@@ -3158,5 +3156,17 @@
       "DrakosDJ-MovingDay-1.1.0"
     ],
     "existing_packages": "unchanged"
-  }
+  },
+  "base_v36": {
+    "name": "Valheim-Duo-QoL-v36.r2z",
+    "sha256": "852af2eba2eb8ff4f9bb48c06e984bd49acd45b7be060cac0c6f1ae4ada9c831"
+  },
+  "configuration_updates_from_v36": [
+    {
+      "file": "BepInEx/config/com.drakosdj.movingday.cfg",
+      "setting": "Keybinds / TerrainModifierKey",
+      "from": "None",
+      "to": "LeftControl"
+    }
+  ]
 }
