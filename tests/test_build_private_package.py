@@ -28,13 +28,13 @@ class PrivatePackageValidation(unittest.TestCase):
             for name, data in self.files.items():
                 archive.writestr(name, data)
 
-    def test_only_admin_settings_and_profile_identity_change(self):
+    def test_only_admin_settings_change(self):
         original = self.public.read_bytes()
         build_private(self.settings, self.public, self.output)
         files = read_package(self.output)
         self.assertEqual(self.public.read_bytes(), original)
         self.assertEqual(files["BepInEx/config/other.cfg"], self.files["BepInEx/config/other.cfg"])
-        self.assertEqual(json.loads(files["export.r2x"]), {"profileName": "test-private-admins", "mods": []})
+        self.assertEqual(files["export.r2x"], self.files["export.r2x"])
         server = files["BepInEx/config/server_devcommands.cfg"]
         self.assertIn(b"Automatic devcommands = true", server)
         self.assertIn(b"Automatic no cost mode = false", server)
