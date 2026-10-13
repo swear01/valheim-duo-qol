@@ -50,7 +50,7 @@ def build_private(settings_path, public_archive, output):
         parser.getboolean("1. General", "Automatic devcommands")
     except (configparser.Error, ValueError):
         raise ValueError("Automatic devcommands setting is missing or invalid in 1. General") from None
-    pattern = r"(?m)^(Automatic devcommands[ \t]*=[ \t]*)(?:true|false)([ \t]*\r?)$"
+    pattern = r"(?mi)^(Automatic devcommands[ \t]*=[ \t]*)(?:true|false)([ \t]*\r?)$"
     if len(re.findall(pattern, text)) != 1:
         raise ValueError("Automatic devcommands setting is missing or ambiguous")
     files[server_file] = re.sub(pattern, r"\g<1>true\g<2>", text).encode("utf-8")

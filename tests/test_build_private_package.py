@@ -92,6 +92,21 @@ class PrivatePackageValidation(unittest.TestCase):
                          self.files[server_file].replace(b"Automatic devcommands = false",
                                                         b"Automatic devcommands = true"))
 
+    def test_boolean_casing_is_accepted(self):
+        server_file = "BepInEx/config/server_devcommands.cfg"
+        for value in (b"True", b"FALSE"):
+            with self.subTest(value=value):
+                files = dict(self.files)
+                files[server_file] = files[server_file].replace(b"Automatic devcommands = false",
+                                                              b"Automatic devcommands = " + value)
+                with zipfile.ZipFile(self.public, "w", zipfile.ZIP_DEFLATED) as archive:
+                    for name, data in files.items():
+                        archive.writestr(name, data)
+                build_private(self.settings, self.public, self.output)
+                self.assertEqual(read_package(self.output)[server_file],
+                                 self.files[server_file].replace(b"Automatic devcommands = false",
+                                                                b"Automatic devcommands = true"))
+
     def test_invalid_or_duplicate_id_does_not_replace_existing_output(self):
         self.output.write_bytes(b"existing private delivery")
         for admins in ([{"id": "Everyone", "name": "bad"}, self.admins[1]],
