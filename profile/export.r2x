@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261013-v38",
+  "profileName": "Valheim-Duo-QoL-20261013-v39",
   "community": "valheim",
   "mods": [
     {
@@ -467,6 +467,36 @@
       "version": {
         "major": 1,
         "minor": 1,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "JereKuusela-World_Edit_Commands",
+      "version": {
+        "major": 1,
+        "minor": 81,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "JereKuusela-Infinity_Hammer",
+      "version": {
+        "major": 1,
+        "minor": 90,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "MathiasDecrock-PlanBuild",
+      "version": {
+        "major": 0,
+        "minor": 20,
         "patch": 0
       },
       "enabled": true,
