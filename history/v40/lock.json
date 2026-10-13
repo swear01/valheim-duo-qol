@@ -1,6 +1,6 @@
 {
   "created": "2026-10-13",
-  "profile": "Valheim-Duo-QoL-20261013-v38",
+  "profile": "Valheim-Duo-QoL-20261013-v40",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -756,6 +756,61 @@
       "bytes": 173605,
       "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/DrakosDJ-MovingDay-1.1.0.zip",
       "dll_sha256": "e7786e39c853e5a4a7a797df0ce4bb88e3f43328c7aef16ce8dbd1fef62571fd"
+    },
+    {
+      "name": "JereKuusela-World_Edit_Commands",
+      "source": "Hexium",
+      "version": "1.81.0",
+      "download": "https://cdn.hexium.gg/upload/435/1.81.0.zip",
+      "website": "https://discord.gg/VFRJcPwUdm",
+      "page": "https://valheim.hexium.gg/mods/JereKuusela/World_Edit_Commands",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351",
+        "JereKuusela-Server_devcommands-1.110.0"
+      ],
+      "direct": false,
+      "released": "2026-10-08T18:47:45.000000Z",
+      "sha256": "fbbf3ffbd303df2361f195970bc0b22553ab448d474f54254d2084bb347b5d9a",
+      "bytes": 238646,
+      "archive_url": "https://cdn.hexium.gg/upload/435/1.81.0.zip",
+      "dll_sha256": "cc69251a4d4ce821e15e9b481de898141978e4e383386962c3a8492393afb726"
+    },
+    {
+      "name": "JereKuusela-Infinity_Hammer",
+      "source": "Hexium",
+      "version": "1.90.0",
+      "download": "https://cdn.hexium.gg/upload/428/1.90.0.zip",
+      "website": "https://discord.gg/VFRJcPwUdm",
+      "page": "https://valheim.hexium.gg/mods/JereKuusela/Infinity_Hammer",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351",
+        "JereKuusela-Server_devcommands-1.112.0",
+        "JereKuusela-World_Edit_Commands-1.81.0"
+      ],
+      "direct": true,
+      "released": "2026-10-11T17:23:42.000000Z",
+      "sha256": "a3d42d6e5b7d721f6181a5914b3ef4d710c3671f8cd60a94ea3b3ee482a7216f",
+      "bytes": 205671,
+      "archive_url": "https://cdn.hexium.gg/upload/428/1.90.0.zip",
+      "dll_sha256": "1a2b5e989ac53e02efd28a9b2a73d75c6a3f3370c1200d5068fe6a0d2f1191cf"
+    },
+    {
+      "name": "MathiasDecrock-PlanBuild",
+      "source": "Thunderstore",
+      "version": "0.20.0",
+      "download": "https://gcdn.thunderstore.io/live/repository/packages/MathiasDecrock-PlanBuild-0.20.0.zip",
+      "website": "https://github.com/sirskunkalot/PlanBuild",
+      "page": "https://thunderstore.io/c/valheim/p/MathiasDecrock/PlanBuild/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2350",
+        "ValheimModding-Jotunn-2.30.1"
+      ],
+      "direct": true,
+      "released": "2026-10-01",
+      "sha256": "79859e5f3989d86e316563a652aa817d5821903fe53ca69b14f89563defaffdd",
+      "bytes": 465027,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/MathiasDecrock-PlanBuild-0.20.0.zip",
+      "dll_sha256": "27e3d8f28393572bef8ee1ea311e77628a37b3f3aac802022cf413d329246de6"
     }
   ],
   "configs": {
@@ -1636,24 +1691,91 @@
           "MoveTamedAnimals": "false"
         }
       }
+    },
+    "JereKuusela-Infinity_Hammer": {
+      "filename": "infinity_hammer.cfg",
+      "sections": {
+        "1. General": {
+          "Group resource cost": "true",
+          "No resource cost": "false",
+          "No durability cost": "false",
+          "No stamina cost": "false",
+          "Ignore no build": "false",
+          "Ignore other restrictions": "false",
+          "Ignore wards": "false",
+          "Allow in dungeons": "false",
+          "No physics": "false",
+          "No target": "false",
+          "No creator": "false",
+          "No remove": "false",
+          "Overwrite health": "0",
+          "Set invulnerability": "Off",
+          "Remove anything": "false",
+          "Remove area": "0",
+          "Repair anything": "false",
+          "Hammer range": "0",
+          "Zoop magic mode": "Off"
+        },
+        "3. Binds": {
+          "Freeze selection": "F4",
+          "Zooping horizontal (mouse wheel)": "RightAlt",
+          "Build scaling (mouse wheel)": "None",
+          "Select": "None",
+          "Select frozen": "None",
+          "Pick": "None",
+          "Pick frozen": "None",
+          "Undo": "None",
+          "Redo": "None"
+        },
+        "5. Tools": {
+          "Tools enabled": "false"
+        },
+        "6. Blueprints": {
+          "Save data to blueprints": "false",
+          "Save object data blueprints": "",
+          "Include terrain height": "false",
+          "Include terrain paint": "false"
+        }
+      }
+    },
+    "MathiasDecrock-PlanBuild": {
+      "filename": "marcopogo.PlanBuild.cfg",
+      "sections": {
+        "Server Settings": {
+          "Allow blueprint rune": "true",
+          "Allow direct build": "false",
+          "Allow terrain tools": "false"
+        },
+        "Blueprints": {
+          "Default build mode": "Planned",
+          "Unlimited health": "false",
+          "Show material cost": "true"
+        },
+        "Plans": {
+          "Plan unknown pieces": "false"
+        },
+        "Keybindings": {
+          "Mirror": "J"
+        }
+      }
     }
   },
   "verification": {
-    "package_count": 47,
-    "config_count": 38,
-    "all_47_package_pins_unchanged": "passed",
-    "only_map_toggle_changed_other_37_configs_and_bundled_dlls_unchanged": "passed",
-    "config_binding_and_show_ships_default_match_published_dll": "passed",
+    "package_count": 50,
+    "config_count": 40,
+    "all_50_package_pins_unchanged": "passed",
+    "only_horizontal_zoop_key_changed_other_39_configs_and_bundled_dlls_unchanged": "passed",
+    "published_config_binding": "verified_in_v39",
     "gale_gui_import": "not_run",
-    "in_game_map_pins": "not_run",
+    "in_game_material_support_and_blueprints": "not_run",
     "multiplayer_save_reload": "not_run",
     "active_profile_world_character": "untouched"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v38.r2z": "acd4285be95c47887e2c47d03c8aa1c465ccbef1639ced4a14ebb703231e348c",
-    "Valheim-Duo-QoL-config-v38.zip": "904f00a3b744e411912ec2ae81a677f978430bd990aaf441c77af104b1d097eb",
-    "Valheim-雙人模組包-安裝指南-v38.html": "09a514f4172ae8af9bb78270b63aa912cc791e876e20c9d71133e17b9d84ae90",
-    "Valheim-Duo-QoL-v38-驗證.json": "b781c30abfdd5e18d2e4aed4123ff4337639182fc182800fd205b3ff346a7e66"
+    "Valheim-Duo-QoL-v40.r2z": "16b392a23c5939a7d957edc54825cd857005d1a295754adc6f057ae566838181",
+    "Valheim-Duo-QoL-config-v40.zip": "1ade800481fcd678545e81098c8986f55ca090e2c883ed2af7ac9712efd2fa53",
+    "Valheim-Duo-QoL-v40-驗證.json": "e7a79e11ee1a6cc5eaad74dd7150d737d8d74617a1bc8c039473a815e5349014",
+    "Valheim-雙人模組包-安裝指南-v40.html": "83eac0919a6a0f707c277ab3035a1d7d441cb3345ad74b5d1df9b11fbc857928"
   },
   "local_plugins": [
     {
@@ -3178,6 +3300,30 @@
       "setting": "F - Dynamic Pins / Show dynamic pins on map",
       "from": "false",
       "to": "true"
+    }
+  ],
+  "base_v38": {
+    "name": "Valheim-Duo-QoL-v38.r2z",
+    "sha256": "acd4285be95c47887e2c47d03c8aa1c465ccbef1639ced4a14ebb703231e348c"
+  },
+  "updates_from_v38": {
+    "added": [
+      "JereKuusela-World_Edit_Commands-1.81.0",
+      "JereKuusela-Infinity_Hammer-1.90.0",
+      "MathiasDecrock-PlanBuild-0.20.0"
+    ],
+    "existing_packages": "unchanged"
+  },
+  "base_v39": {
+    "name": "Valheim-Duo-QoL-v39.r2z",
+    "sha256": "7080cd52b16454114352102390a134fec705bc211e67b91ba21f94aea31748ff"
+  },
+  "configuration_updates_from_v39": [
+    {
+      "file": "BepInEx/config/infinity_hammer.cfg",
+      "setting": "3. Binds / Zooping horizontal (mouse wheel)",
+      "from": "F2",
+      "to": "RightAlt"
     }
   ]
 }

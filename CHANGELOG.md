@@ -2,6 +2,23 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v40 — 2026-10-13
+
+水平排列改用右 Alt＋滾輪，避開原版 F2 資訊面板。50 個線上套件，40 份設定。
+
+- 只改 Infinity Hammer 的水平排列鍵；v39 的生存建築設定、套件版本與其他設定保留。
+- 舊版封存留在各版 tag；[完整建築操作](docs/survival-building.md)。
+
+## v39 — 2026-10-13
+
+加入 Infinity Hammer 1.90.0、依賴 World Edit Commands 1.81.0、PlanBuild 0.20.0。50 個線上套件，40 份設定。
+
+- 成組建材加總材料消耗；關閉免費建造、忽略建築限制與支撐／耐久免疫。
+- PlanBuild 預設規劃模式，投料後完成；管理員仍可用 Ctrl 切換免費直接建造。
+- Infinity Hammer 使用 F2＋滾輪排列、F4 凍結，PlanBuild 鏡像改為 J 避開 MovingDay；停用即時複製／搬走物件與 Undo／Redo 快捷鍵，藍圖預設不存物件資料。
+- 原有 47 個套件、38 份設定與內附 DLL 保留；舊包保留於 v38 tag。
+- [操作、管理員限制與驗證範圍](docs/survival-building.md)。
+
 ## v38 — 2026-10-13
 
 HUDCompass 地圖動態標記預設開啟，顯示船隻、推車與傳送門。47 個線上套件，38 份設定。
