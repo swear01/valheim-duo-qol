@@ -54,9 +54,20 @@ class PrivatePackageValidation(unittest.TestCase):
 
     def test_missing_settings_does_not_fall_back_to_public_package(self):
         self.settings.unlink()
-        with self.assertRaises(FileNotFoundError):
+        with self.assertRaisesRegex(FileNotFoundError, "docs/private-package.md"):
             build_private(self.settings, self.public, self.output)
         self.assertFalse(self.output.exists())
+
+    def test_windows_line_endings_are_preserved(self):
+        server_file = "BepInEx/config/server_devcommands.cfg"
+        self.files[server_file] = self.files[server_file].replace(b"\n", b"\r\n")
+        with zipfile.ZipFile(self.public, "w", zipfile.ZIP_DEFLATED) as archive:
+            for name, data in self.files.items():
+                archive.writestr(name, data)
+        build_private(self.settings, self.public, self.output)
+        self.assertEqual(read_package(self.output)[server_file],
+                         self.files[server_file].replace(b"Automatic devcommands = false",
+                                                        b"Automatic devcommands = true"))
 
     def test_invalid_or_duplicate_id_does_not_replace_existing_output(self):
         self.output.write_bytes(b"existing private delivery")

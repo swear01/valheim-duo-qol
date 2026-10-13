@@ -13,7 +13,13 @@ PRIVATE_SETTINGS = Path.home() / ".config/valheim-duo-qol/private-admins.json"
 
 
 def load_admins(path):
-    admins = json.loads(path.read_text(encoding="utf-8"))["admins"]
+    try:
+        text = path.read_text(encoding="utf-8")
+    except FileNotFoundError:
+        raise FileNotFoundError(
+            f"Missing private admin settings: {path}. Restore this file; see docs/private-package.md"
+        ) from None
+    admins = json.loads(text)["admins"]
     if not isinstance(admins, list) or len(admins) != 2:
         raise ValueError("Private settings must contain exactly two admin accounts")
     for admin in admins:
@@ -40,10 +46,10 @@ def build_private(settings_path, public_archive, output):
     parser.optionxform = str
     parser.read_string(text)
     parser.getboolean("1. General", "Automatic devcommands")
-    pattern = r"(?m)^Automatic devcommands[ \t]*=[ \t]*(?:true|false)[ \t]*$"
+    pattern = r"(?m)^(Automatic devcommands[ \t]*=[ \t]*)(?:true|false)([ \t]*\r?)$"
     if len(re.findall(pattern, text)) != 1:
         raise ValueError("Automatic devcommands setting is missing or ambiguous")
-    files[server_file] = re.sub(pattern, "Automatic devcommands = true", text).encode("utf-8")
+    files[server_file] = re.sub(pattern, r"\g<1>true\g<2>", text).encode("utf-8")
     permissions = '- name: Everyone\n  commands:\n    permissions: "no"\n'
     for admin in admins:
         permissions += "\n- id: " + json.dumps(admin["id"]) + "\n"
