@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261013-v35",
+  "profileName": "Valheim-Duo-QoL-20261013-v36",
   "community": "valheim",
   "mods": [
     {
@@ -461,6 +461,16 @@
       },
       "enabled": true,
       "source": "Hexium"
+    },
+    {
+      "name": "DrakosDJ-MovingDay",
+      "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 0
+      },
+      "enabled": true,
+      "source": "Thunderstore"
     }
   ],
   "ignoredUpdates": [],

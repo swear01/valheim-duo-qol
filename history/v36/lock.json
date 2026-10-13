@@ -1,6 +1,6 @@
 {
   "created": "2026-10-13",
-  "profile": "Valheim-Duo-QoL-20261013-v35",
+  "profile": "Valheim-Duo-QoL-20261013-v36",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -739,6 +739,23 @@
       "bytes": 164567,
       "archive_url": "https://cdn.hexium.gg/upload/219/1.1.11.zip",
       "dll_sha256": "eb9e5a1be9d6f5f87c7aecc771bc3e63c78fe3c92f86ccc4cdba064ced629bb9"
+    },
+    {
+      "name": "DrakosDJ-MovingDay",
+      "source": "Thunderstore",
+      "version": "1.1.0",
+      "download": "https://thunderstore.io/package/download/DrakosDJ/MovingDay/1.1.0/",
+      "website": "https://discord.gg/cCNG8xKXMn",
+      "page": "https://thunderstore.io/c/valheim/p/DrakosDJ/MovingDay/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2333"
+      ],
+      "direct": true,
+      "released": "2026-09-28",
+      "sha256": "575a51ae43844455745ff4091a431f4a9342c4fb9f998a6cefb1344130910392",
+      "bytes": 173605,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/DrakosDJ-MovingDay-1.1.0.zip",
+      "dll_sha256": "e7786e39c853e5a4a7a797df0ce4bb88e3f43328c7aef16ce8dbd1fef62571fd"
     }
   ],
   "configs": {
@@ -1604,26 +1621,42 @@
           "Show Chest Contents": "Off"
         }
       }
+    },
+    "DrakosDJ-MovingDay": {
+      "filename": "com.drakosdj.movingday.cfg",
+      "sections": {
+        "Keybinds": {
+          "TerrainModifierKey": "None"
+        },
+        "Safety": {
+          "PlayerSafetyAction": "Block",
+          "ChestSafetyAction": "Block",
+          "ContainerMetalAction": "Block",
+          "PlayerMetalAction": "BlockMove",
+          "MoveTamedAnimals": "false"
+        }
+      }
     }
   },
   "verification": {
-    "package_count": 46,
-    "config_count": 37,
+    "package_count": 47,
+    "config_count": 38,
     "new_package_zip_crc_paths_manifest_dependencies": "passed",
-    "existing_45_pins_and_36_configs_and_bundled_dlls_unchanged": "passed",
-    "new_config_keys_match_published_code": "passed",
+    "existing_46_pins_37_configs_bundled_dlls_unchanged": "passed",
+    "new_config_keys_and_guid_match_published_dll": "passed",
+    "terrain_none_and_safety_and_support_code_paths": "inspected",
+    "perfectplacement_shared_hooks": "inspected_runtime_interaction_not_tested",
     "private_tokens_absent": "passed",
-    "boat_health_code_path": "inspected_Piece_WearNTear_hover_health",
     "gale_gui_import": "not_run",
-    "in_game_ship_hover_display": "not_run",
-    "multiplayer_endurance": "not_run",
+    "in_game_relocation": "not_run",
+    "multiplayer_save_reload": "not_run",
     "active_profile_world_character": "untouched"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v35.r2z": "6713f247ba1a9330f0f9cc393411dc0a57b14182d15dafbeca3a3f5c358495b5",
-    "Valheim-Duo-QoL-config-v35.zip": "a60d10723980c457e8891ea0ad407c5a244e1f7ab329ef2a61ed7e9ab657e2a7",
-    "Valheim-雙人模組包-安裝指南-v35.html": "985cd5ddbabdb5254f93a4fa90d1659ff4fe3f42bc96b4ac6a30adba4f66dd7a",
-    "Valheim-Duo-QoL-v35-驗證.json": "cde94402a434ad9f1fb6c22e128fd06822de04997f6cd9a0134ee0156e1c1062"
+    "Valheim-Duo-QoL-v36.r2z": "852af2eba2eb8ff4f9bb48c06e984bd49acd45b7be060cac0c6f1ae4ada9c831",
+    "Valheim-Duo-QoL-config-v36.zip": "008aa968df72ae0f14077384c34321a4820506972694ca0d031d0cab4a50c74e",
+    "Valheim-雙人模組包-安裝指南-v36.html": "306b09782755bb54b34890618da0f20730354b2560ba7f56f9a302ce75cc6de7",
+    "Valheim-Duo-QoL-v36-驗證.json": "a6b7a1e80efd76d079edcbc6d47ee402624368cb2095e146919af14eb0036fcb"
   },
   "local_plugins": [
     {
@@ -3113,6 +3146,16 @@
   "updates_from_v34": {
     "added": [
       "Azumatt-AzuHoverStats-1.1.11"
+    ],
+    "existing_packages": "unchanged"
+  },
+  "base_v35": {
+    "name": "Valheim-Duo-QoL-v35.r2z",
+    "sha256": "6713f247ba1a9330f0f9cc393411dc0a57b14182d15dafbeca3a3f5c358495b5"
+  },
+  "updates_from_v35": {
+    "added": [
+      "DrakosDJ-MovingDay-1.1.0"
     ],
     "existing_packages": "unchanged"
   }
