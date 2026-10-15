@@ -1,8 +1,8 @@
 # 生存建築：Infinity Hammer
 
-v49 為 Infinity Hammer 新增右 Ctrl＋滾輪的前後排列快捷鍵。Infinity Hammer 1.90.0、World Edit Commands 1.81.0 和 MovingDay 保留；PlanBuild 自 v47 起已移除。
+v50 將 Infinity Hammer 前後排列由右 Ctrl 改為右 Shift＋滾輪，方便沒有右 Ctrl 的鍵盤使用。Infinity Hammer 1.90.0、World Edit Commands 1.81.0 和 MovingDay 保留；PlanBuild 自 v47 起已移除。
 
-兩人退出遊戲、備份世界與角色後，在 Gale 匯入 v49 為新 profile，勾選 Import all files。匯入新包不代表既有 profile 已卸載 PlanBuild；若沿用含 PlanBuild 的舊 profile，需在 Gale 移除 MathiasDecrock-PlanBuild。
+兩人退出遊戲、備份世界與角色後，在 Gale 匯入 v50 為新 profile，勾選 Import all files。匯入新包不代表既有 profile 已卸載 PlanBuild；若沿用含 PlanBuild 的舊 profile，需在 Gale 移除 MathiasDecrock-PlanBuild。
 
 若曾放置未完工的 PlanBuild 規劃件，切換前先在舊 profile 完成，或用 Blueprint Rune 的 Remove planned pieces 拆除並取回已投入材料。另行備份自己的 `BepInEx/config/PlanBuild/blueprints`；新包不再提供 Plan Hammer、Blueprint Rune、Plan Totem 等工具或物件。這次只修改模組包，沒有修改存檔或刪除本機藍圖。[作者操作說明](https://github.com/sirskunkalot/PlanBuild/blob/master/README.md)。
 
@@ -19,11 +19,13 @@ v49 為 Infinity Hammer 新增右 Ctrl＋滾輪的前後排列快捷鍵。Infini
 ## 成排鋪設與微調
 
 1. 拿普通建築槌，從原本選單選已解鎖的地板、牆或屋頂。
-2. **右 Alt＋滾輪** 調整左右寬度，**右 Ctrl＋滾輪** 調整前後排數，將一條展開成一片，例如 4 塊寬、4 排深的 4×4 地板。確認預覽與材料總數後再左鍵放置。先用小範圍確認正常扣料。
+2. **右 Alt＋滾輪** 調整左右寬度，**右 Shift＋滾輪** 調整前後排數，將一條展開成一片，例如 4 塊寬、4 排深的 4×4 地板。確認預覽與材料總數後再左鍵放置。先用小範圍確認正常扣料。
 3. **F4** 凍結／解除預覽位置。方向鍵微調前後左右，PageUp／PageDown 微調高度；不要同時啟用 PerfectPlacement 進階模式或 MovingDay 搬移模式。
 4. 垂直排列仍可在 F5 執行 `hammer_zoop_up auto`；`hammer_grid 1 0,0,0` 切換 1 公尺網格。指令需有權限；若未啟用主控台，可在啟動參數加入 `-console`。左右／前後排列使用上述快捷鍵，不需輸入指令。
 
-水平排列使用 RightAlt，前後排列使用 RightControl，對應 `3. Binds / Zooping horizontal (mouse wheel)` 與 `Zooping forward (mouse wheel)`。F4 避開 PerfectPlacement 的 Keypad0；停用 Infinity Hammer 的 Shift＋滾輪縮放，保留原有旋轉操作。整組三軸旋轉和 PerfectPlacement 的互動仍需遊戲內測試。
+水平排列使用 RightAlt，前後排列使用 RightShift，對應 `3. Binds / Zooping horizontal (mouse wheel)` 與 `Zooping forward (mouse wheel)`。F4 避開 PerfectPlacement 的 Keypad0；停用 Infinity Hammer 的 Shift＋滾輪縮放，保留原有旋轉操作。整組三軸旋轉和 PerfectPlacement 的互動仍需遊戲內測試。
+
+右 Shift 同時用於 AzuCraftyBoxes 的單箱切換；若準星對著可操作的箱子，按下右 Shift 也會切換該箱子是否參與製作。PlantEasily 的種植範圍修飾鍵亦保留右 Shift。
 
 要搬原本那一棟並保留箱內物品，使用 MovingDay，見 [搬移建築](moving-buildings.md)。
 
@@ -31,7 +33,7 @@ v49 為 Infinity Hammer 新增右 Ctrl＋滾輪的前後排列快捷鍵。Infini
 
 Infinity Hammer 的「即時選取既有物件」會保留物件資料；關閉 `Save data to blueprints` **只影響存成藍圖**，不能阻止即時複製箱內物品。因此本包維持停用 Select／Select frozen／Pick／Pick frozen 與 Undo／Redo 快捷鍵，從普通建造選單取建材。管理員仍能自行執行指令或載入含資料的外部藍圖，不能據此宣稱杜絕複製物品。
 
-v49 僅新增前後排列快捷鍵，保留 v48 的其他套件版本、設定及內附 DLL。驗證包含上游 1.90.0 的設定鍵／指令對應、依賴完整性、封包內容差異與重建；未啟動或修改目前遊戲。
+v50 僅將前後排列鍵改為右 Shift，保留 v49 的其他套件版本、設定及內附 DLL。驗證包含上游 1.90.0 的設定鍵／指令對應、依賴完整性、封包內容差異與重建；未啟動或修改目前遊戲。
 
 尚未完成 Gale GUI 匯入、移除模組後的世界重載、遊戲內扣料／支撐、兩人同步及 PerfectPlacement／MovingDay／AzuCraftyBoxes 的實際互動。先在測試世界確認 3 塊地板扣 3 份材料、缺料不能放置，再使用原世界。
 
