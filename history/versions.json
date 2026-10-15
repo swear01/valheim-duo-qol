@@ -3942,5 +3942,101 @@
         }
       ]
     }
+  },
+  {
+    "version": 51,
+    "tag": "v51",
+    "release_date": "2026-10-16",
+    "summary": "加入 Hexium ComfortTweaks 3.3.11，家具判定半徑 50 公尺，Home 顯示舒適度清單",
+    "profile": "Valheim-Duo-QoL-20261016-v51",
+    "archive": "history/v51/Valheim-Duo-QoL-v51.r2z",
+    "archive_sha256": "0d7d355252e68f3d13118d072f37047b5ce0c557125a38006aadc03e0f6e7564",
+    "archive_bytes": 28257,
+    "lock": "history/v51/lock.json",
+    "lock_sha256": "b0048e1499a085027c3314dcc4680e087ef67b43678f176c921f17ff523e978f",
+    "archive_hash_evidence": "matches_original_lock",
+    "online_packages": 50,
+    "configuration_files": 40,
+    "entries_sha256": {
+      "export.r2x": "8ac205d48974577da4597ea25cc1ffb7122602adf75f09c80773d601485cd461",
+      "BepInEx/config/Azumatt.AzuAntiArthriticCrafting.cfg": "fdef97d381335e41bdf9e5745d455fef8178fdf14a312e267db3590ff18672b3",
+      "BepInEx/config/Azumatt.AzuAutoStore.cfg": "6d45ebe55185c14140033c5481f6efeaaf2d6c5e44556f162743cb3481e2a5cf",
+      "BepInEx/config/Azumatt.AzuCraftyBoxes.cfg": "bf9e46fbc2779998710701b86094759998a38247fe51d836d1ce725a95fd51b8",
+      "BepInEx/config/Azumatt.AzuWorkbenchTweaks.cfg": "f61149467bcbea59aac022d7df4aac9937977c3bd020d3744c25324f703dbec8",
+      "BepInEx/config/Azumatt.BuildCameraCHE.cfg": "8f39670f248f4c1b7838504f0427b952905e863f68e5150588cb59730afd81c1",
+      "BepInEx/config/Azumatt.FirstPersonMode.cfg": "41c70ce3dd581c54fa29ca08f2098f36d678a2a984c92fd8639fc7d4c94d1380",
+      "BepInEx/config/Azumatt.SleepSkip.cfg": "096c75553a262d699692f190ad609f8443851519a5a6d1f4dbfbc19a45cf538a",
+      "BepInEx/config/Azumatt.Unshamed.cfg": "a8a8d290339f6b69fcf905731fbab42b40112af6162447547c360f340a595a65",
+      "BepInEx/config/Azumatt_and_ValheimPlusDevs.PerfectPlacement.cfg": "35a510dc25c9420a467b1685bd27ce5781b69c4cbef5d19cf03790e6857f30d5",
+      "BepInEx/config/Dirtsnack.AchievementTracker.cfg": "06ab001229a0e79ec14f27ab875ffce6d49807635ab25036571d6a011636993a",
+      "BepInEx/config/Searica.Valheim.ExtraSnapPointsMadeEasy.cfg": "3eea12ce7c9113e1d74cfbd2dcbd67ccaa2670d8905d9b87cdba71cc1cad6c87",
+      "BepInEx/config/Searica.Valheim.SkilledCarryWeight.cfg": "92e0f382e90375d7367cef9d665c052e4512394546816f20f3fb76990a07738a",
+      "BepInEx/config/SkillLimitExtender.cfg": "6e8d6e40fe4bf0c2dff68f3138b4b182f20c8165d0966bd5b7e6e81c2888b06e",
+      "BepInEx/config/_shudnal.ConfigurationManager.cfg": "52506b6a22074f969d3c60816e4921d0d0164342ebdca33fa20a65a816c89c32",
+      "BepInEx/config/aedenthorn.CookingStationTweaks.cfg": "d49eea13fc2a2b7dc969178aaec7adbe41377e588161f9d42c975097739a705f",
+      "BepInEx/config/dev.crystal.magni.cfg": "c9c4e5f7ee53c0d17a36c55ce69ba2a72c05b2b6526d83d212099cd41db67a93",
+      "BepInEx/config/dev.ontrigger.vpo.cfg": "5449bf45d6dc7dac2e9a92c05b281b997ad5ac999c646a98452125d6afb3ce42",
+      "BepInEx/config/elg.QuickTeleport.cfg": "86d207429033641f1721f2be044556f3b1e37bfab3f95505c210a63ee52c50d6",
+      "BepInEx/config/eu.mydayyy.plugins.serversidemap.cfg": "9e701d56ede89fabc00ec1dbed3675d72d00a9e63bb68c5d70e8d6aa7321ee3f",
+      "BepInEx/config/neobotics.valheim_mod.hudcompass.cfg": "a696c620ca06901cf5b30e8c39d6fc2f9881a80d9b8d99dce48fae465e4c91ca",
+      "BepInEx/config/org.bepinex.plugins.instantequip.cfg": "a99a288490dc363cfef89e49a79fb9995338f7f24e36f631a364cda595591bce",
+      "BepInEx/config/org.bepinex.plugins.targetportal.cfg": "b036d69ae07c2ca2cb39d11622a17a70521d346bed60ae34b114102c23a1cec9",
+      "BepInEx/config/robit.configurablecarryweight.cfg": "4a40719a7e307ce7ac14f2a50448f3f854e777ce71923c5e5953d2c4488c9cfb",
+      "BepInEx/config/server_devcommands.cfg": "281f40ffd86adc3be4500404f36e558cb240fd2e1be72c164baba41451370ea9",
+      "BepInEx/config/shudnal.ExtraSlots.cfg": "dd4a719d029c94df05609868390e6e9d0facac3626ca87c8b763302e364e936d",
+      "BepInEx/config/shudnal.StaminaExtended.cfg": "df5b655f3b330665e44cf4b0449ffb0eaa5608cd0ef71288906836d43e279bc4",
+      "BepInEx/config/cjayride.smartshield.cfg": "30173e10021e69120f6bc248d18e33f820f2f40b3c1859d467ee574d12d42da2",
+      "BepInEx/config/Azumatt.Recycle_N_Reclaim.cfg": "b78a7ec1463c576521916eec3fdaf7ef6af7a5956b0039e716ef6f2c6748c3d7",
+      "BepInEx/config/zenox.autodoors.cfg": "c8f1c04cb683c3b2ee41690fb5c433335dfbf0c22de89b253c050963447f547b",
+      "BepInEx/config/aedenthorn.TorchMod.cfg": "c2afeec581c06ccfcd53a7066de9c648215413dcd86a3e08039ce1c1a03a576f",
+      "BepInEx/plugins/aedenthorn-TorchMod/TorchMod.dll": "c79b8106e7aff0d646b9be75a0e731ffd856a35f47a73471078bd5c419f9e77a",
+      "BepInEx/plugins/aedenthorn-TorchMod/LICENSE.txt": "a71fcfbf12df3eb025054aeeab192960737dd325ed92d9f7a12c718fb598ebe8",
+      "BepInEx/config/icecub.ValheimTerrainTools.cfg": "1d4afa98ad7a04435d85f5d43840f7a1c5c40cd3e33d2ee48a5ebd8155e31b7c",
+      "BepInEx/config/advize.PlantEasily.cfg": "c79343646d1bd9dc4b295b04708a15f74a31f311c03a317a0ff52bbceb83ce77",
+      "BepInEx/config/advize.PlantEverything.cfg": "0b81d76fb9059540bb6d1fb1e3a2d0464aef785aff07a3cb5044698a88a94534",
+      "BepInEx/config/mightywa33ior.valheim.adrenalinemodifier.cfg": "5b15eb0550f81992f6e0b14ddc1304b5d0a122a0147e1d7c192000d9bac7e660",
+      "BepInEx/config/shudnal.ItemStacksItemWeights/shudnal.ItemStacksItemWeights.yml": "17930ab559baf9d33bf76881429a4b46b01c91b56fcbefb3be168adccd1beb22",
+      "BepInEx/config/JevMods.BetterFog.cfg": "1b6ad48be7dfe411ed75284451457fc457fbd8052fb1cfa6530f9afd123bb48b",
+      "BepInEx/config/Azumatt.AzuHoverStats.cfg": "84dbb75c09d05207debf89873b5c865ffb2b1b73b31836a768126de4c13f038d",
+      "BepInEx/config/com.drakosdj.movingday.cfg": "1dbec7df484cc360e9a97c36c899a76d53f2761caf4f32bb79c041314ffc1496",
+      "BepInEx/config/infinity_hammer.cfg": "ee6d7263c95dd9115be622b49dbba4fe8cc8abd6aac462f1be7a6f0aa113e9ba",
+      "BepInEx/plugins/swear-SlashBackFix/SlashBackFix.dll": "1d7494471db223707b6e9dc49591210f106ba407ab2c198a804951bb2ae43b14",
+      "BepInEx/plugins/swear-SlashBackFix/LICENSE.txt": "6e7076b46227877b9295005ca0ff35ff4151e4c349a7e45bfee787b44275f697",
+      "BepInEx/config/xyz.alcan.comfortcalc.cfg": "0a166b76c044417d8197a31327031bc94cb4f072918efe6fe9bbaa73c67dfaf1"
+    },
+    "changes": {
+      "packages_added": [
+        "Smoothbrain-ComfortTweaks-3.3.11"
+      ],
+      "packages_removed": [],
+      "packages_updated": [],
+      "files_added": [
+        "BepInEx/config/xyz.alcan.comfortcalc.cfg"
+      ],
+      "files_removed": [],
+      "files_changed": [
+        "export.r2x"
+      ],
+      "settings_changed": [
+        {
+          "file": "BepInEx/config/xyz.alcan.comfortcalc.cfg",
+          "setting": "2. Resting / Comfort Range",
+          "from": "10 (upstream default)",
+          "to": "50"
+        },
+        {
+          "file": "BepInEx/config/xyz.alcan.comfortcalc.cfg",
+          "setting": "5. Comfort Pieces List / Show Comfort Pieces List",
+          "from": "false (upstream default)",
+          "to": "true"
+        },
+        {
+          "file": "BepInEx/config/xyz.alcan.comfortcalc.cfg",
+          "setting": "5. Comfort Pieces List / Toggle Visibility",
+          "from": "F6 (upstream default)",
+          "to": "Home"
+        }
+      ]
+    }
   }
 ]

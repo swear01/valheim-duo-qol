@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261016-v50",
+  "profileName": "Valheim-Duo-QoL-20261016-v51",
   "community": "valheim",
   "mods": [
     {
@@ -488,6 +488,16 @@
         "major": 1,
         "minor": 90,
         "patch": 0
+      },
+      "enabled": true,
+      "source": "Hexium"
+    },
+    {
+      "name": "Smoothbrain-ComfortTweaks",
+      "version": {
+        "major": 3,
+        "minor": 3,
+        "patch": 11
       },
       "enabled": true,
       "source": "Hexium"
