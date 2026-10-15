@@ -2,6 +2,15 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v47 — 2026-10-16
+
+移除 PlanBuild 0.20.0 與 `marcopogo.PlanBuild.cfg`。目前為 49 個線上套件、39 份公開設定；雙人私人包含 40 份設定。
+
+- Infinity Hammer、World Edit Commands、MovingDay 與其他套件版本、設定和內附修補保留；BepInEx、Jotunn 仍有其他模組需要。
+- 保留 50 公尺箱子取料、右 Shift 單箱切換、右 Shift 種植範圍及 `/back` 修補。
+- 建築說明不再要求使用 PlanBuild。若有未完成規劃件，先在舊 profile 完成或拆除並回收材料，再切換新包；[操作與藍圖備份](docs/survival-building.md)。
+- 已核對依賴、剩餘檔案逐位元組一致與封包重建；沒有修改目前遊戲或存檔，移除後的世界重載與雙人行為尚未實測。
+
 ## v46 — 2026-10-16
 
 AzuCraftyBoxes 單一箱子是否參與製作的切換鍵由預設左 Shift＋E 改為右 Shift。
