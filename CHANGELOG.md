@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v45 — 2026-10-16
+
+AzuCraftyBoxes 箱子取料半徑由 40 公尺提高至 50 公尺，用於製作與建造。
+
+- `2 - CraftyBoxes / Container Range` 設為 `50`；工作台建造範圍原本即為 50 公尺。
+- 保留箱子至少一件物品、PlantEasily 右 Shift、`/back` 修補，以及其他設定與套件版本。
+- 已核對設定與封包重建；遊戲內取料邊界與雙人行為尚未實測。
+
 ## v44 — 2026-10-16
 
 PlantEasily 調整種植範圍的修飾鍵由右 Ctrl 改為右 Shift。
