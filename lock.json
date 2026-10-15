@@ -1,6 +1,6 @@
 {
   "created": "2026-10-16",
-  "profile": "Valheim-Duo-QoL-20261016-v47",
+  "profile": "Valheim-Duo-QoL-20261016-v48",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1533,7 +1533,7 @@
           "ToggleNaturalEdges": "None"
         },
         "Removal": {
-          "MaximumRadius": "0.5"
+          "MaximumRadius": "10"
         }
       }
     },
@@ -1732,17 +1732,18 @@
   "verification": {
     "package_count": 49,
     "config_count": 39,
-    "removed_package": "MathiasDecrock-PlanBuild-0.20.0",
-    "removed_config": "BepInEx/config/marcopogo.PlanBuild.cfg",
-    "v46_remaining_package_pins": "unchanged",
-    "remaining_configs_and_bundled_plugins": "byte_identical",
-    "dependency_graph": "no remaining package requires PlanBuild; BepInEx and Jotunn remain required by other packages",
+    "v47_online_packages_and_local_plugins": "unchanged",
+    "changed_setting": "QoLTeam-ValheimTerrainTools / Removal / MaximumRadius: 0.5 -> 10",
+    "other_configs": "unchanged",
+    "original_payload_except_profile_name_and_terrain_config": "byte_identical",
+    "radius_bound_calculation": "both scroll directions stay at 0.5 with old cap; new cap permits 0.5 through 10",
+    "shared_removal_limit": "applies to both Remove nature and Remove builds; no refund or undo",
     "gale_gui_import": "not_run",
-    "world_reload_without_PlanBuild": "not_run",
+    "in_game_keyboard_and_scroll_input": "not_run",
     "multiplayer": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v47.r2z": "e520cb39f399e518be37ae4fd722c37b6118266f9a24d29da97f36b8d4d2d485"
+    "Valheim-Duo-QoL-v48.r2z": "53b6abf0d0488a6a30ead668055fa1ad5161951dad77c159620896b520417af0"
   },
   "local_plugins": [
     {
@@ -3412,5 +3413,9 @@
   "base_v46": {
     "name": "Valheim-Duo-QoL-v46.r2z",
     "sha256": "34792a1809dd37c8ce09200825b89658e5484b927d75325224e0afe66ecbc81d"
+  },
+  "base_v47": {
+    "name": "Valheim-Duo-QoL-v47.r2z",
+    "sha256": "e520cb39f399e518be37ae4fd722c37b6118266f9a24d29da97f36b8d4d2d485"
   }
 }
