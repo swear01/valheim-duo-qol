@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261016-v46",
+  "profileName": "Valheim-Duo-QoL-20261016-v47",
   "community": "valheim",
   "mods": [
     {
@@ -491,16 +491,6 @@
       },
       "enabled": true,
       "source": "Hexium"
-    },
-    {
-      "name": "MathiasDecrock-PlanBuild",
-      "version": {
-        "major": 0,
-        "minor": 20,
-        "patch": 0
-      },
-      "enabled": true,
-      "source": "Thunderstore"
     }
   ],
   "ignoredUpdates": [],
