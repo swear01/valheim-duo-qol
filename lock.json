@@ -1,6 +1,6 @@
 {
-  "created": "2026-10-13",
-  "profile": "Valheim-Duo-QoL-20261013-v41",
+  "created": "2026-10-15",
+  "profile": "Valheim-Duo-QoL-20261015-v42",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -38,18 +38,18 @@
     {
       "name": "shudnal-ConditionalConfigSync",
       "source": "Hexium",
-      "version": "1.0.10",
-      "download": "https://cdn.hexium.gg/upload/311/1.0.10.zip",
+      "version": "1.0.11",
+      "download": "https://cdn.hexium.gg/upload/311/1.0.11.zip",
       "website": "https://github.com/shudnal/ConditionalConfigSync",
       "page": "https://valheim.hexium.gg/mods/shudnal/ConditionalConfigSync",
       "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.2351"
       ],
       "direct": false,
-      "released": "2026-10-03T19:44:47.000000Z",
-      "sha256": "0ca43ea900af757f9d26b3902608d67c99151a9860fddde9a0d821abdc882483",
-      "bytes": 254432,
-      "archive_url": "https://cdn.hexium.gg/upload/311/1.0.10.zip"
+      "released": "2026-10-15T12:08:43.000000Z",
+      "sha256": "f333051a977fea8af78f61233bf80566724e3b8ea060d5bd6360f754761ac6e3",
+      "bytes": 254567,
+      "archive_url": "https://cdn.hexium.gg/upload/311/1.0.11.zip"
     },
     {
       "name": "ValheimModding-YamlDotNet",
@@ -153,8 +153,8 @@
     {
       "name": "shudnal-ExtraSlots",
       "source": "Hexium",
-      "version": "1.2.18",
-      "download": "https://cdn.hexium.gg/upload/306/1.2.18.zip",
+      "version": "1.2.19",
+      "download": "https://cdn.hexium.gg/upload/306/1.2.19.zip",
       "website": "https://github.com/shudnal/ExtraSlots",
       "page": "https://valheim.hexium.gg/mods/shudnal/ExtraSlots",
       "dependencies": [
@@ -163,10 +163,10 @@
         "shudnal-ConditionalConfigSync-1.0.5"
       ],
       "direct": true,
-      "released": "2026-10-10T17:07:38.000000Z",
-      "sha256": "27c460a81d6bb9ecb3fd81b13340147fcb5b7f3798b6ab90724d7387394b3daa",
-      "bytes": 266473,
-      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.18.zip"
+      "released": "2026-10-12T17:31:27.000000Z",
+      "sha256": "c11e8acceeca7492b7106e8951070793f477fe51d24348ab83f12c33c0d7058b",
+      "bytes": 271802,
+      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.19.zip"
     },
     {
       "name": "Azumatt-AzuCraftyBoxes",
@@ -251,18 +251,18 @@
     {
       "name": "Azumatt-PerfectPlacement",
       "source": "Hexium",
-      "version": "1.2.4",
-      "download": "https://cdn.hexium.gg/upload/278/1.2.4.zip",
+      "version": "1.2.6",
+      "download": "https://cdn.hexium.gg/upload/278/1.2.6.zip",
       "website": "https://github.com/AzumattDev/PerfectPlacement",
       "page": "https://valheim.hexium.gg/mods/Azumatt/PerfectPlacement",
       "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.2351"
       ],
       "direct": true,
-      "released": "2026-09-18T00:50:53.000000Z",
-      "sha256": "fe662a72a573dc0f25e82a65290d180b8a3f02908e7b8eb06ff1870dce62e2ae",
-      "bytes": 125479,
-      "archive_url": "https://cdn.hexium.gg/upload/278/1.2.4.zip"
+      "released": "2026-10-15T14:24:49.000000Z",
+      "sha256": "3622a0e17796ac428cf98aefe0ce1bf2957058bdb3c0797fd1a953df0baf8938",
+      "bytes": 129551,
+      "archive_url": "https://cdn.hexium.gg/upload/278/1.2.6.zip"
     },
     {
       "name": "Azumatt-Build_Camera_Custom_Hammers_Edition",
@@ -283,16 +283,18 @@
     {
       "name": "Azumatt-FirstPersonMode",
       "source": "Hexium",
-      "version": "1.4.5",
-      "download": "https://cdn.hexium.gg/upload/225/1.4.5.zip",
+      "version": "1.4.6",
+      "download": "https://cdn.hexium.gg/upload/225/1.4.6.zip",
       "website": "https://discord.gg/pdHgy6Bsng",
       "page": "https://valheim.hexium.gg/mods/Azumatt/FirstPersonMode",
-      "dependencies": [],
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
       "direct": true,
-      "released": "2026-10-07T19:56:39.000000Z",
-      "sha256": "abb296f52c02ee19bb3000ac588d90d6e50b946df7af7d702070ea1e2f1f0269",
-      "bytes": 151323,
-      "archive_url": "https://cdn.hexium.gg/upload/225/1.4.5.zip"
+      "released": "2026-10-14T19:33:03.000000Z",
+      "sha256": "e56228364791602316e198290f5f9c535d12d1fd3f2f397faf72e69316992936",
+      "bytes": 153057,
+      "archive_url": "https://cdn.hexium.gg/upload/225/1.4.6.zip"
     },
     {
       "name": "Smoothbrain-TargetPortal",
@@ -313,16 +315,18 @@
     {
       "name": "OdinPlus-QuickTeleport",
       "source": "Hexium",
-      "version": "2.0.5",
-      "download": "https://cdn.hexium.gg/upload/1282/2.0.5.zip",
+      "version": "2.0.7",
+      "download": "https://cdn.hexium.gg/upload/1282/2.0.7.zip",
       "website": "https://www.nexusmods.com/valheim/mods/2291",
       "page": "https://valheim.hexium.gg/mods/OdinPlus/QuickTeleport",
-      "dependencies": [],
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2351"
+      ],
       "direct": true,
-      "released": "2026-10-08T03:55:48.000000Z",
-      "sha256": "d46a3d0b732a8323920d79cc8e702f1f02e11006f366e02d6caf0f94693bfcbe",
-      "bytes": 224552,
-      "archive_url": "https://cdn.hexium.gg/upload/1282/2.0.5.zip"
+      "released": "2026-10-13T04:57:17.000000Z",
+      "sha256": "b22258a067af087f9d43bbe1140d0a8560bcb6db0a064a94d4cf6bb7a7ca070c",
+      "bytes": 228758,
+      "archive_url": "https://cdn.hexium.gg/upload/1282/2.0.7.zip"
     },
     {
       "name": "Smoothbrain-InstantEquip",
@@ -454,18 +458,18 @@
     {
       "name": "Searica-Extra_Snap_Points_Made_Easy",
       "source": "Thunderstore",
-      "version": "2.1.1",
-      "download": "https://thunderstore.io/package/download/Searica/Extra_Snap_Points_Made_Easy/2.1.1/",
+      "version": "2.2.0",
+      "download": "https://thunderstore.io/package/download/Searica/Extra_Snap_Points_Made_Easy/2.2.0/",
       "website": "https://discord.gg/sFmGTBYN6n",
       "page": "https://thunderstore.io/c/valheim/p/Searica/Extra_Snap_Points_Made_Easy/",
       "dependencies": [
         "denikson-BepInExPack_Valheim-5.4.2351"
       ],
       "direct": true,
-      "released": "2026-10-08T19:33:44.096411Z",
-      "sha256": "ba986bc717c8c0a91d8e1ca3974c7ecd94ffdf91e4a249c1e56cbe0643eb3107",
-      "bytes": 77884,
-      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Searica-Extra_Snap_Points_Made_Easy-2.1.1.zip"
+      "released": "2026-10-14T19:52:57.296676Z",
+      "sha256": "b997d600d132d01ced378cdca084e6c4518bfa50b1bafc366b0f4031aa515d29",
+      "bytes": 80016,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Searica-Extra_Snap_Points_Made_Easy-2.2.0.zip"
     },
     {
       "name": "Mydayyy-ServerSideMap",
@@ -1409,7 +1413,8 @@
       "sections": {
         "2 - Manual Snapping": {
           "Toggle Manual+ Snap Mode": "P",
-          "Toggle Grid Snap Mode": "F11"
+          "Toggle Grid Snap Mode": "F11",
+          "Toggle Manual Snap Mode": "CapsLock"
         }
       }
     },
@@ -1763,13 +1768,19 @@
   "verification": {
     "package_count": 50,
     "config_count": 40,
-    "v40_pins_configs_and_bundled_dlls": "byte_identical",
-    "profile_name": "v41_without_private_suffix",
+    "dependency_closure": "passed",
+    "unchanged_packages": 44,
+    "changed_profile_files": [
+      "BepInEx/config/Searica.Valheim.ExtraSnapPointsMadeEasy.cfg",
+      "export.r2x"
+    ],
+    "remaining_profile_files": "byte_identical_to_v41",
     "gale_gui_import": "not_run",
-    "in_game_admin_and_multiplayer": "not_run"
+    "in_game_admin_and_multiplayer": "not_run",
+    "updated_plugins_Unity_Harmony_runtime": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v41.r2z": "a1963ca48a1d356d9c6f954196a75fd8be8b957ecbb263d56d04bd0d4d7603e6"
+    "Valheim-Duo-QoL-v42.r2z": "b2811d30dac83716553d22b6ba0ac1de09eaa6f733bcf21f9d0b122de33ad603"
   },
   "local_plugins": [
     {
@@ -3323,5 +3334,74 @@
   "base_v40": {
     "name": "Valheim-Duo-QoL-v40.r2z",
     "sha256": "16b392a23c5939a7d957edc54825cd857005d1a295754adc6f057ae566838181"
+  },
+  "base_v41": {
+    "name": "Valheim-Duo-QoL-v41.r2z",
+    "sha256": "a1963ca48a1d356d9c6f954196a75fd8be8b957ecbb263d56d04bd0d4d7603e6"
+  },
+  "updates_from_v41": [
+    {
+      "name": "shudnal-ConditionalConfigSync",
+      "from": "1.0.10",
+      "to": "1.0.11",
+      "source": "Hexium"
+    },
+    {
+      "name": "shudnal-ExtraSlots",
+      "from": "1.2.18",
+      "to": "1.2.19",
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-PerfectPlacement",
+      "from": "1.2.4",
+      "to": "1.2.6",
+      "source": "Hexium"
+    },
+    {
+      "name": "Azumatt-FirstPersonMode",
+      "from": "1.4.5",
+      "to": "1.4.6",
+      "source": "Hexium"
+    },
+    {
+      "name": "OdinPlus-QuickTeleport",
+      "from": "2.0.5",
+      "to": "2.0.7",
+      "source": "Hexium"
+    },
+    {
+      "name": "Searica-Extra_Snap_Points_Made_Easy",
+      "from": "2.1.1",
+      "to": "2.2.0",
+      "source": "Thunderstore"
+    }
+  ],
+  "configuration_updates_from_v41": {
+    "Searica-Extra_Snap_Points_Made_Easy": {
+      "2 - Manual Snapping": {
+        "Toggle Manual Snap Mode": {
+          "previous_effective_default": "CapsLock",
+          "new_upstream_default": "F3",
+          "pinned": "CapsLock",
+          "reason": "Preserve the old key and avoid the PerfectPlacement F3 exit binding"
+        }
+      }
+    }
+  },
+  "upstream_check_2026_10_15": {
+    "checked_packages": 50,
+    "updated_packages": 6,
+    "metadata_sources": [
+      "https://thunderstore.io/c/valheim/api/v1/package/",
+      "https://valheim.hexium.gg/api/experimental/package-index/"
+    ],
+    "candidate_metadata_manifests_and_download_hashes": "verified",
+    "existing_override_keys_in_updated_decompiled_assemblies": "present",
+    "AAA_Crafting": {
+      "latest": "2.1.11",
+      "max_count_fix_confirmed_upstream": false,
+      "action": "Retain AAA Crafting Max Fix 1.1.0"
+    }
   }
 }

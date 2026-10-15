@@ -2,6 +2,17 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v42 — 2026-10-15
+
+更新六個模組，仍為 50 個線上套件、40 份公開設定。雙人私人包沿用既有管理員設定，含 41 份設定。
+
+- ConditionalConfigSync 1.0.10 → 1.0.11；ExtraSlots 1.2.18 → 1.2.19。
+- PerfectPlacement 1.2.4 → 1.2.6；FirstPersonMode 1.4.5 → 1.4.6。
+- QuickTeleport 2.0.5 → 2.0.7；Extra Snap Points Made Easy 2.1.1 → 2.2.0。
+- 普通手動吸附維持 CapsLock，避免新版預設 F3 與建築退出鍵衝突；P／F11 與既有設定保留。
+- AAA Crafting 仍是 2.1.11，保留 Max Fix 1.1.0。完整變更與快捷鍵見 [v42 更新說明](docs/update-v42.md)。
+- 已核對下載、依賴、設定鍵與封包重建；Gale 匯入、遊戲與雙人行為尚未實測。
+
 ## v41 — 2026-10-13
 
 統一使用 v41 檔名與 profile，不再加 `private-admins` 尾碼。50 個線上套件與原有設定版本保留。
