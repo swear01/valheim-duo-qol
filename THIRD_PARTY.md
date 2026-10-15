@@ -4,4 +4,6 @@
 
 v26～v30 內附的 AAA Crafting Max Fix 1.0.0 是本模組包作者的獨立 MIT 修補；原授權保留於對應歷史 ZIP 與 tags。v31 起改由 Thunderstore 下載，完整包不再內附第二份 DLL。
 
-其他線上模組與遊戲／Unity 組件由管理器或遊戲提供，不收錄於此 repo。各套件頁面、版本與雜湊保留在 lock 內。根目錄 LICENSE 僅適用此 repository 自行撰寫的設定、文件與工具；內附模組保留原授權。
+v43 起內附 SlashBack Return Fix 1.0.0，為本模組包作者自行撰寫的 MIT 修補，原始碼位於 `mods/SlashBackFix/`。它保留原版 SlashBack 1.0.2 並透過 Harmony 取消冷卻與死亡期限；沒有修改或內附原版 DLL。授權保留於 `profile/BepInEx/plugins/swear-SlashBackFix/LICENSE.txt`。
+
+其他線上模組與遊戲／Unity 組件由管理器或遊戲提供，不收錄於此 repo。各套件頁面、版本與雜湊保留在 lock 內。根目錄 LICENSE 適用此 repository 自行撰寫的設定、文件、工具與 SlashBack Return Fix；其他內附模組保留原授權。

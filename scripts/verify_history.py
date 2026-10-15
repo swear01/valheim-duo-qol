@@ -18,6 +18,7 @@ SENSITIVE = re.compile(
 BUNDLED_DLLS = {
     "BepInEx/plugins/aedenthorn-TorchMod/TorchMod.dll",
     "BepInEx/plugins/swear-AAACraftingMaxFix/AAACraftingMaxFix.dll",
+    "BepInEx/plugins/swear-SlashBackFix/SlashBackFix.dll",
 }
 
 

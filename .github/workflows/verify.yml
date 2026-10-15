@@ -15,6 +15,27 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.317'
+      - name: Verify SlashBack fix against the pinned upstream DLL
+        run: |
+          python - <<'PY'
+          import hashlib, io, json, pathlib, urllib.request, zipfile
+          raw = urllib.request.urlopen('https://gcdn.thunderstore.io/live/repository/packages/Geda_Giminei-SlashBack-1.0.2.zip', timeout=30).read()
+          package = next(p for p in json.loads(pathlib.Path('lock.json').read_text())['packages'] if p['name'] == 'Geda_Giminei-SlashBack')
+          assert hashlib.sha256(raw).hexdigest() == package['sha256'], 'Upstream package hash differs'
+          target = pathlib.Path('dist/verification/SlashBack.dll')
+          target.parent.mkdir(parents=True, exist_ok=True)
+          with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+              target.write_bytes(archive.read('SlashBack.dll'))
+          PY
+          dotnet run --project mods/SlashBackFix/tests/Tests.csproj -c Release -- dist/verification/SlashBack.dll
+          dotnet build mods/SlashBackFix/SlashBackFix.csproj -c Release --nologo
+          python - <<'PY'
+          from pathlib import Path
+          assert Path('mods/SlashBackFix/bin/Release/net48/SlashBackFix.dll').read_bytes() == Path('profile/BepInEx/plugins/swear-SlashBackFix/SlashBackFix.dll').read_bytes(), 'Packaged DLL differs from source build'
+          PY
       - run: python -m unittest discover -s tests
       - run: python scripts/verify_history.py
       - run: python -m scripts.build_package

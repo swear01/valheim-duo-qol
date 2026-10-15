@@ -1,6 +1,6 @@
 {
-  "created": "2026-10-15",
-  "profile": "Valheim-Duo-QoL-20261015-v42",
+  "created": "2026-10-16",
+  "profile": "Valheim-Duo-QoL-20261016-v43",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1768,19 +1768,16 @@
   "verification": {
     "package_count": 50,
     "config_count": 40,
-    "dependency_closure": "passed",
-    "unchanged_packages": 44,
-    "changed_profile_files": [
-      "BepInEx/config/Searica.Valheim.ExtraSnapPointsMadeEasy.cfg",
-      "export.r2x"
-    ],
-    "remaining_profile_files": "byte_identical_to_v41",
+    "v42_packages_and_configs": "unchanged",
+    "original_payload_except_profile_name": "byte_identical",
+    "new_bundled_plugin": "SlashBack Return Fix 1.0.0",
+    "regression_and_upstream_metadata_checks": 27,
     "gale_gui_import": "not_run",
-    "in_game_admin_and_multiplayer": "not_run",
-    "updated_plugins_Unity_Harmony_runtime": "not_run"
+    "Unity_Harmony_runtime": "not_run",
+    "multiplayer": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v42.r2z": "b2811d30dac83716553d22b6ba0ac1de09eaa6f733bcf21f9d0b122de33ad603"
+    "Valheim-Duo-QoL-v43.r2z": "c8aca69199e3ab01e37021d68174163f9cbb8710190316012015574498b85925"
   },
   "local_plugins": [
     {
@@ -1823,6 +1820,33 @@
         "game_launch": "passed_prior_isolated_profile; complete_v29_not_run",
         "campfire_brightness_in_game": "prior_isolated_1_0_17_rgb_verified; full_v32_not_run",
         "campfire_rgb_isolated_1_0_17": "passed_prior_four_fire_evidence; VPO_on_off_dry; VPO_off_wet_clear"
+      }
+    },
+    {
+      "name": "SlashBack Return Fix",
+      "guid": "swear.valheim.SlashBackFix",
+      "version": "1.0.0",
+      "author": "Huang Ssu-Wei",
+      "license": "MIT",
+      "source": "mods/SlashBackFix/SlashBackFix.cs",
+      "source_sha256": "5730f145802a5cc2141ba77852e248d99ad1c53aea8196dacdafefc9b97cbdfc",
+      "plugin_path": "BepInEx/plugins/swear-SlashBackFix/SlashBackFix.dll",
+      "dll_sha256": "1d7494471db223707b6e9dc49591210f106ba407ab2c198a804951bb2ae43b14",
+      "dll_bytes": 6656,
+      "requires": "Geda_Giminei-SlashBack-1.0.2",
+      "upstream_dll_sha256": "7eee73f0eaa09dee18df72981413a8e14575919826d462b6c2f3afcc1ef1aa61",
+      "behavior": {
+        "return_cooldown": "disabled",
+        "death_age_expiry": "disabled",
+        "five_second_countdown": "retained",
+        "movement_cancellation": "retained",
+        "death_point_required": "retained"
+      },
+      "build": "dotnet SDK 9.0.317; net48; Release; deterministic; 0 warnings, 0 errors",
+      "verification": {
+        "regression_and_upstream_metadata_checks": 27,
+        "Unity_Harmony_detours": "not_run",
+        "multiplayer": "not_run"
       }
     }
   ],
@@ -3403,5 +3427,9 @@
       "max_count_fix_confirmed_upstream": false,
       "action": "Retain AAA Crafting Max Fix 1.1.0"
     }
+  },
+  "base_v42": {
+    "name": "Valheim-Duo-QoL-v42.r2z",
+    "sha256": "b2811d30dac83716553d22b6ba0ac1de09eaa6f733bcf21f9d0b122de33ad603"
   }
 }

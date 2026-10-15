@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../SlashBackFix.cs" Link="SlashBackFix.cs" />
+    <Compile Include="Fixtures.cs" />
+    <Compile Include="Program.cs" />
+    <PackageReference Include="HarmonyX" Version="2.7.0" />
+  </ItemGroup>
+</Project>
