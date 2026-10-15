@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v49 — 2026-10-16
+
+Infinity Hammer 的 `3. Binds / Zooping forward (mouse wheel)` 設為 `RightControl`，新增右 Ctrl＋滾輪調整前後排數。
+
+- 普通建築槌選地板，右 Alt＋滾輪調左右寬度，再用右 Ctrl＋滾輪展開前後排數，確認預覽與材料後左鍵放置；[完整操作](docs/survival-building.md)。
+- 保留材料、體力、耐久與支撐設定；49 個線上套件、39 份公開設定、其他快捷鍵與內附修補保留。
+- 已核對上游 1.90.0 的設定鍵與指令對應、封包重建；遊戲內按鍵、滾輪與雙人操作尚未實測。
+
 ## v48 — 2026-10-16
 
 ValheimTerrainTools 的 `Removal / MaximumRadius` 由 0.5 改為 10 公尺，解除最小與最大值皆為 0.5 所造成的大小鎖定。
