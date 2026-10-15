@@ -1,6 +1,6 @@
 {
   "created": "2026-10-16",
-  "profile": "Valheim-Duo-QoL-20261016-v48",
+  "profile": "Valheim-Duo-QoL-20261016-v49",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1715,7 +1715,8 @@
           "Pick": "None",
           "Pick frozen": "None",
           "Undo": "None",
-          "Redo": "None"
+          "Redo": "None",
+          "Zooping forward (mouse wheel)": "RightControl"
         },
         "5. Tools": {
           "Tools enabled": "false"
@@ -1732,18 +1733,17 @@
   "verification": {
     "package_count": 49,
     "config_count": 39,
-    "v47_online_packages_and_local_plugins": "unchanged",
-    "changed_setting": "QoLTeam-ValheimTerrainTools / Removal / MaximumRadius: 0.5 -> 10",
+    "v48_online_packages_and_local_plugins": "unchanged",
+    "changed_setting": "JereKuusela-Infinity_Hammer / 3. Binds / Zooping forward (mouse wheel): upstream None -> RightControl",
     "other_configs": "unchanged",
-    "original_payload_except_profile_name_and_terrain_config": "byte_identical",
-    "radius_bound_calculation": "both scroll directions stay at 0.5 with old cap; new cap permits 0.5 through 10",
-    "shared_removal_limit": "applies to both Remove nature and Remove builds; no refund or undo",
+    "original_payload_except_profile_name_and_hammer_config": "byte_identical",
+    "pinned_1_90_0_binding": "maps to hammer_zoop_forward auto; default None",
     "gale_gui_import": "not_run",
     "in_game_keyboard_and_scroll_input": "not_run",
     "multiplayer": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v48.r2z": "53b6abf0d0488a6a30ead668055fa1ad5161951dad77c159620896b520417af0"
+    "Valheim-Duo-QoL-v49.r2z": "5ac98b6c7a958a9f862e3defd5b63b197144c477cceeacac0f82f4a7b31ce282"
   },
   "local_plugins": [
     {
@@ -3417,5 +3417,9 @@
   "base_v47": {
     "name": "Valheim-Duo-QoL-v47.r2z",
     "sha256": "e520cb39f399e518be37ae4fd722c37b6118266f9a24d29da97f36b8d4d2d485"
+  },
+  "base_v48": {
+    "name": "Valheim-Duo-QoL-v48.r2z",
+    "sha256": "53b6abf0d0488a6a30ead668055fa1ad5161951dad77c159620896b520417af0"
   }
 }
