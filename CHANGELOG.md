@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v50 — 2026-10-16
+
+Infinity Hammer 前後排列由右 Ctrl 改為右 Shift＋滾輪，方便沒有右 Ctrl 的鍵盤使用。
+
+- `3. Binds / Zooping forward (mouse wheel)` 設為 `RightShift`；右 Alt＋滾輪調左右寬度的設定保留。Shift＋滾輪縮放仍停用。
+- 右 Shift 仍與 AzuCraftyBoxes 單箱切換、PlantEasily 種植範圍共用；準星對著可操作的箱子時按下它，也會切換該箱子是否參與製作。[完整建築操作](docs/survival-building.md)。
+- 49 個線上套件、39 份公開設定、其他設定與內附修補保留；已核對設定及封包重建，遊戲內按鍵、滾輪與雙人操作尚未實測。
+
 ## v49 — 2026-10-16
 
 Infinity Hammer 的 `3. Binds / Zooping forward (mouse wheel)` 設為 `RightControl`，新增右 Ctrl＋滾輪調整前後排數。
