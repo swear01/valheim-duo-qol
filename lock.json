@@ -1,6 +1,6 @@
 {
   "created": "2026-10-16",
-  "profile": "Valheim-Duo-QoL-20261016-v44",
+  "profile": "Valheim-Duo-QoL-20261016-v45",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1048,7 +1048,7 @@
       "filename": "Azumatt.AzuCraftyBoxes.cfg",
       "sections": {
         "2 - CraftyBoxes": {
-          "Container Range": "40",
+          "Container Range": "50",
           "Leave One Item": "On"
         }
       }
@@ -1768,16 +1768,16 @@
   "verification": {
     "package_count": 50,
     "config_count": 40,
-    "v43_online_packages_and_local_plugins": "unchanged",
-    "changed_setting": "Advize-PlantEasily / Controls / KeyboardModifierKey: RightControl -> RightShift",
+    "v44_online_packages_and_local_plugins": "unchanged",
+    "changed_setting": "Azumatt-AzuCraftyBoxes / 2 - CraftyBoxes / Container Range: 40 -> 50",
     "other_configs": "unchanged",
-    "original_payload_except_profile_name_and_plant_config": "byte_identical",
+    "original_payload_except_profile_name_and_craftyboxes_config": "byte_identical",
     "gale_gui_import": "not_run",
-    "in_game_keyboard_input": "not_run",
+    "in_game_container_range": "not_run",
     "multiplayer": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v44.r2z": "7a9aef582547a0ff43613a029780cbe7a66742cecf1ef9cf7711817ea95913c9"
+    "Valheim-Duo-QoL-v45.r2z": "957c97d0df697ee0b80fe0345bcf49e490afa1fad0da6591af6558ee21f70e20"
   },
   "local_plugins": [
     {
@@ -3435,5 +3435,9 @@
   "base_v43": {
     "name": "Valheim-Duo-QoL-v43.r2z",
     "sha256": "c8aca69199e3ab01e37021d68174163f9cbb8710190316012015574498b85925"
+  },
+  "base_v44": {
+    "name": "Valheim-Duo-QoL-v44.r2z",
+    "sha256": "7a9aef582547a0ff43613a029780cbe7a66742cecf1ef9cf7711817ea95913c9"
   }
 }
