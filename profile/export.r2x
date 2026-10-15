@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261013-v41",
+  "profileName": "Valheim-Duo-QoL-20261015-v42",
   "community": "valheim",
   "mods": [
     {
@@ -27,7 +27,7 @@
       "version": {
         "major": 1,
         "minor": 0,
-        "patch": 10
+        "patch": 11
       },
       "enabled": true,
       "source": "Hexium"
@@ -97,7 +97,7 @@
       "version": {
         "major": 1,
         "minor": 2,
-        "patch": 18
+        "patch": 19
       },
       "enabled": true,
       "source": "Hexium"
@@ -157,7 +157,7 @@
       "version": {
         "major": 1,
         "minor": 2,
-        "patch": 4
+        "patch": 6
       },
       "enabled": true,
       "source": "Hexium"
@@ -177,7 +177,7 @@
       "version": {
         "major": 1,
         "minor": 4,
-        "patch": 5
+        "patch": 6
       },
       "enabled": true,
       "source": "Hexium"
@@ -197,7 +197,7 @@
       "version": {
         "major": 2,
         "minor": 0,
-        "patch": 5
+        "patch": 7
       },
       "enabled": true,
       "source": "Hexium"
@@ -286,8 +286,8 @@
       "name": "Searica-Extra_Snap_Points_Made_Easy",
       "version": {
         "major": 2,
-        "minor": 1,
-        "patch": 1
+        "minor": 2,
+        "patch": 0
       },
       "enabled": true,
       "source": "Thunderstore"
