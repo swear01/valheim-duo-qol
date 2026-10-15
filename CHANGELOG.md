@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v52 — 2026-10-16
+
+ComfortTweaks 舒適度家具清單的開關由 Home 改為 J，避開 MovingDay 搬移模式的 Home 重設高度，Mac 與 Windows 都可直接按字母鍵。
+
+- `5. Comfort Pieces List / Toggle Visibility = J`；保留 50 公尺家具判定半徑、清單啟用與其他模組預設規則。[操作說明](docs/comfort.md)。
+- 50 個線上套件、40 份公開設定、其他設定與內附修補保留。已核對快捷鍵、內容差異與封包重建；Gale 匯入、遊戲內按鍵及雙人行為尚未實測。
+
 ## v51 — 2026-10-16
 
 加入 Hexium 的 ComfortTweaks 3.3.11，家具舒適度判定半徑由預設 10 公尺提高至 50 公尺。
