@@ -2,6 +2,15 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v48 — 2026-10-16
+
+ValheimTerrainTools 的 `Removal / MaximumRadius` 由 0.5 改為 10 公尺，解除最小與最大值皆為 0.5 所造成的大小鎖定。
+
+- 選 Remove nature 後，用 Shift＋滾輪在 0.5～10 公尺間調整半徑；一般整地的 `Brush / MaximumRadius` 仍為 10。
+- 這個上限同時影響 Remove builds；移除沒有材料返還或復原，先確認預覽範圍。
+- 49 個線上套件、39 份公開設定、其他設定與內附修補保留；PlanBuild 維持移除。
+- 已核對上游 0.6.4 的輸入與半徑限制實作、邊界計算及封包重建；遊戲內滾輪與雙人操作尚未實測。
+
 ## v47 — 2026-10-16
 
 移除 PlanBuild 0.20.0 與 `marcopogo.PlanBuild.cfg`。目前為 49 個線上套件、39 份公開設定；雙人私人包含 40 份設定。
