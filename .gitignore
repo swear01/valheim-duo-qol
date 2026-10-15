@@ -4,3 +4,5 @@ __pycache__/
 work/
 dist/
 private-admins.json
+mods/**/bin/
+mods/**/obj/
