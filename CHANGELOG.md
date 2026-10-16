@@ -2,6 +2,15 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v56 — 2026-10-16
+
+加入 [Hunger Pangs 1.3.3](https://thunderstore.io/c/valheim/p/DrummerCraig/Hunger_Pangs/)，食物剩餘時間降至 25% 時自動續吃同種食物，正常消耗玩家背包庫存。[使用方法](docs/auto-eat.md)。
+
+- `General / 03. Auto-Eat Percent = 25`。設定鍵依實際 DLL 使用 `01.`、`03.` 等補零名稱。
+- 關閉工作台／船上暫停計時、健康／毒抗／火抗／冰抗自動喝藥、死亡保留食物效果與 TimeControl 時間倍率；保留原版食物規則。
+- 原本食物專用格、Badgers 0.6.0、兩位管理員及其他設定保留。50 個線上套件、41 份公開設定、42 份私人設定。
+- 已核對下載、依賴、設定鍵、續吃邏輯與封包差異；遊戲內食物格續吃和雙人行為尚未實測。Hunger Pangs 的主機要求連線玩家使用相同版本。
+
 ## v55 — 2026-10-16
 
 開啟 ExtraSlots 的 3 個食物專用格：`Extra slots / Enable food slots = true`。食物仍需手動食用。
