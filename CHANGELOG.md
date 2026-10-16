@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v55 — 2026-10-16
+
+開啟 ExtraSlots 的 3 個食物專用格：`Extra slots / Enable food slots = true`。食物仍需手動食用。
+
+- 保留原本的格子解鎖進度、快捷鍵及其他設定；沒有新增或更新線上模組。
+- 私人包沿用 Badgers Straight Structures 0.6.0 與兩位管理員。49 個線上套件、40 份公開設定、41 份私人設定。
+- 已核對設定、封包差異與重建；Gale 匯入、遊戲內格子與雙人行為尚未實測。
+
 ## v54 — 2026-10-16
 
 雙人私人包加入 [Badgers Straight Structures 0.6.0](https://www.nexusmods.com/valheim/mods/2938)，降低原版建材表面與邊緣的視覺扭曲；木牆、樑柱、門等建材也會一起變平整，沒有石材限定設定。
