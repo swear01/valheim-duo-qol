@@ -1,3 +1,14 @@
-This entire repository's contents, as far as legally possible and unless a project specifies otherwise, are released into the public domain. 
+Torch Light Mod 1.0.2 by aedenthorn
 
-The creator of this file disavows any copyright over any content in this repository, and content licensed from other sources is clearly labeled as such.
+Official, unmodified Nexus Mods DLL, file ID 25236.
+https://www.nexusmods.com/valheim/mods/11?tab=files&file_id=25236
+
+Nexus upload permission, checked 2026-10-16:
+"You can upload this file to other sites but you must credit me as the creator of the file"
+
+Creator credit: aedenthorn.
+Do not sell mods or files containing these assets.
+https://www.nexusmods.com/valheim/mods/11?tab=description
+
+Earlier pack versions compiled the author's public-domain GitHub source.
+This 1.0.2 DLL uses the Nexus distribution permissions above.

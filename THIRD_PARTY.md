@@ -1,6 +1,8 @@
 # 內附模組與授權
 
-`TorchMod.dll` 由 aedenthorn 公開的 Torch Light Mod 1.0.1 原始碼編譯；原作者 public-domain 聲明保留在各版 `profile/BepInEx/plugins/aedenthorn-TorchMod/LICENSE.txt` 與原始 ZIP 內。來源：<https://github.com/aedenthorn/ValheimMods/tree/83690e8ef9a37c4694604416667d252b4ff5f645/TorchMod>。
+v58 內附 aedenthorn 的 [Torch Light Mod 1.0.2](https://www.nexusmods.com/valheim/mods/11?tab=files&file_id=25236) 官方原始 DLL，未修改或重新編譯。作者的 [Nexus 授權](https://www.nexusmods.com/valheim/mods/11?tab=description) 允許附作者署名重新上傳，禁止將其資產用於販售的模組或檔案；署名與條件保留於 `profile/BepInEx/plugins/aedenthorn-TorchMod/LICENSE.txt` 和 ZIP。
+
+較早版本由作者公開的 Torch Light Mod 1.0.1 原始碼編譯，其 public-domain 聲明保留於對應歷史 ZIP 與 tags。來源：<https://github.com/aedenthorn/ValheimMods/tree/83690e8ef9a37c4694604416667d252b4ff5f645/TorchMod>。作者 GitHub 目前仍標示 1.0.1，不能作為本版 1.0.2 DLL 的可重建來源。
 
 v26～v30 內附的 AAA Crafting Max Fix 1.0.0 是本模組包作者的獨立 MIT 修補；原授權保留於對應歷史 ZIP 與 tags。v31 起改由 Thunderstore 下載，完整包不再內附第二份 DLL。
 

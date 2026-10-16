@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261016-v57",
+  "profileName": "Valheim-Duo-QoL-20261016-v58",
   "community": "valheim",
   "mods": [
     {
@@ -97,7 +97,7 @@
       "version": {
         "major": 1,
         "minor": 2,
-        "patch": 19
+        "patch": 20
       },
       "enabled": true,
       "source": "Hexium"
