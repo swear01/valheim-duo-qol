@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261016-v52",
+  "profileName": "Valheim-Duo-QoL-20261016-v53",
   "community": "valheim",
   "mods": [
     {
@@ -148,16 +148,6 @@
         "major": 1,
         "minor": 0,
         "patch": 8
-      },
-      "enabled": true,
-      "source": "Hexium"
-    },
-    {
-      "name": "Azumatt-PerfectPlacement",
-      "version": {
-        "major": 1,
-        "minor": 2,
-        "patch": 6
       },
       "enabled": true,
       "source": "Hexium"

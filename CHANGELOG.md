@@ -2,6 +2,13 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v53 — 2026-10-16
+
+移除 PerfectPlacement 1.2.6 及其設定，不再提供 F1 進階建築、Keypad0 進階編輯與該模組的自由旋轉功能。
+
+- 保留 Infinity Hammer 的 F4 凍結／微調、成排鋪設與 MovingDay 搬移建築。沿用舊 profile 時，需在 Gale 移除 `Azumatt-PerfectPlacement`；匯入新包不會卸載舊 profile 的模組。
+- 49 個線上套件、39 份公開設定；其餘模組版本、設定與內附 DLL 保留。已核對依賴、內容差異與封包重建；Gale 匯入、移除後的世界重載及雙人行為尚未實測。
+
 ## v52 — 2026-10-16
 
 ComfortTweaks 舒適度家具清單的開關由 Home 改為 J，避開 MovingDay 搬移模式的 Home 重設高度，Mac 與 Windows 都可直接按字母鍵。

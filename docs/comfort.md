@@ -1,6 +1,6 @@
 # 舒適度家具
 
-v51 加入 Hexium 的 [ComfortTweaks 3.3.11](https://valheim.hexium.gg/mods/Smoothbrain/ComfortTweaks)。兩人退出遊戲，在 Gale 匯入 v52 為新 profile，勾選 Import all files。
+v51 加入 Hexium 的 [ComfortTweaks 3.3.11](https://valheim.hexium.gg/mods/Smoothbrain/ComfortTweaks)。兩人退出遊戲，在 Gale 匯入 v53 為新 profile，勾選 Import all files。
 
 家具舒適度判定半徑為 **50 公尺**，原預設為 10 公尺；家具清單使用相同範圍。其他舒適度點數、家具分組、休息增益、遮蔽要求與火源範圍維持模組預設。家具放得更遠仍能計入舒適度，不會因此擴大火源的保暖範圍。
 
