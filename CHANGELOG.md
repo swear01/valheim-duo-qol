@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v57 — 2026-10-16
+
+開啟 Hunger Pangs 的死亡保留食物效果與剩餘時間，以及 TimeControl 時間連動。包內未安裝 TimeControl，因此連動設定目前不改變食物時間。[使用方法](docs/auto-eat.md)。
+
+- `General / 11. Keep Food On Death = true`、`12. Scale With TimeControl = true`；25% 自動續吃、暫停計時與自動喝藥的設定保留。
+- 沒有新增或更新模組；50 個線上套件、41 份公開設定、42 份私人設定。私人包沿用 Badgers 0.6.0 與兩位管理員。
+- 已核對設定、封包差異與重建；死亡後食物保留、TimeControl 連動及雙人行為尚未實測。
+
 ## v56 — 2026-10-16
 
 加入 [Hunger Pangs 1.3.3](https://thunderstore.io/c/valheim/p/DrummerCraig/Hunger_Pangs/)，食物剩餘時間降至 25% 時自動續吃同種食物，正常消耗玩家背包庫存。[使用方法](docs/auto-eat.md)。
