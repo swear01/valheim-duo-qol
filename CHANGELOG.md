@@ -2,6 +2,15 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v58 — 2026-10-16
+
+更新 [ExtraSlots 1.2.20](https://valheim.hexium.gg/mods/shudnal/ExtraSlots) 與 [Torch Light Mod 1.0.2](https://www.nexusmods.com/valheim/mods/11?tab=files)。
+
+- ExtraSlots 修正 Valheim 1.0.20 更新後額外欄位備份無法恢復的問題；保留食物格、欄位數量、解鎖進度與快捷鍵。
+- Torch Light Mod 修正空參照錯誤。作者 GitHub 原始碼仍標示 1.0.1，本版改附未修改的 Nexus 官方 1.0.2 DLL；已核對作者允許署名重新上傳的條件，並更新內附授權與來源。
+- 所有設定值、其餘 49 個線上套件、SlashBack 修補、Badgers 0.6.0 與兩位私人管理員保留。50 個線上套件、41 份公開設定、42 份私人設定。
+- 已核對下載、DLL 版本、設定鍵、依賴與封包重建；Gale 匯入、新版火光、額外欄位備份恢復及雙人行為尚未實測。
+
 ## v57 — 2026-10-16
 
 開啟 Hunger Pangs 的死亡保留食物效果與剩餘時間，以及 TimeControl 時間連動。包內未安裝 TimeControl，因此連動設定目前不改變食物時間。[使用方法](docs/auto-eat.md)。

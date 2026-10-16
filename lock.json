@@ -1,6 +1,6 @@
 {
   "created": "2026-10-16",
-  "profile": "Valheim-Duo-QoL-20261016-v57",
+  "profile": "Valheim-Duo-QoL-20261016-v58",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -153,8 +153,8 @@
     {
       "name": "shudnal-ExtraSlots",
       "source": "Hexium",
-      "version": "1.2.19",
-      "download": "https://cdn.hexium.gg/upload/306/1.2.19.zip",
+      "version": "1.2.20",
+      "download": "https://cdn.hexium.gg/upload/306/1.2.20.zip",
       "website": "https://github.com/shudnal/ExtraSlots",
       "page": "https://valheim.hexium.gg/mods/shudnal/ExtraSlots",
       "dependencies": [
@@ -163,10 +163,10 @@
         "shudnal-ConditionalConfigSync-1.0.5"
       ],
       "direct": true,
-      "released": "2026-10-12T17:31:27.000000Z",
-      "sha256": "c11e8acceeca7492b7106e8951070793f477fe51d24348ab83f12c33c0d7058b",
-      "bytes": 271802,
-      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.19.zip"
+      "released": "2026-10-16T13:08:42.000000Z",
+      "sha256": "8273146d6277bdb3e23bf137987743b0c69a33f791377a0ad41269b6654261a3",
+      "bytes": 272083,
+      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.20.zip"
     },
     {
       "name": "Azumatt-AzuCraftyBoxes",
@@ -1777,7 +1777,7 @@
     "config_count": 41,
     "private_config_count": 42,
     "package_manifest_and_hash": "verified from Codex in-app browser download",
-    "config_keys": "all 11 section/key pairs verified against pinned DLL IL; zero-padded keys",
+    "config_keys": "All existing overrides retained; 89 ExtraSlots and 83 TorchMod binding pairs unchanged against prior DLLs",
     "auto_eat_threshold": "25 percent of original food duration remaining",
     "food_selection": "same active food; player inventory lookup; native ConsumeItem path",
     "food_timer_pause": "both disabled",
@@ -1787,31 +1787,31 @@
     "gale_gui_import": "not_run",
     "in_game_food_slots_and_auto_eating": "not_run",
     "multiplayer": "not_run",
-    "v56_online_packages": "unchanged",
-    "v56_existing_payload_except_export_and_hungerpangs_config": "byte_identical",
-    "v56_local_and_private_plugins": "unchanged",
-    "in_game_food_retention_and_timecontrol": "not_run"
+    "in_game_food_retention_and_timecontrol": "not_run",
+    "v57_online_packages_except_ExtraSlots": "unchanged",
+    "v57_setting_values": "unchanged",
+    "v57_remaining_payload": "byte_identical except export, two config headers and Torch DLL/license",
+    "v57_private_admins_and_Badgers": "unchanged",
+    "new_mod_game_launch": "not_run",
+    "in_game_ExtraSlots_backup_recovery": "not_run",
+    "in_game_TorchMod_1_0_2_brightness": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v57.r2z": "6880e66eb9c7d1ebdc6ab31fc40a26394efe6f7ad5c70ea6d1ded4a5cf17f70a"
+    "Valheim-Duo-QoL-v58.r2z": "bae9591b971b5b1e4e03c36a3ffe0111287433d319ebf504c793b316cf76910b"
   },
   "local_plugins": [
     {
       "name": "Torch Light Mod",
       "guid": "aedenthorn.TorchMod",
-      "version": "1.0.1",
-      "distribution": "local build of unchanged public author source; not Nexus precompiled binary",
+      "version": "1.0.2",
+      "distribution": "unmodified official Nexus DLL; not a local source build",
       "author": "aedenthorn",
       "page": "https://www.nexusmods.com/valheim/mods/11",
-      "source_url": "https://github.com/aedenthorn/ValheimMods/blob/83690e8ef9a37c4694604416667d252b4ff5f645/TorchMod/TorchMod.cs",
-      "source_commit": "83690e8ef9a37c4694604416667d252b4ff5f645",
-      "source_git_blob": "c5f485907f8726a3206bab0617d4d083191db4e3",
-      "source_sha256": "471dcc34f4f400a7cbcbe29e2bac8566ca0ea6c37b04225beddba298a07da544",
-      "dll_sha256": "c79b8106e7aff0d646b9be75a0e731ffd856a35f47a73471078bd5c419f9e77a",
-      "dll_bytes": 20992,
-      "build": "dotnet SDK 9.0.317; net48; Release; deterministic; 0 warnings, 0 errors",
-      "game_references": "Digitalroot.Valheim.Common.References 1.0.16 (compile-only)",
-      "unity_references": "UnityEngine.Modules 2021.3.33; Unity.TextMeshPro 3.0.6 (compile-only)",
+      "nexus_file_id": 25236,
+      "released": "2026-10-12T10:30:00Z",
+      "zip_sha256": "e9d4423a721ef00a53b413bc313d3e707b05c51f4a05750a63a500fec01d6c9d",
+      "dll_sha256": "11573b39be2f3ce2a07a879d4439495f990440046e2d171fc0b94bb07b0d3223",
+      "dll_bytes": 21504,
       "plugin_path": "BepInEx/plugins/aedenthorn-TorchMod/TorchMod.dll",
       "config_path": "BepInEx/config/aedenthorn.TorchMod.cfg",
       "config_sections": {
@@ -1826,16 +1826,19 @@
           "FirePitColorHigh": "402014FF"
         }
       },
+      "redistribution": "Nexus upload permission allows redistribution with creator credit; no use of assets in sold mods/files",
+      "permissions_url": "https://www.nexusmods.com/valheim/mods/11?tab=description",
+      "permissions_checked": "2026-10-16",
+      "public_source_status": "GitHub TorchMod.cs still declares 1.0.1; not used to build the bundled Nexus 1.0.2 DLL",
       "gale_import_requirement": "Import all files must be enabled to copy bundled DLL; or copy add-on into profile folder",
       "verification": {
-        "source_git_blob": "passed",
-        "compile": "passed",
-        "config_half_author_defaults": "superseded_by_v32_rgb_workaround",
-        "compiled_plugin_config_keys": "passed",
-        "gale_gui_import": "not_run",
-        "game_launch": "passed_prior_isolated_profile; complete_v29_not_run",
-        "campfire_brightness_in_game": "prior_isolated_1_0_17_rgb_verified; full_v32_not_run",
-        "campfire_rgb_isolated_1_0_17": "passed_prior_four_fire_evidence; VPO_on_off_dry; VPO_off_wet_clear"
+        "download": "Codex in-app browser; official Nexus manual download",
+        "plugin_guid_and_version": "verified from DLL",
+        "configuration_binding_pairs": "83 pairs unchanged from prior DLL; all shipped overrides present",
+        "firepit_config": "v32 intensity and RGB values retained",
+        "game_launch": "not_run",
+        "campfire_brightness_in_game": "not_run_for_1_0_2",
+        "multiplayer": "not_run"
       }
     },
     {
@@ -3559,6 +3562,24 @@
       "setting": "General / 12. Scale With TimeControl",
       "from": "false",
       "to": "true"
+    }
+  ],
+  "base_v57": {
+    "name": "Valheim-Duo-QoL-v57.r2z",
+    "sha256": "6880e66eb9c7d1ebdc6ab31fc40a26394efe6f7ad5c70ea6d1ded4a5cf17f70a"
+  },
+  "updates_from_v57": [
+    {
+      "name": "shudnal-ExtraSlots",
+      "from": "1.2.19",
+      "to": "1.2.20",
+      "source": "Hexium"
+    },
+    {
+      "name": "Torch Light Mod",
+      "from": "1.0.1",
+      "to": "1.0.2",
+      "source": "Nexus; bundled official DLL"
     }
   ]
 }
