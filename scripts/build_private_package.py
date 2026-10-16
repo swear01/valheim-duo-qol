@@ -1,4 +1,4 @@
-"""Apply the local two-player admin settings to the verified public package."""
+"""Add the two-player admin settings and local Badgers DLL to the public package."""
 import configparser
 import json
 from pathlib import Path
@@ -10,6 +10,9 @@ from scripts import build_package
 from scripts.verify_history import ROOT, digest, read_package
 
 PRIVATE_SETTINGS = Path.home() / ".config/valheim-duo-qol/private-admins.json"
+PRIVATE_BADGERS = PRIVATE_SETTINGS.with_name("BadgersStraightStructures.dll")
+BADGERS_PLUGIN = "BepInEx/plugins/Badgers-StraightStructures/BadgersStraightStructures.dll"
+BADGERS_SHA256 = "d06750ea8d458ac92bcaaf2dcf9a6034af65b8452740f792ca996ba0a253a2ce"
 
 
 def load_admins(path):
@@ -33,11 +36,20 @@ def load_admins(path):
     return admins
 
 
-def build_private(settings_path, public_archive, output):
+def build_private(settings_path, public_archive, output, badgers_path):
     admins = load_admins(settings_path)
     if public_archive.resolve() == output.resolve():
         raise ValueError("Private output must differ from the public archive")
     files = read_package(public_archive)
+    try:
+        badgers = badgers_path.read_bytes()
+    except FileNotFoundError:
+        raise FileNotFoundError(
+            f"Missing Badgers 0.6.0 DLL: {badgers_path}. Restore it; see docs/private-package.md"
+        ) from None
+    if digest(badgers) != BADGERS_SHA256:
+        raise ValueError("Badgers 0.6.0 DLL SHA256 differs from the pinned Nexus download")
+    files[BADGERS_PLUGIN] = badgers
     permission_file = "BepInEx/config/permissions.yaml"
     if permission_file in files:
         raise ValueError("Public archive already contains permissions; inspect before replacing")
@@ -67,10 +79,11 @@ def build_private(settings_path, public_archive, output):
             archive.comment = template.comment
             for info in template.infolist():
                 archive.writestr(info, files[info.filename])
-            info = zipfile.ZipInfo(permission_file, template.getinfo("export.r2x").date_time)
-            info.compress_type = zipfile.ZIP_DEFLATED
-            archive.writestr(info, files[permission_file])
-        if read_package(pending) != files:
+            for name in (permission_file, BADGERS_PLUGIN):
+                info = zipfile.ZipInfo(name, template.getinfo("export.r2x").date_time)
+                info.compress_type = zipfile.ZIP_DEFLATED
+                archive.writestr(info, files[name])
+        if read_package(pending, {BADGERS_PLUGIN: BADGERS_SHA256}) != files:
             raise ValueError("Private package contents differ")
         pending.replace(output)
     finally:
@@ -84,8 +97,8 @@ def main():
     row = json.loads((ROOT / "history/versions.json").read_text(encoding="utf-8"))[-1]
     public = ROOT / "dist" / Path(row["archive"]).name
     output = public.parent / "private" / public.name
-    checksum = build_private(PRIVATE_SETTINGS, public, output)
-    print(f"PASS: {output.relative_to(ROOT)}; two private admins; SHA256 {checksum}")
+    checksum = build_private(PRIVATE_SETTINGS, public, output, PRIVATE_BADGERS)
+    print(f"PASS: {output.relative_to(ROOT)}; two private admins; Badgers 0.6.0; SHA256 {checksum}")
 
 
 if __name__ == "__main__":

@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v54 — 2026-10-16
+
+雙人私人包加入 [Badgers Straight Structures 0.6.0](https://www.nexusmods.com/valheim/mods/2938)，降低原版建材表面與邊緣的視覺扭曲；木牆、樑柱、門等建材也會一起變平整，沒有石材限定設定。
+
+- 保留作者預設 `Mod Configuration / Warp Amount = 0.004`；DLL 靜態檢查確認只設定材質 `_RippleDistance`，沒有修改碰撞、耐久或支撐。
+- 作者禁止重新上傳，DLL 僅從本機加入私人交付；公開包保存設定與來源雜湊。私人打包若找不到原始 DLL 或雜湊不符會停止。[維護方法](docs/private-package.md)。
+- 49 個線上套件、40 份公開設定、41 份私人設定；既有模組與設定保留。已核對下載、DLL、設定與封包內容；Gale 匯入、遊戲畫面及雙人行為尚未實測。
+
 ## v53 — 2026-10-16
 
 移除 PerfectPlacement 1.2.6 及其設定，不再提供 F1 進階建築、Keypad0 進階編輯與該模組的自由旋轉功能。

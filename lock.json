@@ -1,6 +1,6 @@
 {
   "created": "2026-10-16",
-  "profile": "Valheim-Duo-QoL-20261016-v53",
+  "profile": "Valheim-Duo-QoL-20261016-v54",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -1718,24 +1718,34 @@
           "Toggle Visibility": "J"
         }
       }
+    },
+    "Badgers-StraightStructures": {
+      "filename": "Badgers_StraightStructures.cfg",
+      "sections": {
+        "Mod": {
+          "EnableExtendedDebug": "false"
+        },
+        "Mod Configuration": {
+          "Warp Amount": "0.004"
+        }
+      }
     }
   },
   "verification": {
     "package_count": 49,
-    "config_count": 39,
-    "removed_package": "Azumatt-PerfectPlacement-1.2.6",
-    "removed_config": "BepInEx/config/Azumatt_and_ValheimPlusDevs.PerfectPlacement.cfg",
-    "reverse_dependencies": [],
-    "v52_other_online_packages": "unchanged",
-    "other_configs_and_bundled_plugins": "byte_identical",
-    "existing_payload_except_export_and_removed_config": "byte_identical",
+    "config_count": 40,
+    "private_config_count": 41,
+    "private_addition": "Badgers Straight Structures 0.6.0; original Nexus DLL, pinned SHA256",
+    "warp_amount": "0.004; upstream default",
+    "existing_online_packages": "unchanged",
+    "existing_payload_except_export": "byte_identical",
+    "public_archive": "Badgers config only; no Badgers DLL",
     "gale_gui_import": "not_run",
-    "in_game_keyboard_input": "not_run",
-    "world_reload_after_removal": "not_run",
+    "game_launch": "not_run",
     "multiplayer": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v53.r2z": "adc67a2e3c6a53f489ee66dca9d930f88c33ddc6381145365ee7c5ff84a483c1"
+    "Valheim-Duo-QoL-v54.r2z": "efc03edab2776c295741f0de337b40db183af3a807250c856c7c263449deb33d"
   },
   "local_plugins": [
     {
@@ -3436,6 +3446,34 @@
       "version": "1.2.6",
       "config": "BepInEx/config/Azumatt_and_ValheimPlusDevs.PerfectPlacement.cfg",
       "reason": "User requested removal of the unused F1 advanced building mod"
+    }
+  ],
+  "base_v53": {
+    "name": "Valheim-Duo-QoL-v53.r2z",
+    "sha256": "adc67a2e3c6a53f489ee66dca9d930f88c33ddc6381145365ee7c5ff84a483c1"
+  },
+  "private_plugins": [
+    {
+      "name": "Badgers Straight Structures",
+      "guid": "Badgers.ValheimStraightStructures",
+      "version": "0.6.0",
+      "author": "Badger",
+      "page": "https://www.nexusmods.com/valheim/mods/2938",
+      "nexus_file_id": 21510,
+      "zip_sha256": "f8d9d8214986290577e683a97a4b9c2e2a46411a28cb7376afad7cbd0b288ad3",
+      "dll_sha256": "d06750ea8d458ac92bcaaf2dcf9a6034af65b8452740f792ca996ba0a253a2ce",
+      "dll_bytes": 9216,
+      "plugin_path": "BepInEx/plugins/Badgers-StraightStructures/BadgersStraightStructures.dll",
+      "config_path": "BepInEx/config/Badgers_StraightStructures.cfg",
+      "distribution": "local private package only; unmodified Nexus download; DLL absent from public Git and archives",
+      "scope": "client materials _RippleDistance on building pieces; no stone-only filter",
+      "verification": {
+        "download": "Codex in-app browser; authenticated manual download",
+        "dll_hash": "verified",
+        "config_keys_and_defaults": "verified against assembly IL",
+        "game_launch": "not_run",
+        "multiplayer": "not_run"
+      }
     }
   ]
 }
