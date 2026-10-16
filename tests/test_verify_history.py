@@ -3,7 +3,7 @@ import unittest
 import warnings
 import zipfile
 
-from scripts.verify_history import read_package
+from scripts.verify_history import digest, read_package
 
 
 def package(entries):
@@ -27,6 +27,15 @@ class PackageValidation(unittest.TestCase):
                      "BepInEx/config/private.token", "worlds_local/world.fwl"):
             with self.subTest(name=name), self.assertRaises(AssertionError):
                 read_package(package([(name, b"data")]))
+
+    def test_private_dll_requires_explicit_matching_hash(self):
+        name = "BepInEx/plugins/Badgers-StraightStructures/BadgersStraightStructures.dll"
+        data = b"test-only private DLL"
+        with self.assertRaises(AssertionError):
+            read_package(package([(name, data)]))
+        with self.assertRaises(AssertionError):
+            read_package(package([(name, data)]), {name: digest(b"different")})
+        self.assertEqual(read_package(package([(name, data)]), {name: digest(data)}), {name: data})
 
     def test_rejects_duplicate_entries(self):
         with self.assertRaises(AssertionError):

@@ -42,7 +42,7 @@ def check_text(data, label):
     assert not SENSITIVE.search(text), f"Private data in {label}"
 
 
-def read_package(path):
+def read_package(path, private_dlls=None):
     with zipfile.ZipFile(path) as archive:
         assert archive.testzip() is None, path
         names = archive.namelist()
@@ -55,7 +55,8 @@ def read_package(path):
             assert not any("token" in part.lower() for part in member.parts), name
             data = archive.read(name)
             if name.endswith(".dll"):
-                assert name in BUNDLED_DLLS, name
+                if name not in BUNDLED_DLLS:
+                    assert digest(data) == (private_dlls or {}).get(name), name
             else:
                 check_text(data, name)
             files[name] = data
