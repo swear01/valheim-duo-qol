@@ -1,5 +1,5 @@
 {
-  "profileName": "Valheim-Duo-QoL-20261017-v59",
+  "profileName": "Valheim-Duo-QoL-20261018-v60",
   "community": "valheim",
   "mods": [
     {
@@ -498,6 +498,16 @@
         "major": 1,
         "minor": 3,
         "patch": 3
+      },
+      "enabled": true,
+      "source": "Thunderstore"
+    },
+    {
+      "name": "TastyChickenLegs-SuperConfigurablePickupRadius",
+      "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 2
       },
       "enabled": true,
       "source": "Thunderstore"

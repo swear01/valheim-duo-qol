@@ -6,4 +6,4 @@ v57 開啟死亡保留食物：復活後保留已吃食物的效果與剩餘時�
 
 食物可先放 ExtraSlots 的食物專用格；模組從玩家背包尋找同種食物。格子內續吃、死亡後保留與 TimeControl 連動尚未在遊戲內實測。
 
-兩人匯入同一份 v59 私人包為新 profile，勾選 Import all files。Hunger Pangs 的主機會檢查連線玩家是否裝有相同版本。
+兩人匯入同一份 v60 私人包為新 profile，勾選 Import all files。Hunger Pangs 的主機會檢查連線玩家是否裝有相同版本。

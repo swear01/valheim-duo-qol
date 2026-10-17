@@ -1,6 +1,6 @@
 {
-  "created": "2026-10-17",
-  "profile": "Valheim-Duo-QoL-20261017-v59",
+  "created": "2026-10-18",
+  "profile": "Valheim-Duo-QoL-20261018-v60",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -812,6 +812,22 @@
       "sha256": "d1b21e0a2f9a6065e6e306163f7e804847d18081cc13accb37a3ed2aa11cdb6f",
       "bytes": 134764,
       "archive_url": "https://thunderstore.io/package/download/DrummerCraig/Hunger_Pangs/1.3.3/"
+    },
+    {
+      "name": "TastyChickenLegs-SuperConfigurablePickupRadius",
+      "source": "Thunderstore",
+      "version": "1.1.2",
+      "download": "https://thunderstore.io/package/download/TastyChickenLegs/SuperConfigurablePickupRadius/1.1.2/",
+      "website": "https://discord.gg/PQMXbUS6FH",
+      "page": "https://thunderstore.io/c/valheim/p/TastyChickenLegs/SuperConfigurablePickupRadius/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2101"
+      ],
+      "direct": true,
+      "released": "2026-09-20T19:02:04.673183Z",
+      "sha256": "93590ce1660198968ff751480da49b36e5724045200bf6e48bfb85f331d3dba6",
+      "bytes": 72380,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/TastyChickenLegs-SuperConfigurablePickupRadius-1.1.2.zip"
     }
   ],
   "configs": {
@@ -1554,7 +1570,7 @@
           "EnableScatter": "false"
         },
         "Grid": {
-          "GloballyAlignGridDirections": "true",
+          "GloballyAlignGridDirections": "false",
           "MinimizeGridSpacing": "false",
           "GridSnappingStyle": "Intelligent",
           "ExtraCropSpacing": "0.1"
@@ -1770,28 +1786,39 @@
           "01. Auto Frost Mead": "false"
         }
       }
+    },
+    "TastyChickenLegs-SuperConfigurablePickupRadius": {
+      "filename": "TastyChickenLegs.SuperConfigurablePickupRadius.cfg",
+      "sections": {
+        "Insanely Configurable": {
+          "Enable Pickup Range": "true",
+          "Pickup Range": "10"
+        }
+      }
     }
   },
   "verification": {
-    "package_count": 50,
-    "config_count": 41,
-    "private_config_count": 42,
-    "changed_setting": "Server devcommands / 1. General / Automatic debug mode: true -> false",
-    "vanilla_no_placement_cost_key": "B is hard-coded in Player.Update; no configurable None binding exists",
-    "disable_debug_mode_keys": "true; unchanged",
-    "automatic_no_cost_mode": "false; unchanged",
-    "infinity_hammer_group_resource_cost": "true; unchanged",
-    "infinity_hammer_no_resource_cost": "false; unchanged",
-    "v58_online_packages_and_bundled_plugins": "unchanged",
+    "package_count": 51,
+    "config_count": 42,
+    "private_config_count": 43,
+    "pickup_package": "official 1.1.2 archive CRC/manifest/dependencies and DLL plugin/config bindings verified",
+    "pickup_config": "Insanely Configurable / Enable Pickup Range = true; Pickup Range = 10; DLL accepts 1..10",
+    "pickup_path": "Player.Awake postfix assigns m_autoPickupRange; restart required",
+    "grid_config": "Grid / GloballyAlignGridDirections = false; new unsnapped grid uses direction from player to placement",
+    "planting_grid": "SnapActive true; Rows 5; Columns 5; Intelligent snapping unchanged",
+    "harvest_radius": "5 meters; unchanged",
+    "replant_and_resource_costs": "unchanged",
+    "automatic_debug_and_fly": "both false; debug keys disabled; unchanged from v59",
+    "v59_online_packages_and_bundled_plugins": "unchanged",
     "other_settings": "unchanged",
-    "existing_payload_except_profile_name_and_server_config": "byte_identical",
-    "live_existing_debug_or_nocost_state": "not_modified; use a fresh game session and nocost off if manually enabled",
+    "existing_payload_except_export_and_plant_config": "byte_identical; one pickup config added",
     "gale_gui_import": "not_run",
-    "in_game_B_key_and_resource_consumption": "not_run",
+    "in_game_pickup_distance_and_grid_direction": "not_run",
+    "overlap_or_resource_consumption_report": "not_reproduced_or_changed",
     "multiplayer": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v59.r2z": "00b4a4e4b277be225043450841e375bef0705b926a068decf132d1ed6caea549"
+    "Valheim-Duo-QoL-v60.r2z": "0c3a7cbcb327744b90e9f781080e2ee016176e00ff3364cc9f0f23207e1b003e"
   },
   "local_plugins": [
     {
@@ -3588,6 +3615,44 @@
       "from": "true",
       "to": "false",
       "reason": "Disable automatic vanilla debug mode and its hard-coded B no-placement-cost shortcut; keep debug keys disabled and normal resource costs."
+    }
+  ],
+  "base_v59": {
+    "name": "Valheim-Duo-QoL-v59.r2z",
+    "sha256": "00b4a4e4b277be225043450841e375bef0705b926a068decf132d1ed6caea549"
+  },
+  "additions_from_v59": [
+    {
+      "name": "TastyChickenLegs-SuperConfigurablePickupRadius",
+      "source": "Thunderstore",
+      "version": "1.1.2",
+      "download": "https://thunderstore.io/package/download/TastyChickenLegs/SuperConfigurablePickupRadius/1.1.2/",
+      "website": "https://discord.gg/PQMXbUS6FH",
+      "page": "https://thunderstore.io/c/valheim/p/TastyChickenLegs/SuperConfigurablePickupRadius/",
+      "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2101"
+      ],
+      "direct": true,
+      "released": "2026-09-20T19:02:04.673183Z",
+      "sha256": "93590ce1660198968ff751480da49b36e5724045200bf6e48bfb85f331d3dba6",
+      "bytes": 72380,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/TastyChickenLegs-SuperConfigurablePickupRadius-1.1.2.zip"
+    }
+  ],
+  "configuration_updates_from_v59": [
+    {
+      "package": "TastyChickenLegs-SuperConfigurablePickupRadius",
+      "section": "Insanely Configurable",
+      "key": "Pickup Range",
+      "from": "vanilla 2 meters",
+      "to": "10"
+    },
+    {
+      "package": "Advize-PlantEasily",
+      "section": "Grid",
+      "key": "GloballyAlignGridDirections",
+      "from": "true",
+      "to": "false"
     }
   ]
 }
