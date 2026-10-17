@@ -2,6 +2,15 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v61 — 2026-10-18
+
+更新兩個模組，維持 51 個線上套件、42 份公開設定與 43 份私人設定。
+
+- [ExtraSlots](https://valheim.hexium.gg/mods/shudnal/ExtraSlots) 1.2.20 → 1.2.21：作者修正舊備份恢復造成物品重複的問題；只使用最新備份，新備份取代舊快照。食物格、額外欄位數量、解鎖進度與快捷鍵保留。
+- [SkilledCarryWeight](https://thunderstore.io/c/valheim/p/Searica/SkilledCarryWeight/) 1.5.0 → 1.6.1：新增基本負重設定、隱藏未解鎖技能，並修正力量腰帶負重加成。遷移舊設定名稱，維持基本負重 300、只有跑步技能每級 +4 負重，以及關閉推車減重。新版移除快速拉車功能，原本快捷鍵已停用，故不新增替代模組。
+- 其餘 49 個線上套件、Torch Light Mod 1.0.2、SlashBack 補丁、Badgers 0.6.0 與兩位私人管理員保留；10 公尺拾取、PlantEasily 世界對齊關閉與除錯快捷鍵停用設定保留。
+- 已核對官方下載、DLL 設定鍵、負重設定遷移、依賴、封包差異與重建；Gale 匯入、遊戲內負重／備份恢復及雙人同步尚未實測。先前提到的種植重疊／扣料異常尚未確認修復。
+
 ## v60 — 2026-10-18
 
 加入 [Super Configurable Pickup Radius 1.1.2](https://thunderstore.io/c/valheim/p/TastyChickenLegs/SuperConfigurablePickupRadius/)，人物自動拾取範圍設為 10 公尺；關閉 PlantEasily 的世界方向對齊。[採收與拾取](docs/farming.md)。
