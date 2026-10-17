@@ -1,6 +1,6 @@
 {
   "created": "2026-10-18",
-  "profile": "Valheim-Duo-QoL-20261018-v60",
+  "profile": "Valheim-Duo-QoL-20261018-v61",
   "packages": [
     {
       "name": "denikson-BepInExPack_Valheim",
@@ -103,19 +103,19 @@
     {
       "name": "Searica-SkilledCarryWeight",
       "source": "Thunderstore",
-      "version": "1.5.0",
-      "download": "https://thunderstore.io/package/download/Searica/SkilledCarryWeight/1.5.0/",
+      "version": "1.6.1",
+      "download": "https://thunderstore.io/package/download/Searica/SkilledCarryWeight/1.6.1/",
       "website": "https://discord.gg/sFmGTBYN6n",
       "page": "https://thunderstore.io/c/valheim/p/Searica/SkilledCarryWeight/",
       "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2350",
-        "ValheimModding-Jotunn-2.30.0"
+        "denikson-BepInExPack_Valheim-5.4.2351",
+        "ValheimModding-Jotunn-2.30.2"
       ],
       "direct": true,
-      "released": "2026-09-15T17:47:01.458913Z",
-      "sha256": "d97251ea6782be53f3ff63d943db316ab8db6cdaf97b4f5bfab3097e83a5f682",
-      "bytes": 53800,
-      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Searica-SkilledCarryWeight-1.5.0.zip"
+      "released": "2026-10-17T01:56:25.183260Z",
+      "sha256": "7b16c7978731b12a4ba9bc02b991ff039b104d5846ead05f39f51e52ae5a2eed",
+      "bytes": 52070,
+      "archive_url": "https://gcdn.thunderstore.io/live/repository/packages/Searica-SkilledCarryWeight-1.6.1.zip"
     },
     {
       "name": "ValheimModding-Jotunn",
@@ -153,8 +153,8 @@
     {
       "name": "shudnal-ExtraSlots",
       "source": "Hexium",
-      "version": "1.2.20",
-      "download": "https://cdn.hexium.gg/upload/306/1.2.20.zip",
+      "version": "1.2.21",
+      "download": "https://cdn.hexium.gg/upload/306/1.2.21.zip",
       "website": "https://github.com/shudnal/ExtraSlots",
       "page": "https://valheim.hexium.gg/mods/shudnal/ExtraSlots",
       "dependencies": [
@@ -163,10 +163,10 @@
         "shudnal-ConditionalConfigSync-1.0.5"
       ],
       "direct": true,
-      "released": "2026-10-16T13:08:42.000000Z",
-      "sha256": "8273146d6277bdb3e23bf137987743b0c69a33f791377a0ad41269b6654261a3",
-      "bytes": 272083,
-      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.20.zip"
+      "released": "2026-10-16T15:19:13.000000Z",
+      "sha256": "a38c34736951bc04678de59c8251e70226010ce4d70f945c49a49690d83c4df6",
+      "bytes": 272368,
+      "archive_url": "https://cdn.hexium.gg/upload/306/1.2.21.zip"
     },
     {
       "name": "Azumatt-AzuCraftyBoxes",
@@ -852,129 +852,129 @@
     "Searica-SkilledCarryWeight": {
       "filename": "Searica.Valheim.SkilledCarryWeight.cfg",
       "sections": {
-        "​​Cart Mass": {
+        "1 - Global": {
+          "BaseCarryWeight": "300"
+        },
+        "2 - Cart Mass": {
           "CarryWeightAffectsCart": "false"
         },
-        "​Quick Cart": {
-          "QuickCartKey": "None"
-        },
-        "Swords": {
-          "​Enabled": "false",
+        "4 - Swords": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Knives": {
-          "​Enabled": "false",
+        "5 - Knives": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Clubs": {
-          "​Enabled": "false",
+        "6 - Clubs": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Polearms": {
-          "​Enabled": "false",
+        "7 - Polearms": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Spears": {
-          "​Enabled": "false",
+        "8 - Spears": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Blocking": {
-          "​Enabled": "false",
+        "9 - Blocking": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Axes": {
-          "​Enabled": "false",
+        "10 - Axes": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Bows": {
-          "​Enabled": "false",
+        "11 - Bows": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "ElementalMagic": {
-          "​Enabled": "false",
+        "12 - ElementalMagic": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "BloodMagic": {
-          "​Enabled": "false",
+        "13 - BloodMagic": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Unarmed": {
-          "​Enabled": "false",
+        "14 - Unarmed": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Pickaxes": {
-          "​Enabled": "false",
+        "15 - Pickaxes": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "WoodCutting": {
-          "​Enabled": "false",
+        "16 - WoodCutting": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Crossbows": {
-          "​Enabled": "false",
+        "17 - Crossbows": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Jump": {
-          "​Enabled": "false",
+        "18 - Jump": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Sneak": {
-          "​Enabled": "false",
+        "19 - Sneak": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Run": {
-          "​Enabled": "true",
+        "20 - Run": {
+          "Enabled": "true",
           "Coefficient": "4",
           "Power": "1"
         },
-        "Swim": {
-          "​Enabled": "false",
+        "21 - Swim": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Fishing": {
-          "​Enabled": "false",
+        "22 - Fishing": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Cooking": {
-          "​Enabled": "false",
+        "23 - Cooking": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Farming": {
-          "​Enabled": "false",
+        "24 - Farming": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Crafting": {
-          "​Enabled": "false",
+        "25 - Crafting": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Dodge": {
-          "​Enabled": "false",
+        "26 - Dodge": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         },
-        "Ride": {
-          "​Enabled": "false",
+        "27 - Ride": {
+          "Enabled": "false",
           "Coefficient": "1",
           "Power": "1"
         }
@@ -1800,25 +1800,21 @@
   "verification": {
     "package_count": 51,
     "config_count": 42,
-    "private_config_count": 43,
-    "pickup_package": "official 1.1.2 archive CRC/manifest/dependencies and DLL plugin/config bindings verified",
-    "pickup_config": "Insanely Configurable / Enable Pickup Range = true; Pickup Range = 10; DLL accepts 1..10",
-    "pickup_path": "Player.Awake postfix assigns m_autoPickupRange; restart required",
-    "grid_config": "Grid / GloballyAlignGridDirections = false; new unsnapped grid uses direction from player to placement",
-    "planting_grid": "SnapActive true; Rows 5; Columns 5; Intelligent snapping unchanged",
-    "harvest_radius": "5 meters; unchanged",
-    "replant_and_resource_costs": "unchanged",
-    "automatic_debug_and_fly": "both false; debug keys disabled; unchanged from v59",
-    "v59_online_packages_and_bundled_plugins": "unchanged",
-    "other_settings": "unchanged",
-    "existing_payload_except_export_and_plant_config": "byte_identical; one pickup config added",
+    "dependency_closure": "passed",
+    "unchanged_packages": 49,
+    "changed_profile_files": [
+      "BepInEx/config/Searica.Valheim.SkilledCarryWeight.cfg",
+      "BepInEx/config/shudnal.ExtraSlots.cfg",
+      "export.r2x"
+    ],
+    "remaining_profile_files": "byte_identical_to_v60",
+    "updated_DLL_config_bindings": "checked; SkilledCarryWeight keys migrated, ExtraSlots values unchanged",
     "gale_gui_import": "not_run",
-    "in_game_pickup_distance_and_grid_direction": "not_run",
-    "overlap_or_resource_consumption_report": "not_reproduced_or_changed",
-    "multiplayer": "not_run"
+    "in_game_admin_and_multiplayer": "not_run",
+    "updated_plugins_Unity_Harmony_runtime": "not_run"
   },
   "artifacts_sha256": {
-    "Valheim-Duo-QoL-v60.r2z": "0c3a7cbcb327744b90e9f781080e2ee016176e00ff3364cc9f0f23207e1b003e"
+    "Valheim-Duo-QoL-v61.r2z": "c0fd15dfad49389200a21bff4e751db7a2df0e6608bd8970d114070fb06bd2ea"
   },
   "local_plugins": [
     {
@@ -3654,5 +3650,44 @@
       "from": "true",
       "to": "false"
     }
-  ]
+  ],
+  "base_v60": {
+    "name": "Valheim-Duo-QoL-v60.r2z",
+    "sha256": "0c3a7cbcb327744b90e9f781080e2ee016176e00ff3364cc9f0f23207e1b003e"
+  },
+  "updates_from_v60": [
+    {
+      "name": "Searica-SkilledCarryWeight",
+      "from": "1.5.0",
+      "to": "1.6.1",
+      "source": "Thunderstore"
+    },
+    {
+      "name": "shudnal-ExtraSlots",
+      "from": "1.2.20",
+      "to": "1.2.21",
+      "source": "Hexium"
+    }
+  ],
+  "configuration_updates_from_v60": {
+    "Searica-SkilledCarryWeight": {
+      "migration": "Replace zero-width section prefixes with Jotunn numbered sections and use plain Enabled keys; remove retired disabled Quick Cart setting",
+      "preserved": "Only Run enabled, coefficient 4, power 1; cart reduction disabled",
+      "1 - Global": {
+        "BaseCarryWeight": "300"
+      }
+    }
+  },
+  "upstream_check_2026_10_18": {
+    "checked_packages": 51,
+    "updated_packages": 2,
+    "metadata_sources": [
+      "https://valheim.hexium.gg/api/experimental/package-index/",
+      "https://thunderstore.io/c/valheim/api/v1/package/"
+    ],
+    "candidate_manifests_download_hashes_and_dependency_closure": "verified",
+    "bundled_TorchMod": "Nexus 1.0.2 remains latest",
+    "private_Badgers": "Nexus 0.6.0 remains latest",
+    "AAA_Crafting": "2.1.11 unchanged; retain Max Fix 1.1.0"
+  }
 }
