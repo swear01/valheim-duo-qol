@@ -2,6 +2,14 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v59 — 2026-10-17
+
+停用 Server devcommands 的自動除錯模式，避免原版 B 快捷鍵誤切 No Placement Cost（免建材）。原版按鍵寫死，沒有可設定的 None 欄位；本版透過停用除錯模式與除錯快捷鍵達到取消快捷鍵的效果。[建築設定](docs/survival-building.md#免建材快捷鍵)。
+
+- `1. General / Automatic debug mode = false`；保留 `Disable debug mode keys = true`、`Automatic no cost mode = false` 與 Infinity Hammer 的材料消耗設定。
+- 50 個線上套件、41 份公開設定、42 份私人設定；模組版本與其餘設定保留。私人包沿用 Badgers 0.6.0 與兩位管理員。
+- 已核對原版按鍵與模組設定、封包差異及重建；目前遊戲狀態不會被更新封包重設。Gale 匯入、遊戲內 B／扣料與雙人行為尚未實測。
+
 ## v58 — 2026-10-16
 
 更新 [ExtraSlots 1.2.20](https://valheim.hexium.gg/mods/shudnal/ExtraSlots) 與 [Torch Light Mod 1.0.2](https://www.nexusmods.com/valheim/mods/11?tab=files)。
