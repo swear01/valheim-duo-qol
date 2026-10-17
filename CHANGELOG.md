@@ -2,6 +2,15 @@
 
 依保存的正式模組包與 lock 重建；完整檔案差異與雜湊見 `history/versions.json`。
 
+## v60 — 2026-10-18
+
+加入 [Super Configurable Pickup Radius 1.1.2](https://thunderstore.io/c/valheim/p/TastyChickenLegs/SuperConfigurablePickupRadius/)，人物自動拾取範圍設為 10 公尺；關閉 PlantEasily 的世界方向對齊。[採收與拾取](docs/farming.md)。
+
+- `Insanely Configurable / Enable Pickup Range = true`、`Pickup Range = 10`；需要重新啟動遊戲。
+- `Grid / GloballyAlignGridDirections = false`；保留整排種植、5×5 陣列、既有網格吸附、採收半徑與自動補種。
+- 51 個線上套件、42 份公開設定、43 份私人設定；原本 50 個套件、內附 DLL 與其餘設定保留。
+- 已核對下載、依賴、DLL 設定與方向邏輯、封包差異及重建；遊戲內拾取／排列、雙人同步及另行提到的重疊／扣料異常尚未實測。
+
 ## v59 — 2026-10-17
 
 停用 Server devcommands 的自動除錯模式，避免原版 B 快捷鍵誤切 No Placement Cost（免建材）。原版按鍵寫死，沒有可設定的 None 欄位；本版透過停用除錯模式與除錯快捷鍵達到取消快捷鍵的效果。[建築設定](docs/survival-building.md#免建材快捷鍵)。

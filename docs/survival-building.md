@@ -2,7 +2,7 @@
 
 Infinity Hammer 1.90.0、World Edit Commands 1.81.0 和 MovingDay 保留。PerfectPlacement 自 v53 起移除，不再提供 F1 進階建築、Keypad0 進階編輯與該模組的自由旋轉；PlanBuild 自 v47 起已移除。
 
-兩人退出遊戲、備份世界與角色後，在 Gale 匯入 v59 為新 profile，勾選 Import all files。若沿用舊 profile，需在 Gale 移除 `Azumatt-PerfectPlacement`；含 PlanBuild 的舊版本也需移除 `MathiasDecrock-PlanBuild`。匯入新包不會卸載舊 profile 的模組。
+兩人退出遊戲、備份世界與角色後，在 Gale 匯入 v60 為新 profile，勾選 Import all files。若沿用舊 profile，需在 Gale 移除 `Azumatt-PerfectPlacement`；含 PlanBuild 的舊版本也需移除 `MathiasDecrock-PlanBuild`。匯入新包不會卸載舊 profile 的模組。
 
 若曾放置未完工的 PlanBuild 規劃件，切換前先在舊 profile 完成，或用 Blueprint Rune 的 Remove planned pieces 拆除並取回已投入材料。另行備份自己的 `BepInEx/config/PlanBuild/blueprints`；新包不再提供 Plan Hammer、Blueprint Rune、Plan Totem 等工具或物件。這次只修改模組包，沒有修改存檔或刪除本機藍圖。[作者操作說明](https://github.com/sirskunkalot/PlanBuild/blob/master/README.md)。
 
@@ -22,7 +22,7 @@ v59 關閉 Server devcommands 的 `1. General / Automatic debug mode`，並保�
 
 原版免建材鍵寫死為 B，沒有可填 `None` 的設定欄位。本包以停用除錯模式與除錯快捷鍵來取消該快捷鍵。
 
-兩人正常退出遊戲後，匯入同一份 v59 私人包為新 profile，勾選 Import all files，再重新啟動遊戲。更新封包不會修改目前遊戲中的除錯／免建材狀態；若手動開啟過免建材，可在聊天輸入 `/nocost off` 明確關閉。不要用不帶參數的 `/nocost`，它會切換狀態。手動指令與世界免費建造設定仍可繞過消耗。
+兩人正常退出遊戲後，匯入同一份 v60 私人包為新 profile，勾選 Import all files，再重新啟動遊戲。更新封包不會修改目前遊戲中的除錯／免建材狀態；若手動開啟過免建材，可在聊天輸入 `/nocost off` 明確關閉。不要用不帶參數的 `/nocost`，它會切換狀態。手動指令與世界免費建造設定仍可繞過消耗。
 
 ## 成排鋪設與微調
 
